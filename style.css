@@ -9,7 +9,6 @@ body{
     width: auto;
     word-break: break-all;
     overflow-wrap: break-word;
-    transition: 1s;
 }
 /* Titre du sommet de la page */
 #titreDeBienvenue:hover{
