@@ -5,81 +5,83 @@
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
     <link href="https:/git/fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <title>Clestial Musepi</title>
 </head>
 <body>
 <h1 id="titreDeBienvenue" class="colorText2">Bienvenue dans mon site web : Clestial Musepi</h1>
-<h2 class="sousTitreCenter colorText2">Voici ma philosophie</h2>
-    <script src="script.js"></script>
-<p class="texteCenter colorText2" >
+<h2 class="sousTitreCenter">Voici ma philosophie</h2>
+<p class="texteCenter" >
     Mon site est en cours de développement. J'ai décidé de conserver son aspect ancien, même s'il n'est pas forcément attrayant visuellement. <br> J'aime ce style HTML à l'ancienne. J'apprends les langages <span id="HTML">HTML</span> <span id="CSS">CSS</span>, et <span id="JS">JS</span> !
 </p>
 <!-- Mon tableau du menu -->
-<div class="tableauPosition">
-<table class="collapseTable">
-    <Thead  id="table2">
-        <tr >
-            <th class="thTitreDuHaut">URL pour copier/coller</th>
-        </tr>
-    </Thead>
-    <tbody>
-        <tr>
-            <td id="table3">
-<textarea name="link" class="lienCopierColler">
-https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA
-</textarea>
-            </td>
-        </tr>
-        <tr >
-            <td id="table3">
-<textarea name="link" class="lienCopierColler">
-https://x.com/Clestialmusepi
-</textarea>
-            </td>
-        </tr>
-        <tr >
-            <td id="table3">
-<textarea name="link" class="lienCopierColler">
-https://www.instagram.com/clestialmusepi/
-</textarea>
-            </td>
-        </tr>
-    </tbody>
+<div id="tableCenter">
+<div id="tableConfig">
+<table id="flexPositionColumns">
+    <tr>
+        <thead id="theadConfig">
+                <th id="titreConfig">Liens Copier/Coller</th>
+            <tr id="configColumn">
+                <td><textarea name="X ou Twitter" class="textareaConfig">https://x.com/Clestialmusepi</textarea>
+                </td>
+                <td><textarea name="Youtube" class="textareaConfig">https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA</textarea>
+                </td>
+                <td><textarea name="Instagram" class="textareaConfig">https://www.instagram.com/clestialmusepi/</textarea>
+                </td>
+            </tr>
+        </thead>
+        <tbody id="tbodyConfig">
+                <th id="titreConfig">Les boutons</th> 
+            <tr id="configColumn">
+                <td>
+                    <div id="configColumnPadding">
+                        <a href="https://x.com/Clestialmusepi" target="_blank" id="lienTextTableBouton">
+                            <div id="lesBoutonsWebTwitter">Twitter</div>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div id="configColumnPadding">
+                        <a href="https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA" target="_blank" id="lienTextTableBouton">
+                            <div id="lesBoutonsWebYoutube">Youtube</div>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <div id="configColumnPadding">
+                        <a href="https://www.instagram.com/clestialmusepi/" target="_blanc" id="lienTextTableBouton">
+                            <div id="lesBoutonsWebInstagram">Instagram</div>
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </tr>
 </table>
-<table class="collapseTable">
-    <Thead  id="table2">
-        <tr >
-            <th class="thTitreDuHaut">Les liens web</th>
-        </tr>
-    </Thead>
-    <tbody id="table1">
-        <tr>
-            <td>
-                <a href="https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA"  target="_blank">
-                    <div id="boutonYoutube">Youtube</div>
-                </a>
-            </td>
-        </tr>
-        <tr >
-            <td>
-                <a href="https://x.com/Clestialmusepi"  target="_blank">
-                    <div id="boutonTwitter">X (twitter)</div>
-                </a>
-            </td>
-        </tr>
-        <tr >
-            <td>
-                <a href=" https://www.instagram.com/clestialmusepi/" target="_blank">
-                    <div id="boutonInstagram">Instagram</div>
-                </a>
-            </td>
-        </tr>
-    </tbody>
-</table>
+</div>
 </div>
 <!-- Mon tableau du menu -->
 <p class="texteCenter">
     Bonjour ! Vous pouvez choisir l'option de votre choix. Suivez-moi sur mes réseaux, découvrez mes projets artistiques et ma philosophie !
 </p>
+<div id="sticky">
+    <div id="popUp">
+        <p>
+            Ne jamais oubliez ! Ceci est seulement un langage symbolique. <br> elle décrit juste des comportement inspiré d'une réalité, mais ce n'est pas forcément la réalité. Ce n'est qu'un jeu symbolique sur des comportements du vivant.
+        </p>
+        <ul>
+            <li>
+                Bleu = <span class="colorSpanBleu">A</span>
+            </li>
+            <li>
+                Rouge = <span class="colorSpanRouge">B</span>
+            </li>
+            <li>
+                Violet = <span class="colorSpanViolet">C</span>
+            </li>
+        </ul>
+    </div>
+</div>
+
 <nav id="listeCenter">
     <ol>
         <li id="titreBleu">Liberté</li>
@@ -92,7 +94,7 @@ https://www.instagram.com/clestialmusepi/
 <div id="positionDrapeau">
     <div id="encadrementDrapeau">
         <!-- Drapeau de France -->
-        <div id="divMaitreFrance">
+        <div id="divDrapeauFrance">
             <div id="blocBleuFranceDrapeau"></div>
             <div id="blocBlancFranceDrapeau"></div>
             <div id="blocRougeFranceDrapeau"></div>
@@ -101,5 +103,6 @@ https://www.instagram.com/clestialmusepi/
         <!-- Drapeau de France -->
     </div>
 </div>
+
 </footer>
 </html>
