@@ -107,17 +107,21 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     justify-content: center;
 }
 /* Les textes Centr√©s */
+#SousTitreBackgroundColor{
+    color: white;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: black;
+    text-align: center;
+}
 .sousTitreCenter{
     word-break: break-all;
     overflow-wrap: break-word;
     width: auto;
     height: auto;
-    background-color: black;
     align-items: center;
     justify-content: center;
-    color: white;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    color: black;
     text-align: center;
 }
 .texteCenter{
