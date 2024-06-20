@@ -3,10 +3,10 @@ body{
     background: rgb(255, 255, 255);
     padding: 0;
     margin: 0;
+    width: 100%;
     white-space: nowrap;
     word-break: break-all;
     overflow-wrap: break-word;
-    overflow: hidden;
 }
 /* Drapeau de France */
 #blocBleuFranceDrapeau{
@@ -80,7 +80,6 @@ body{
     background-color: yellow;
     transition: 0.5s;
     padding-top: 15px;
-
 }
 /* Centrer les texte */
 .sousTitreCenter{
@@ -112,8 +111,8 @@ body{
 #JS:hover{background-color: yellow;color: black;cursor: default;}
 /* Le Tableau */
 .collapseTable{
-    border: 1px solid black;
-    border-collapse: collapse;
+    width: 500;
+    height: 500px;
     box-shadow: 0px 3px 3px 0 rgba(0, 0, 0, 0.705);
 }
 .tableauPosition{
@@ -145,7 +144,7 @@ body{
 a{
     display: block;
     text-decoration: none;
-    height: 27px;
+    display:contents;
 }
 /* Les boutons */
 #boutonInstagram{
