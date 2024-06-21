@@ -320,6 +320,16 @@ summary{
     align-items: center;
     justify-content: center;
     text-align: justify;
+    background-color: rgb(40, 39, 102);
+    color: white;
+    transition: 1s;
+}
+summary:hover{
+    background-color: black;
+    letter-spacing: 5px;
+    color: yellow;
+    cursor: pointer;
+    transition: 1s;
 }
 summary:hover:before{
     content: "#";
