@@ -131,6 +131,10 @@ h1,h2,h3,h4,p{
     padding-right: 5px;
     color: white;
 }
+.couleurBleu:hover,.couleurRouge:hover,.couleurViolet:hover{
+    background-color: yellow;
+    color: black;
+}
 .couleurRouge{
     background-color: red;
     margin: 5px;
@@ -306,4 +310,78 @@ summary{
     align-items: center;
     justify-content: center;
     text-align: justify;
+}
+summary:hover:before{
+    content: "#";
+}
+
+/* Drapeau de France */
+#encadrementDrapeau{
+    bottom: 0;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.705);
+    width: 150px;
+    height: auto;
+}
+/* La couleur Bleu */
+#blocBleuFranceDrapeau{
+    background-color: blue;
+    width: 50px;
+    height: 100px;
+}
+/* La couleur Blanc */
+#blocBlancFranceDrapeau{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 100px;
+}
+/* La couleur Rouge */
+#blocRougeFranceDrapeau{
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 100px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+/* 
+Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les légendes, le diable n'est pas forcément le méchant de l'histoire. 
+*/
+#blocBleuFranceDrapeau:hover{
+    background-color: Red;
+    transition: 1s;
+}
+#blocBlancFranceDrapeau:hover{
+    background-color: purple;
+    transition: 1s;
+}
+#blocRougeFranceDrapeau:hover{
+    background-color: blue;
+    transition: 1s;
+}
+#divDrapeauFrance{
+    display: flex;
+    border: 1px solid purple;
+    width: 150px;
+    height: 100px;    
+}
+#ViveLaFrance{
+    border: 1px dotted black;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+/* Pour que le curseur glisse sur "Vive la France !" */
+#ViveLaFrance:hover{
+    background-color: yellow;
+    cursor: default;
+}
+#positionDrapeau{
+    display:flex;
+    align-items: center;
+    justify-content: center;
 }
