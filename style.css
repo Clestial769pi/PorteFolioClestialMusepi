@@ -32,24 +32,31 @@ body{
             padding-top:210px;
         }
     }
-    @media (min-width:167px) and (max-width:214px) {
+    @media (min-width:167px) and (max-width:183px) {
+        #blocA{
+            padding-top:220px;
+        }
+    }
+    @media (min-width:184px) and (max-width:214px) {
         #blocA{
             padding-top:175px;
         }
     }
-    @media (min-width:215px) and (max-width:341px) {
+    @media (min-width:215px) and (max-width:231px) {
         #blocA{
-            padding-top:130px;
+            padding-top:185px;
         }
     }
-    /* @media (min-width:321px) and (max-width:464px) {
-        #tableauConfig{
-            background-color: aqua;
-            width: 100px;
-            display: flex;
-            flex-direction: column;
+    @media (min-width:232px) and (max-width:341px) {
+        #blocA{
+            padding-top:140px;
         }
-    } */
+    }
+    @media (min-width:342px) and (max-width:659px) {
+        #blocA{
+            padding-top:120px;
+        }
+    }
 }
 
 /* Bloc du haut de la page */
