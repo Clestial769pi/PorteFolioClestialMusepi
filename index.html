@@ -1,125 +1,94 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <script defer src="script.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https:/git/fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
     <title>Clestial Musepi</title>
 </head>
+<header>
+    <div id="blocANavBannière" >      
+        <h1>
+            Bienvenue dans mon site web : Clestial Musepi
+        </h1>
+    </div>
+</header>
 <body>
-<h1 id="titreDeBienvenue" class="colorText2">Bienvenue dans mon site web : Clestial Musepi</h1>
-<h2 id="SousTitreBackgroundColor">Voici ma philosophie</h2>
-<h3 class="sousTitreCenter">Dernière mise à jour : 20/06/2024 - 20:28</h3>
-<div id="texteFeuille1">
-    <p class="texteCenter">
-        Bonjour ! Vous pouvez choisir l'option de votre choix. Suivez-moi sur mes réseaux, découvrez mes projets artistiques et ma philosophie !
-    </p>
-    <p class="texteCenter" >
-        Mon site est en cours de développement. J'ai décidé de conserver son aspect ancien, même s'il n'est pas forcément attrayant visuellement. <br> J'aime ce style HTML à l'ancienne. J'apprends les langages <span id="HTML">HTML</span> <span id="CSS">CSS</span>, et <span id="JS">JS</span> !
-    </p>
-  
+<div id="blocA">
+    <h1 class="titreH1Config1 texteCentre">
+        Voici ma philosophie
+    </h1>
+    <h2 class="titreH1Config2 texteCentre">
+        Dernière mise à jour : 20/06/2024 - 20:28
+    </h2>
 </div>
-
-<!-- Mon tableau du menu -->
-<div id="tableCenter">
-    <div id="tableConfig">
-        <table id="flexPositionColumns">
-            <tr>
-                <thead id="theadConfig">
-                        <th id="titreConfig">Liens Copier/Coller</th>
-                    <tr id="configColumn">
-                        <td><textarea name="X ou Twitter" class="textareaConfig">https://x.com/Clestialmusepi</textarea>
-                        </td>
-                        <td><textarea name="Youtube" class="textareaConfig">https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA</textarea>
-                        </td>
-                        <td><textarea name="Instagram" class="textareaConfig">https://www.instagram.com/clestialmusepi/</textarea>
-                        </td>
-                    </tr>
-                </thead>
-                <tbody id="tbodyConfig">
-                        <th id="titreConfig">Les boutons</th> 
-                    <tr id="configColumn">
-                        <td>
-                            <div id="configColumnPadding">
-                                <a href="https://x.com/Clestialmusepi" target="_blank" id="lienTextTableBouton">
-                                    <div id="lesBoutonsWebTwitter">Twitter<span class="colorSpanBleu">A</span></div>
-                                </a>
-                            </div>
-                        </td>
-                        <td>
-                            <div id="configColumnPadding">
-                                <a href="https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA" target="_blank" id="lienTextTableBouton">
-                                    <div id="lesBoutonsWebYoutube">Youtube<span class="colorSpanViolet">C</span></div>
-                                </a>
-                            </div>
-                        </td>
-                        <td>
-                            <div id="configColumnPadding">
-                                <a href="https://www.instagram.com/clestialmusepi/" target="_blanc" id="lienTextTableBouton">
-                                    <div id="lesBoutonsWebInstagram">Instagram<span class="colorSpanRouge">B</span></div>
-                                </a>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </tr>
+<div id="blocB">
+    <div id="blocText1">
+        <div id="texteBlocFeuilleConfig">
+            <p class="texteCenter">
+                Bonjour ! Vous pouvez choisir l'option de votre choix. Suivez-moi sur mes réseaux, découvrez mes projets artistiques et ma philosophie !
+            </p>
+            <p class="texteCenter" >
+                Mon site est en cours de développement. J'ai décidé de conserver son aspect ancien, même s'il n'est pas forcément attrayant visuellement. <br> J'aime ce style HTML à l'ancienne. J'apprends les langages <span class="couleurBleu">HTML</span> <span class="couleurViolet">CSS</span>, et <span class="couleurRouge">JS</span> !
+            </p>
+        </div>
+    </div>
+<!-- Le tableau -->
+<div id="tableauConfig">
+    <div id="TableauA">
+        <table width="100%" border="1px" id="tableColumnDirectionColumn">
+            <thead width="100%">
+                <tr width="100%" align="center">
+                    <th id="lesBoutonDesLiens" rowspan="3" width="100%">Les Boutons</th>
+                </tr>
+            </thead>
+            <tbody width="100%" >
+                <tr width="100%">
+                    <td align="center" width="100%">
+                        <ul style="padding:0;" width="100%">
+                            <li style="list-style: none;">
+                                <a href="https://x.com/Clestialmusepi">(X)/Twitter</a>
+                            </li>
+                            <li style="list-style: none;">
+                                <a href="https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA">Youtube</a>
+                            </li>
+                            <li style="list-style: none;">
+                                <a href="https://www.instagram.com/clestialmusepi/">Instagram</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="TableauB">
+        <table width="100%" border="1px" id="tableColumnDirectionColumn">
+            <thead width="100%">
+                <tr width="100%" align="center">
+                    <th id="lesLiensWeb" rowspan="3" width="100%" >Les liens</th>
+                </tr>
+            </thead>
+            <tbody width="100%">
+                <tr width="100%">
+                    <td align="center" width="100%" >
+                        <textarea style="min-width: 50%; max-width:100%; resize: none; overflow: hidden;" name="X ou Twitter" width="100%" max-width="1px">https://x.com/Clestialmusepi</textarea>
+                        <textarea style="min-width: 50%; max-width:100%; resize: none; overflow: hidden;" name="Youtube" width="100%" max-width="1px">https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA</textarea>
+                        <textarea style="min-width: 50%; max-width:100%; resize: none; overflow: hidden;" name="Instagram" width="100%" max-width="1px">https://www.instagram.com/clestialmusepi/</textarea>
+                    </td>
+                </tr>
+            </tbody>
         </table>
     </div>
 </div>
-<!-- Mon tableau du menu -->
-
-<div id="sticky">
-    <div id="popUp">
-        <details>
-            <summary>Règles du jeu</summary>
-            <div id="texteFeuille1">
-                <p>
-                    Voici les règles de ce jeu, tout est indiqué : les règles, les variables, mais rien ne dit vraiment à quoi elles servent, car c'est mystérieux. <span class="colorSpanBleu">Rien</span>/<span class="colorSpanRouge">Rien</span> n'est gratuit, gratte 8, car même en étant free, ça ne dit pas que le fruit est vraiment libre, Là où abrite le libre arbitre. L'art abrite une résidence, dans l'arbre (l'Yggdrasil), le <span class="colorSpanBleu">Tout</span>/<span class="colorSpanRouge">Tout</span>. Car c'est ici que la danse mène l'homme neige, c'est un tour de manège, naît "je". Même dans la meilleure des librairies, il y a toujours des feuilles mortes dans un arbre à quatre saisons, voici mon lore, mon Caticorn. Toujours à en faire mais quoi ?
-                </p>
-            </div>
-            <p>
-                Ne jamais oublier ! Ceci est seulement un langage symbolique. Il décrit juste des comportements inspirés d'une réalité, mais ce n'est pas forcément la réalité. Ce n'est qu'un jeu symbolique sur des comportements du vivant. <span class="colorSpanBleu">A</span> n'est pas forcément <span class="colorSpanRouge">A</span> et <span class="colorSpanBleu">B</span> n'est pas forcément <span class="colorSpanRouge">B</span>, mais <span class="colorSpanBleu">A</span> peut jouer le rôle de <span class="colorSpanRouge">B</span> et <span class="colorSpanRouge">B</span> peut jouer le rôle de <span class="colorSpanBleu">A</span>. Cependant, <span class="colorSpanBleu">A</span> n'est pas égal (≠) à <span class="colorSpanRouge">B</span> et <span class="colorSpanBleu">B</span> n'est pas égal (≠) à <span class="colorSpanRouge">A</span>.
-            </p>
-            <ul>
-                <li>
-                    Bleu = <span class="colorSpanBleu">A</span>
-                </li>
-                <li>
-                    Rouge = <span class="colorSpanRouge">B</span>
-                </li>
-                <li>
-                    Violet = <span class="colorSpanViolet">C</span>
-                </li>
-            </ul>
-        </details>
-    </div>
+    <!-- Le tableau -->
 </div>
 
-<nav id="listeLiberteEgaliteFraternite">
-    <ol>
-        <li id="titreBleu">Liberté</li>
-        <li id="titreBlanc">Égalité</li>
-        <li id="titreRouge">Fraternité</li>
-    </ol>
-</nav>
 
 
+<div id="blocC"></div>
 </body>
-<footer>
-<div id="positionDrapeau">
-    <div id="encadrementDrapeau">
-        <!-- Drapeau de France -->
-        <div id="divDrapeauFrance">
-            <div id="blocBleuFranceDrapeau"></div>
-            <div id="blocBlancFranceDrapeau"></div>
-            <div id="blocRougeFranceDrapeau"></div>
-        </div>
-        <div id="ViveLaFrance">Vive la France !</div>
-        <!-- Drapeau de France -->
-    </div>
-</div>
-
-</footer>
 </html>
