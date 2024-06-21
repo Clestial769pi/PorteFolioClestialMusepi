@@ -138,10 +138,7 @@ h1,h2,h3,h4,p{
     padding-right: 5px;
     color: white;
     border: 1px dotted red;
-}
-.couleurBleu:hover,.couleurRouge:hover,.couleurViolet:hover{
-    background-color: yellow;
-    color: black;
+    cursor: pointer;
 }
 .couleurRouge{
     background-color: red;
@@ -150,6 +147,7 @@ h1,h2,h3,h4,p{
     padding-right: 5px;
     color: white;
     border: 1px dotted blue;
+    cursor: pointer;
 }
 .couleurViolet{
     background-color: purple;
@@ -158,8 +156,12 @@ h1,h2,h3,h4,p{
     padding-right: 5px;
     color: white;
     border: 1px solid yellow;
+    cursor: pointer;
 }
-
+.couleurBleu:hover,.couleurRouge:hover,.couleurViolet:hover{
+    background-color: yellow;
+    color: black;
+}
 /* Le tableau */
 #tableauConfig{
     flex-direction:column;
@@ -272,22 +274,26 @@ textarea{
     display: flex;
     color: white;
     justify-content: center;
+    transition: 0.5s;
 }
 #youtubeBouton:hover{
     background-color: red;
     letter-spacing: 3px;
+    transition: 0.5s;
 }
 
 #twitterBouton{
-    background-color: rgb(0, 153, 173);
+    background-color: rgb(0, 188, 212);
     text-align: center;
     display: flex;
     color: white;
     justify-content: center;
+    transition: 0.5s;
 }
 #twitterBouton:hover{
     background-color: rgb(0, 225, 255);
     letter-spacing: 3px;
+    transition: 0.5s;
 }
 
 #instagramBouton{
@@ -296,10 +302,12 @@ textarea{
     display: flex;
     color: white;
     justify-content: center;
+    transition: 0.5s;
 }
 #instagramBouton:hover{
     background-color: rgb(255, 136, 0);
     letter-spacing: 3px;
+    transition: 0.5s;
 }
 ul{
     padding: 0;
@@ -315,6 +323,7 @@ ul{
     height: 100%;
 }
 summary{
+    height: 30px;
     width: auto;
     display: flex;
     align-items: center;
@@ -323,6 +332,7 @@ summary{
     background-color: rgb(40, 39, 102);
     color: white;
     transition: 1s;
+    box-shadow: 0 0 5px 0 black;
 }
 summary:hover{
     background-color: black;
