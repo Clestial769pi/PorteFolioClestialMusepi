@@ -341,6 +341,18 @@ summary{
     transition: 1s;
     box-shadow: 0 0 5px 0 black;
 }
+#summaryColoration{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: red;
+    color: white;
+    transition: 1s;
+    box-shadow: 0 0 5px 0 red;
+}
 summary:hover{
     background-color: black;
     letter-spacing: 5px;
