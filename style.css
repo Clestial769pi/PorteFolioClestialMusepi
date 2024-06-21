@@ -1,3 +1,10 @@
+/* html{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+} */
 body{
     font-family: 'Times New Roman';
     font-weight: normal;
@@ -15,6 +22,11 @@ body{
             visibility: hidden;
         }
     }
+    @media (min-width:0px) and (max-width:135px) {
+        * {
+            visibility: hidden;
+        }
+    }
     @media (min-width:136px) and (max-width:166px) {
         #blocA{
             padding-top:210px;
@@ -25,7 +37,7 @@ body{
             padding-top:175px;
         }
     }
-    @media (min-width:215px) and (max-width:320px) {
+    @media (min-width:215px) and (max-width:341px) {
         #blocA{
             padding-top:130px;
         }
@@ -136,6 +148,7 @@ h1,h2,h3,h4,p{
 
 /* Le tableau */
 #tableauConfig{
+    flex-direction:column;
     background-color: black;
     height: 100%;
     width: 100%;
@@ -174,15 +187,26 @@ tr,th,td{
     width: auto;
 }
 #tableColumnDirectionColumn{
-    display: flex;
+    /* display: flex; */
+    height: auto;
     justify-content: center;
     flex-direction:column;
 }
 #TableauA{
-    width: 100%;
+    border: 1px dotted blue;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: contents;
 }
 #TableauB{
-    width: 100%;
+    border: 1px dotted red;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: contents;
 }
 /* Les boutons, configuration de la position */
 #lesBoutonConfig{
@@ -205,9 +229,10 @@ thead,tbody{
     height: auto;
 }
 #textareaConfig{
-    width: 100%;
-    padding: 15px;
+    width: auto;
     align-items: center;
+    justify-content: center;
+    display: contents;
 }
 a{
     text-decoration: none;
@@ -218,10 +243,12 @@ a{
     margin-bottom: 5px;
 }
 textarea{
-    width: auto;
     display: flex;
-    margin-top: 5px;
-    margin-bottom: 5px;
+    padding: 0;
+    margin: 0;
+    border-radius: 0;
+    border: 1px dotted purple;
+    width: min-content;
 }
 
 /* Les boutons des liens webs */
@@ -234,7 +261,7 @@ textarea{
 }
 #youtubeBouton:hover{
     background-color: red;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 #twitterBouton{
@@ -246,7 +273,7 @@ textarea{
 }
 #twitterBouton:hover{
     background-color: rgb(0, 225, 255);
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 #instagramBouton{
@@ -258,7 +285,7 @@ textarea{
 }
 #instagramBouton:hover{
     background-color: rgb(255, 136, 0);
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 ul{
     padding: 0;
@@ -272,4 +299,11 @@ ul{
     margin-bottom: 5px;
     margin: 0;
     height: 100%;
+}
+summary{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
 }
