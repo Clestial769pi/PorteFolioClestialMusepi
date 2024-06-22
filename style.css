@@ -100,7 +100,9 @@ h1,h2,h3,h4,p{
     margin: 0;
     word-wrap: break-word;
 }
-
+.paragraphePadding{
+    padding-top: 15px;
+}
 /* Mes configurations des class pour les textes*/
 .texteCentre{
     text-align: center;
