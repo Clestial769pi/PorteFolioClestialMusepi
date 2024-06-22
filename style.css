@@ -84,6 +84,7 @@ body{
     width: 100%;
     top: 0;
     word-break: break-all;
+    box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.171);
 }
 
 /* Bloc du milieu de la page */
@@ -580,8 +581,8 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     flex-direction: column;
     word-wrap: break-word;
     width: 800px;
-    padding-left: 10px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     height: auto;
 }
 #blocCaticornPresentation{
