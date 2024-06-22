@@ -339,9 +339,8 @@ summary{
     background-color: rgb(40, 39, 102);
     color: white;
     transition: 1s;
-    box-shadow: 0 0 5px 0 black;
 }
-#summaryColoration{
+#summaryColorationRouge{
     height: 30px;
     width: auto;
     display: flex;
@@ -351,7 +350,6 @@ summary{
     background-color: red;
     color: white;
     transition: 1s;
-    box-shadow: 0 0 5px 0 red;
 }
 summary:hover{
     background-color: black;
@@ -363,7 +361,28 @@ summary:hover{
 summary:hover:before{
     content: "#";
 }
-
+#summaryColorationViolet{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: purple;
+    color: white;
+    transition: 1s;
+}
+#summaryColorationBleu{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
 /* Drapeau de France */
 #encadrementDrapeau{
     bottom: 0;
@@ -433,4 +452,21 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     display:flex;
     align-items: center;
     justify-content: center;
+    opacity: 50%;
+}
+#positionDrapeau:hover{
+    opacity: 100%;
+}
+#tousDroitsReserves{
+    background-color:rgb(43, 43, 43);
+    color: white;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    position: fixed;
+    display: flex;
 }
