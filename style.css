@@ -606,3 +606,12 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 ::-webkit-scrollbar-thumb{
     background-color: purple;
 }
+#clestialMusepiProfilTete{
+    background-color: rgb(31, 31, 31);
+    transition: 1s;
+}
+#clestialMusepiProfilTete:hover{
+    transition: 1s;
+    background-color: rgb(14, 14, 14);
+    background-color: rgb(69, 20, 116);
+}
