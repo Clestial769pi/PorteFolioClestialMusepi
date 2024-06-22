@@ -279,14 +279,6 @@ textarea{
     margin: 0;
     width: 0;
 }
-#boutonWidth{
-    width: 500px;
-    align-items: center;
-    justify-content: center;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
 /* Les boutons des liens webs */
 #youtubeBouton{
     background-color: rgb(112, 0, 0);
@@ -313,6 +305,7 @@ textarea{
 #twitterBouton:hover{
     background-color: rgb(0, 225, 255);
     letter-spacing: 3px;
+    color: black;
     transition: 0.5s;
 }
 
