@@ -406,7 +406,11 @@ summary{
     text-align: justify;
     background-color: red;
     color: white;
-    transition: 1s;
+    /* transition: 1s; */
+}
+#summaryColorationRouge:hover{
+    background-color: yellow;
+    color: black;
 }
 summary:hover{
     background-color: black;
@@ -429,6 +433,10 @@ summary:hover:before{
     color: white;
     transition: 1s;
 }
+#summaryColorationViolet:hover{
+    background-color: yellow;
+    color: black;
+}
 #summaryColorationBleu{
     height: 30px;
     width: auto;
@@ -439,6 +447,10 @@ summary:hover:before{
     background-color: blue;
     color: white;
     transition: 1s;
+}
+#summaryColorationBleu:hover{
+    background-color: yellow;
+    color: black;
 }
 /* Drapeau de France */
 #encadrementDrapeau{
