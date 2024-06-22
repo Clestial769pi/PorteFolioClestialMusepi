@@ -367,6 +367,7 @@ textarea{
     transition: 0.5s;
 }
 ul{
+    list-style: square;
     padding: 0;
     margin: 0;
 }
