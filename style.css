@@ -5,8 +5,11 @@
     display: flex;
     justify-content: center;
 } */
+* {
+    word-wrap: normal;
+}
 body{
-    word-break: keep-all;
+   
     overflow-x: hidden;
     font-family: 'Times New Roman';
     font-weight: normal;
