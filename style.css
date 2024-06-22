@@ -175,7 +175,6 @@ h1,h2,h3,h4,p{
     background-color: black;
     height: 100%;
     width: 100%;
-    border: 1px solid rgb(255, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -231,6 +230,11 @@ tr,th,td{
     height: auto;
     display: contents;
 }
+table{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
 /* Les boutons, configuration de la position */
 #lesBoutonConfig{
     display: flex;
@@ -252,8 +256,9 @@ thead,tbody{
     height: auto;
 }
 #textareaConfig{
-    width: auto;
-    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 100%;
     justify-content: center;
     display: contents;
 }
@@ -269,9 +274,7 @@ textarea{
     display: flex;
     padding: 0;
     margin: 0;
-    border-radius: 0;
-    border: 1px dotted purple;
-    width: min-content;
+    width: 0;
 }
 
 /* Les boutons des liens webs */
