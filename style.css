@@ -118,6 +118,11 @@ h1,h2,h3,h4,p{
     font-weight:bold;
     padding: 5px;
 }
+.titreH1Config3{
+    font-size: 20px;
+    font-weight:bold;
+    padding: 5px;
+}
 
 /* Modèle d'encadrement des textes */
 #texteBlocFeuilleConfig{
@@ -260,8 +265,10 @@ thead,tbody{
     padding: 0;
     margin: 0;
     width: 100%;
-    justify-content: center;
-    display: contents;
+    /* justify-content: center; */
+    /* display: contents; */
+    display: flex;
+    justify-content: space-around;
 }
 a{
 
@@ -308,7 +315,6 @@ textarea{
     color: black;
     transition: 0.5s;
 }
-
 #instagramBouton{
     background-color: rgb(184, 98, 0);
     text-align: center;
@@ -326,7 +332,6 @@ ul{
     padding: 0;
     margin: 0;
 }
-
 #boutonLienConfig{
     background-color: black;
     width: auto;
