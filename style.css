@@ -398,11 +398,11 @@ summary:hover:before{
 }
 /* Drapeau de France */
 #encadrementDrapeau{
-    bottom: 0;
-    position: fixed;
+    bottom: 40px;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
-    align-items: center;
     box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.705);
     width: 150px;
     height: auto;
@@ -454,18 +454,21 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     text-align: center;
     padding: 0;
     margin: 0;
+    color: black;
     background-color: white;
 }
 /* Pour que le curseur glisse sur "Vive la France !" */
 #ViveLaFrance:hover{
     background-color: yellow;
     cursor: default;
+    color: black;
 }
 #positionDrapeau{
-    display:flex;
     align-items: center;
     justify-content: center;
     opacity: 50%;
+    display: flex;
+    flex-direction: column;
 }
 #positionDrapeau:hover{
     opacity: 100%;
@@ -477,9 +480,21 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     padding: 0;
     margin: 0;
     bottom: 0;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     text-align: center;
+    /* position: fixed; */
+    display: flex;
+}
+#CadreToutLeFooter{
+    height: auto;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
     justify-content: center;
+    align-items: center;
+    width: 100%;
     position: fixed;
     display: flex;
 }
