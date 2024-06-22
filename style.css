@@ -447,6 +447,10 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     border: 1px solid purple;
     width: 150px;
     height: 100px;    
+    opacity: 50%;
+}
+#divDrapeauFrance:hover{
+    opacity: 100%;
 }
 #ViveLaFrance{
     border: 1px dotted black;
@@ -464,14 +468,13 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     color: black;
 }
 #positionDrapeau{
+    background: black;
+    flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-    opacity: 50%;
+
     display: flex;
     flex-direction: column;
-}
-#positionDrapeau:hover{
-    opacity: 100%;
 }
 #tousDroitsReserves{
     background-color:rgb(43, 43, 43);
@@ -485,16 +488,5 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     width: 100%;
     text-align: center;
     /* position: fixed; */
-    display: flex;
-}
-#CadreToutLeFooter{
-    height: auto;
-    padding: 0;
-    margin: 0;
-    bottom: 0;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    position: fixed;
     display: flex;
 }
