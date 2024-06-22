@@ -6,6 +6,7 @@
     justify-content: center;
 } */
 body{
+    overflow-x: hidden;
     font-family: 'Times New Roman';
     font-weight: normal;
     word-wrap: break-word;
@@ -72,6 +73,7 @@ body{
 
 /* La bannière */
 #blocANavBannière{
+    z-index: +999;
     background-color: white;
     position: fixed;
     height: auto;
@@ -91,7 +93,7 @@ body{
 #blocC{
     background-color: black;
     width: auto;
-    height: 200px;
+    height: auto;
 }
 
 /* Blocage des titres H (nombres) */
@@ -532,4 +534,73 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l�
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+#caticornImg1{
+    display: flex;
+    width: auto;
+    block-size: 400px;
+    box-shadow: 0 1px 15px 5px purple;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+    border: 1px dotted white;
+    transition: 1s;
+    block-size: 500px;
+}
+#caticornImg1:hover{
+    background-color: rgb(69, 20, 116);
+    transition: 1s;
+    block-size: 600px;
+}
+#imgPosition{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 15px;
+}
+#CaticornQuiSuisJe{
+    word-wrap: break-word;
+    padding-bottom: 30px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Profil{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 800px;
+    padding-left: 10px;
+    padding-right: 30px;
+    height: auto;
+}
+#blocCaticornPresentation{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+#biographie{
+    word-wrap: break-word;
+    height: 616px;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    text-align: justify;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    border: 1px dotted white;
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+.custom-cursor {
+    cursor: url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.ani'), auto;
 }
