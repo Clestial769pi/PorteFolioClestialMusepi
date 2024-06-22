@@ -601,6 +601,3 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 ::-webkit-scrollbar-thumb{
     background-color: purple;
 }
-.custom-cursor {
-    cursor: url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ fig√©.ani'), auto;
-}
