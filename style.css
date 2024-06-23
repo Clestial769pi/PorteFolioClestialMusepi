@@ -671,3 +671,8 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 }
 #boutonTheiste:hover{background-color: rgb(49, 49, 49);
 transition: 0,5s ease;}
+
+body, html {
+    -webkit-tap-highlight-color: transparent; /* Pour Safari et Chrome */
+    outline: none; /* Pour enlever le contour de focus */
+  }
