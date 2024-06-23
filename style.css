@@ -11,7 +11,6 @@
 }
 
 body{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     overflow-x: hidden;
     font-family: 'Times New Roman';
     font-weight: normal;
@@ -203,24 +202,20 @@ h1,h2,h3,h4,p{
     cursor: pointer;
 }
 .couleurJaune:hover{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     background-color: purple;
     color: white;
     border: 1px solid yellow;
 }
 .couleurViolet:hover{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     background-color: yellow;
     color: black;
     border: 1px solid purple;
 }
 .couleurBleu:hover,.couleurRouge:hover{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     background-color: yellow;
     color: black;
 }
 .couleurBleuInverse:hover,.couleurRougeInverse:hover{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     background-color: purple;
     color: white;
 }
@@ -320,7 +315,7 @@ thead,tbody{
     display: flex;
     justify-content: space-around;
 }
-a{    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
+a{
     text-decoration: none;
     width: 
     auto;
@@ -402,7 +397,6 @@ summary{
     transition: 1s;
 }
 #summaryColorationRouge{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     margin-bottom: 5px;
     height: 30px;
@@ -431,7 +425,6 @@ summary:hover:before{
     content: "#";
 }
 #summaryColorationJaune{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     margin-bottom: 5px;
     height: 30px;
@@ -450,7 +443,6 @@ summary:hover:before{
     color: white;
 }
 #summaryColorationViolet{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     margin-bottom: 5px;
     height: 30px;
@@ -469,7 +461,6 @@ summary:hover:before{
     color: black;
 }
 #summaryColorationBleu{
-    cursor:url('./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé-F1-32x32x32.png'),pointer;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     margin-top: 5px;
     margin-bottom: 5px;
