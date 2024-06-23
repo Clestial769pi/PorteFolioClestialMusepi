@@ -135,8 +135,10 @@ h1,h2,h3,h4,p{
 .textAlignJustify{text-align: justify;}
 /* Modèle d'encadrement des textes */
 #texteBlocFeuilleConfig{
-    background-color: rgb(255, 255, 255);
-    box-shadow: 0 0 5px 0 black;
+    background-color: rgb(48, 22, 63);
+    width: 100%;
+    height: auto;
+    color: white;
 }
 /* Le bloc de texte */
 #blocText1{
