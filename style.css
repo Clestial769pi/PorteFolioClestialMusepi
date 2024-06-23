@@ -545,7 +545,6 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     opacity: 100%;
 }
 #ViveLaFrance{
-    
     border: 1px dotted black;
     width: 150px;
     text-align: center;
@@ -641,7 +640,7 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 }
 #biographie{
     word-wrap: break-word;
-    height: 836.656px;
+    height: 1430.66px;
     width: auto;
     overflow-x: hidden;
     overflow-y: scroll;
