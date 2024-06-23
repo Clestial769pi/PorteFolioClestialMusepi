@@ -632,7 +632,7 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 }
 #biographie{
     word-wrap: break-word;
-    height: 796.656px;
+    height: 836.656px;
     width: auto;
     overflow-x: hidden;
     overflow-y: scroll;
@@ -659,3 +659,16 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 #boxBorder{
     border: 1px solid black;
 }
+#boutonTheiste{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 0,5s ease;
+}
+#boutonTheiste:hover{background-color: rgb(49, 49, 49);
+transition: 0,5s ease;}
