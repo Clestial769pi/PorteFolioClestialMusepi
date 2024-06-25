@@ -723,6 +723,7 @@ body, html {
 #boutonMesProjetsPhilosophiques:hover{
     background-color: yellow;
     color: black;
+    border: 1px solid purple;
 }
 
 #boutonPositionMonContenu{
