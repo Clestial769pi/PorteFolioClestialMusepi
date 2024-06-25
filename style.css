@@ -724,3 +724,9 @@ body, html {
     background-color: yellow;
     color: black;
 }
+
+#boutonPositionMonContenu{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
