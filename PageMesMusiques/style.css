@@ -91,6 +91,8 @@ body{
 #blocB{
     background-color: white;
     width: auto;
+    display: flex;
+    flex-direction: column;
     height: auto;
 }
 
@@ -557,7 +559,8 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-
+    width: 100%;
+    bottom: 0;
     display: flex;
     flex-direction: column;
 }
@@ -732,12 +735,37 @@ body, html {
     justify-content: space-evenly;
 }
 #colomnsTable{
-    background-color: aqua;
+    background-color: blue;
+    color: white;
+    border: 1px dotted black;
     height: 500px;
-    width: auto;
+    overflow: scroll;
+    width: 100%;
+    overflow-x: hidden;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+#blocBodyEnd{
+    background-color: red;
+    width: 100%;
+    height: 200px;
+    display: flex;
 }
 #cadreDesVid√©os{
-    background-color: aquamarine;
-    height: auto;
-    width: 100%;
+    background-color:purple ;
+    color: white;
+    overflow: scroll;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1800px;
+    overflow-x: hidden;
+}
+#blocVideoB{
+    background-color: aqua;
+    display: flex;
+    height: 500px;
+    align-items: center;
 }
