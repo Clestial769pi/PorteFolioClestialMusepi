@@ -678,3 +678,49 @@ body, html {
     -webkit-tap-highlight-color: transparent; /* Pour Safari et Chrome */
     outline: none; /* Pour enlever le contour de focus */
   }
+
+#boutonMesMusiques{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    border: 1px dotted red;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+#boutonMesMusiques:hover{
+    background-color: yellow;
+    color: black;
+}
+#boutonSoundDesign{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    border: 1px dotted blue;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+#boutonSoundDesign:hover{
+    background-color: yellow;
+    color: black;
+}
+#boutonMesProjetsPhilosophiques{
+    text-align: center;
+    align-items: center;
+    width: 230px;
+    height: 20px;
+    border: 1px dotted yellow;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+#boutonMesProjetsPhilosophiques:hover{
+    background-color: yellow;
+    color: black;
+}
