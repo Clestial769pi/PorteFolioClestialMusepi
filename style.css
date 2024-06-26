@@ -73,6 +73,7 @@ body{
 }
 /* La bannière */
 #blocANavBannière{
+    text-align: center;
     z-index: +999;
     background-color: white;
     position: fixed;
