@@ -63,6 +63,11 @@ body{
             padding-top:120px;
         }
     }
+    @media (max-width:100%) {
+        #colomnsTable{
+            overflow-x: hidden;
+        }
+    }
 }
 
 /* Bloc du haut de la page */
