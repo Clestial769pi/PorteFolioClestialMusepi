@@ -374,6 +374,20 @@ textarea{
     letter-spacing: 3px;
     transition: 0.5s;
 }
+#DonBouton{
+    background-color: rgb(0, 0, 143);
+    text-align: center;
+    display: flex;
+    color: rgb(40, 40, 255);
+    justify-content: center;
+    border: 1px dotted rgb(59, 59, 255);
+    transition: 0.5s;
+}
+#DonBouton:hover{
+    background-color: rgb(255, 251, 0);
+    color: rgb(40, 40, 255);
+    border: 1px dotted rgb(59, 59, 255);
+}
 ul{
     list-style: square;
     padding: 0;
