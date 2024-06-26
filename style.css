@@ -741,14 +741,3 @@ body, html {
     height: auto;
     width: 100%;
 }
-#boutonMenu{
-    text-align: center;
-    align-items: center;
-    width: 230px;
-    height: 20px;
-    border: 1px dotted yellow;
-    justify-content: center;
-    background-color: purple;
-    color: white;
-    padding: 15px;
-}
