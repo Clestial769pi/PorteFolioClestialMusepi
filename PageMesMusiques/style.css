@@ -473,7 +473,8 @@ summary:hover:before{
     margin-top: 5px;
     margin-bottom: 5px;
     height: 30px;
-    width: auto;
+    width: 500px;
+    flex-direction: row;
     display: flex;
     align-items: center;
     justify-content: center;
