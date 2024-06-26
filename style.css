@@ -7,9 +7,7 @@
 } */
 * {
     word-wrap: normal;
-    
 }
-
 body{
     overflow-x: hidden;
     font-family: 'Times New Roman';
@@ -64,7 +62,6 @@ body{
         }
     }
 }
-
 /* Bloc du haut de la page */
 #blocA{
     padding-top:100px ;
@@ -74,7 +71,6 @@ body{
     height: auto;
     word-break: break-all;
 }
-
 /* La banni√®re */
 #blocANavBanni√®re{
     z-index: +999;
@@ -86,21 +82,18 @@ body{
     word-break: break-all;
     box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.171);
 }
-
 /* Bloc du milieu de la page */
 #blocB{
     background-color: white;
     width: auto;
     height: auto;
 }
-
 /* Bloc du bas de la page */
 #blocC{
     background-color: black;
     width: auto;
     height: auto;
 }
-
 /* Blocage des titres H (nombres) */
 h1,h2,h3,h4,p{
     padding: 10px;
@@ -571,7 +564,6 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     flex-direction: column-reverse;
     align-items: center;
     justify-content: center;
-
     display: flex;
     flex-direction: column;
 }
@@ -595,7 +587,6 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     align-items: center;
     flex-direction: column;
 }
-
 #caticornImg1{
     display: flex;
     width: auto;
@@ -687,12 +678,10 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
 }
 #boutonTheiste:hover{background-color: rgb(49, 49, 49);
 transition: 0,5s ease;}
-
 body, html {
     -webkit-tap-highlight-color: transparent; /* Pour Safari et Chrome */
     outline: none; /* Pour enlever le contour de focus */
   }
-
 #boutonMesMusiques{
     text-align: center;
     align-items: center;
@@ -739,7 +728,6 @@ body, html {
     color: black;
     border: 1px solid purple;
 }
-
 #boutonPositionMonContenu{
     flex-direction: column;
     display: flex;
