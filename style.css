@@ -741,6 +741,7 @@ body, html {
 }
 
 #boutonPositionMonContenu{
+    flex-direction: column;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -765,6 +766,7 @@ body, html {
     margin: 15px;
 }
 #videoCentre{
+    flex-direction: column;
     display: flex;
     justify-content: center;
     align-items: center;
