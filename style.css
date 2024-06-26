@@ -769,3 +769,8 @@ body, html {
     justify-content: center;
     align-items: center;
 }
+#titreVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
