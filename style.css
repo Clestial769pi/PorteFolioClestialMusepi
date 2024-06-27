@@ -751,7 +751,7 @@ body, html {
     border: 1px dotted black;
     align-items: center;
     justify-content: center;
-    width: 560px;
+    width: auto;
     height: 315px;
     margin: 15px;
 }
@@ -760,6 +760,7 @@ body, html {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: auto;
 }
 #titreVideo{
     display: flex;
