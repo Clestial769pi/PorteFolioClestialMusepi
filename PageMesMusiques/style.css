@@ -7,7 +7,6 @@
 } */
 * {
     word-wrap: normal;
-    
 }
 
 body{
@@ -241,7 +240,6 @@ h1,h2,h3,h4,p{
     justify-content: center;
     padding: 0;
     margin: 0;
-    /* flex-direction:row; */
 }
 tr,th,td{
     flex-direction: column;
