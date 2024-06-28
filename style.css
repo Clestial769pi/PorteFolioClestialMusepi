@@ -770,3 +770,9 @@ body, html {
 li{
     text-align: start;
 }
+#equationPlank{
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+}
