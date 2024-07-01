@@ -157,6 +157,9 @@ h1,h2,h3,h4,p{
     display: flex;
     align-items: center;
 }
+.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
+    box-shadow: 0 1px 1px 0 black;
+}
 .couleurBleu{
     background-color: blue;
     margin: 5px;
@@ -207,7 +210,7 @@ h1,h2,h3,h4,p{
     margin: 5px;
     padding-left: 5px;
     padding-right: 5px;
-    color: black;
+    color: purple;
     border: 1px solid purple;
     cursor: pointer;
 }
@@ -218,16 +221,23 @@ h1,h2,h3,h4,p{
 }
 .couleurViolet:hover{
     background-color: yellow;
-    color: black;
-    border: 1px solid purple;
+    color: purple;
+    border: 1px dotted purple;
 }
-.couleurBleu:hover,.couleurRouge:hover{
+.couleurRouge:hover{
     background-color: yellow;
-    color: black;
+    color: purple;
+    border: 1px solid blue;
+}
+.couleurBleu:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid red;
 }
 .couleurBleuInverse:hover,.couleurRougeInverse:hover{
     background-color: purple;
-    color: white;
+    color: yellow;
+    border: 1px solid blue;
 }
 /* Le tableau */
 #tableauConfig{
