@@ -1,0 +1,1103 @@
+html{
+    display: grid;
+    width: 100%;
+}
+body,header{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    font-family: 'Times New Roman';
+    font-weight: lighter;
+    word-wrap: break-word;
+    background-color: rgb(52, 33, 77);
+    transition: 1s;
+}
+body:hover{
+    background-color: rgb(59, 34, 92);
+    transition: 1s;
+}
+#cadreBanniereSansTransition{
+    z-index: +99;
+    background-color:purple;
+    display: grid;
+    position:fixed ;
+    top: 0;
+    width: 100%;
+}
+#banniereClestialMusepi{
+    word-wrap: break-word;
+    margin: 15px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    transition: 1s;
+    background-color: white;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid yellow;
+    box-shadow: 0 1px 1px 0 purple;
+}
+#banniereClestialMusepi:hover{
+    background-color: black;
+    color: white;
+    transition: 1s;
+    box-shadow: 0 1px 10px 0 rgba(87, 17, 122, 0.71);
+    border-bottom: 1px solid purple;
+}
+#banniere{
+    background-color: white;
+    flex-direction: column;
+    display: inline;
+    font-style: italic;
+    letter-spacing: 15px;
+    font-size: 30px;
+    text-align: center;
+    color: purple;
+    padding: 5px;
+    padding-left: 10px;
+    margin: 0;
+    transition: 1s;
+    display: flex;
+}
+#banniere:hover{
+    background-color: black;
+    color: white;
+    letter-spacing: 5px;
+    transition: 1s;
+}
+#banniereSousTitre{
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    display: inline-block;
+    color: white;
+    padding-top: 5px;
+    font-size: 15px;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-bottom: 15px;
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+#banniereSousTitre:hover{
+    color:black;
+    background-color: yellow;
+}
+.couleurBleu{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+.couleurRouge{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+.couleurViolet{
+    background-color: purple;
+    color: white;
+    border: 1px dotted yellow;
+}
+.couleurJaune{
+    background-color: yellow;
+    color: black;
+    border: 1px dotted purple;
+}
+.couleurJaune:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid yellow;
+}
+.couleurViolet:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px dotted purple;
+}
+.couleurRouge:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid blue;
+}
+.couleurBleu:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid red;
+}
+.couleurBleuInverse:hover,.couleurRougeInverse:hover{
+    background-color: purple;
+    color: yellow;
+    border: 1px solid blue;
+}
+.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
+    box-shadow: 0 1px 1px 0 black;
+}
+.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    letter-spacing: 0;
+    cursor: pointer;
+    text-align: justify;
+}
+#detailsSummaryBlocPosition{
+    z-index: 1;
+    align-items: center;
+    /* height: 50px; */
+    justify-content: center;
+    display: flex;
+}
+summary{
+    list-style:none
+}
+/* .couleurTitreSummary{
+    display: flex;
+    color: white;
+    height: 100px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.couleurTitreSummary:hover{
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+} */
+
+#gridIdCadre{
+    padding-top: 70px; 
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 60px;
+}
+#divIdBorderCadreNews{
+    /* z-index: 1; */
+    border: 1px solid purple;
+    height: auto;
+    width: auto;
+    background-color: white;
+    padding: 15px;
+}
+#divIdBorderCadreNews{
+    background-color: rgb(255, 255, 212);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.541);
+}
+#titreNews{
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+#titreDerniereMiseAJour{
+    font-size: 15px;
+}
+#textMessageDuSite{
+    text-align: justify;
+}
+
+#cadreDuDrapeau{
+    border: 1px solid black;
+    height: 80px;
+    width: 120px;
+    display: flex;
+}
+#drapeauBleu,#drapeauRouge,#drapeauBlanc{
+    width: 40px;
+    height: 80px;
+}
+#drapeauBleu:hover,#drapeauRouge:hover,#drapeauBlanc:hover{
+    transition: 5s;
+}
+#drapeauBleu:hover{
+    background-color: red;
+}
+#drapeauRouge:hover{
+    background-color: blue;
+}
+#drapeauBlanc:hover{
+    background-color: purple;
+}
+#drapeauBleu{
+    background-color: blue;
+}
+#drapeauBlanc{
+    background-color: white;
+}
+#drapeauRouge{
+    background-color: red;
+}
+#viveLaFranceTexteDuBas{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    word-break: break-all;
+    word-wrap: break-word;
+    width: 120px;
+    height: 30px;
+}
+#viveLaFranceTexteDuBas{
+    background-color: white;
+    border: 1px dotted rgb(0, 0, 0);
+}
+#viveLaFranceTexteDuBas:hover{
+    background-color: yellow;
+    border: 1px dotted rgb(0, 0, 0);
+}
+#leToutLeCadreDuDrapeauComplet{
+    z-index: +99;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+}
+#toutDroitReserver{
+    word-wrap: break-word;
+    color: white;
+    /* background-color: black; */
+    text-align: center;
+    justify-content: center;
+}
+#cadreFooterDrapeau{
+    z-index: +99;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+    flex-direction: column;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+}
+
+#ulLiListStyle{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#size150Px{
+    /* height: 250px; */
+    width: 100%;
+    background-color: black; /* Pour le vide du top, la bannière */
+}
+
+::-webkit-scrollbar{
+    background-color: black;
+    border: 1px dotted white;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid yellow;
+    background-color: purple;
+}
+
+#titreCentreHn{
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+}
+
+.titreHcouleurBlanc{
+    color: white;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* Les Boutons */
+h1{
+    font-size: 15px;
+}
+.h1titreCentre{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+}
+
+.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    letter-spacing: 0;
+}
+
+.couleurBleu{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+.couleurRouge{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+.couleurViolet{
+    background-color: purple;
+    color: white;
+    border: 1px dotted yellow;
+}
+.couleurJaune{
+    background-color: yellow;
+    color: black;
+    border: 1px dotted purple;
+}
+.couleurJaune:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid yellow;
+}
+.couleurViolet:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px dotted purple;
+}
+.couleurRouge:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid blue;
+}
+.couleurBleu:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid red;
+}
+.couleurBleuInverse:hover,.couleurRougeInverse:hover{
+    background-color: purple;
+    color: yellow;
+    border: 1px solid blue;
+}
+
+.centreCadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+/* La liste */
+/* ul,li,a{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+} */
+#cadreGridBouton{
+    display: grid;
+    grid-template-rows: 100%;
+}
+/* Les hovers des boutons*/
+#boutonTwitter:hover{
+    background-color: rgb(0, 179, 255);
+    color: black;
+}
+#boutonYoutube:hover{
+    background-color: red;
+    color: white;
+}
+#boutonInstagram:hover{
+    background-color: rgb(255, 0, 153);
+    color: rgb(255, 183, 1);
+}
+#boutonPaypal:hover{
+    background-color: rgb(255, 242, 0);
+    color: rgb(0, 64, 255);
+    border: 1px dotted purple;
+}
+#boutonTwitter:hover,#boutonYoutube:hover,#boutonInstagram:hover,#boutonPaypal:hover{
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+#boutonTwitter,#boutonYoutube,#boutonInstagram,#boutonPaypal{   
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    margin:5px 0 5px 0;
+    width: 400px;
+    height: 15px;
+    transition: 0.5s;
+}
+#boutonTwitter{
+    background-color: rgb(0, 130, 186);
+    color: white;
+    border: 1px solid rgb(0, 200, 255);
+}
+#boutonYoutube{
+    background-color: rgb(158, 0, 0);
+    color: white;
+    border: 1px solid rgb(255, 128, 128);
+}
+#boutonInstagram{
+    background-color: rgb(213, 114, 38);
+    color: white;
+    border: 1px solid rgb(207, 42, 1);
+}
+#boutonPaypal{
+    background-color: rgb(5, 0, 158);
+    color: rgb(0, 64, 255);
+    border: 1px dotted rgb(70, 181, 255);
+}
+
+/* Les URL */
+h1{
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+}
+.h1titreCentre{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    word-break: break-all;
+}
+textarea{
+    padding: 0;
+    margin: 0;
+    width: auto;
+    height: 15px;
+}
+textarea{
+    word-break: break-word;
+    overflow-y: hidden;
+    resize: none;
+    /* word-break: break-all; */
+}
+.couleurBleuText{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+.couleurRougeText{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+.couleurVioletText{
+    background-color: purple;
+    color: white;
+    border: 1px dotted yellow;
+}
+.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune{
+    word-break: break-word;
+}
+.couleurBleu{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+.couleurRouge{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+.couleurViolet{
+    background-color: purple;
+    color: white;
+    border: 1px dotted yellow;
+}
+.couleurJaune{
+    background-color: yellow;
+    color: black;
+    border: 1px dotted purple;
+}
+#cadreGridTextArea{
+    width: 500px;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 100% ;
+}
+.centreCadre{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Les Citations */
+
+details{
+
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+#boutonChevalDeTrois{
+background-color: black;
+color: white;
+height: 20px;
+width: 80px;
+padding: 10px;
+margin: 0;
+display: flex;
+text-align: center;
+align-items: center;
+justify-content: center;
+box-shadow: 0 1px 1px 0 black;
+}
+#boutonChevalDeTrois:hover{
+background-color: yellow;
+color: black;
+transition: 0.5s ease;
+}
+a{
+text-decoration: none;
+}
+#boutonCentre{
+height: 20px;
+padding: 0;
+margin: 0;
+flex-direction: column;
+align-items: center;
+display: flex;
+justify-content: center;
+}
+q{
+padding: 0;
+margin: 0;
+}
+#couleurTitreSummary{
+    /* z-index: auto; */
+    display: grid;
+    display: inline;
+    width: 100%;
+    background-color: purple;
+    color: white;
+    list-style: none;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    box-shadow: 0 0 5px 0 rgb(255, 0, 255);
+}
+#couleurTitreSummary:hover{
+    letter-spacing: 5px;
+    background-color: yellow;
+    transition: 0.5s;
+    color: black;
+}
+#cadreSummaryBorderTitreEtTexte{
+    /* background-color: aqua; */
+    background-color: white;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    box-shadow: 0 1px 3px 0 purple;
+}
+#detailsSummaryBlocPosition{
+    
+    background-color: white ;
+    padding: 0;
+    text-align: center;
+    list-style-type: none;
+    margin: 0;
+    /* border-bottom: 1px solid black; */
+}
+#banniereSousTitre:hover{
+    color:black;
+    background-color: yellow;
+}
+.couleurBleu{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+.couleurRouge{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+.couleurViolet{
+    background-color: purple;
+    color: white;
+    border: 1px dotted yellow;
+}
+.couleurJaune{
+    background-color: yellow;
+    color: black;
+    border: 1px dotted purple;
+}
+.couleurJaune:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid yellow;
+}
+.couleurViolet:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px dotted purple;
+}
+.couleurRouge:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid blue;
+}
+.couleurBleu:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid red;
+}
+.couleurBleuInverse:hover,.couleurRougeInverse:hover{
+    background-color: purple;
+    color: yellow;
+    border: 1px solid blue;
+}
+.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
+    box-shadow: 0 1px 1px 0 black;
+}
+.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
+
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    letter-spacing: 0;
+    cursor: pointer;
+    text-align: justify;
+}
+
+/* summary */
+
+#blocPrincipaleDetailsSummary{
+    border: 1px solid black;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    word-break: break-word;
+}
+/* Les summary général */
+#summaryTitreRegleDuJeu,#summaryTitreAttention,#summaryTitreContenuDeMonSite,#summaryTitreBiographie{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    justify-content: center;
+    list-style-type:none;
+    cursor: pointer;
+    padding-bottom: 5px;
+    box-shadow: 0 1px 5px 0 purple;
+    margin-bottom: 15px;
+}
+#blocDetailsBiographie{
+    background-color: yellow;
+    justify-content: center;
+    color: black;
+    transition: 1s;
+    border: 1px solid purple;
+}
+#blocDetailsBiographie:hover{
+    background-color: purple;
+    justify-content: center;
+    color: yellow;
+    transition: 1s;
+    letter-spacing: 8px;
+    border: 1px solid yellow;
+}
+#blocDetailsReglesDuJeu{
+    background-color: blue;
+    justify-content: center;
+    color: white;
+    transition: 1s;
+    border: 1px dotted red;
+}
+#blocDetailsReglesDuJeu:hover{
+    background-color: red;
+    color: yellow;
+    transition: 1s;
+    letter-spacing: 8px;
+    border: 1px solid blue;
+}
+#blocDetailsContenuDeMonSite{
+    background-color: purple;
+    justify-content: center;
+    color: white;
+    transition: 1s;
+    border: 1px dotted yellow;
+}
+#blocDetailsContenuDeMonSite:hover{
+    background-color: yellow;
+    color: purple;
+    transition: 1s;
+    letter-spacing: 8px;
+    border: 1px solid purple;
+}
+#blocDetailsAttention{
+    background-color: red;
+    justify-content: center;
+    color: white;
+    transition: 1s;
+    border: 1px dotted blue;
+}
+#blocDetailsAttention:hover{
+    background-color: blue;
+    color: yellow;
+    transition: 1s;
+    letter-spacing: 8px;
+    border: 1px solid red;
+}
+#cadreDesBoitesDetailsSummary{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: aqua;
+    margin-bottom: 300px;
+}
+#divCadreBoiteDesDetailsSammary{
+    justify-content: center;
+    display: flex;
+    /* flex-direction: column; */
+}
+details{
+    padding: 0;
+    margin: 0;
+}
+#titreCentreHn{
+    justify-content: center;
+    align-items:center ;
+    display: flex;
+}
+.titreH1ClassSummary{
+    /* padding: 15px; */
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    display: inline;
+    /* align-items: center; */
+    padding-left: 15px;
+}
+.paragrapheClassSummary{
+    padding: 15px;
+    text-align: justify;
+}
+/* Les couleurs */
+.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
+    box-shadow: 0 1px 1px 0 black;
+}
+.couleurBleu{
+    display: inline;
+    background-color: blue;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border: 1px dotted red;
+    cursor: pointer;
+}
+.couleurRouge{
+    display: inline;
+    background-color: red;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border: 1px dotted blue;
+    cursor: pointer;
+}
+.couleurBleuInverse{
+    display: inline;
+    background-color: blue;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border: 1px dotted red;
+    cursor: pointer;
+}
+.couleurRougeInverse{
+    display: inline;
+    background-color: red;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border: 1px dotted blue;
+    cursor: pointer;
+}
+.couleurViolet{
+    display: inline;
+    background-color: rgba(128, 0, 128, 0.900);
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: white;
+    border: 1px solid yellow;
+    cursor: pointer;
+}
+.couleurJaune{
+    display: inline;
+    background-color: yellow;
+    margin: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: purple;
+    border: 1px solid purple;
+    cursor: pointer;
+}
+.couleurJaune:hover{
+    background-color: purple;
+    color: white;
+    border: 1px solid yellow;
+}
+.couleurViolet:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px dotted purple;
+}
+.couleurRouge:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid blue;
+}
+.couleurBleu:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid red;
+}
+.couleurBleuInverse:hover,.couleurRougeInverse:hover{
+    background-color: purple;
+    color: yellow;
+    border: 1px solid blue;
+}
+/* Les couleurs */
+ul{
+    margin: 0;
+    padding: 0;
+}
+li{
+    /* padding: 15px; */
+    margin: 0;
+    padding: 0;
+    list-style-position:inside;
+    margin-left: 15px;
+    margin-inline-end: 0;
+    /* padding-bottom: 15px; */
+}
+#equationPlank{
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
+}
+h3{
+    padding: 0;
+    margin: 0;
+}
+#videoCentre{
+    justify-content: center;
+    display: flex;
+    padding-bottom: 15px;
+    width: auto;
+}
+#boutonCartesien{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 60px;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px 0 black;
+}
+#boutonCartesien:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s ease;
+}
+
+a{
+    text-decoration: none;
+}
+#boutonCentre{
+    flex-direction: column;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    /* padding: 15px; */
+}
+#boutonMesMusiques,#boutonSoundDesign,#boutonMesProjetsPhilosophiques{
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px 0 black;
+}
+#boutonMesMusiques:hover{
+    background-color: red;
+    color: white;
+    border: 1px solid blue;
+}
+#boutonSoundDesign:hover{
+    background-color: blue;
+    color: white;
+    border: 1px solid red;
+}
+#boutonMesProjetsPhilosophiques:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px solid purple;
+}
+
+#boutonMesMusiques{
+    background-color: blue;
+    color: white;
+    border: 1px dotted red;
+}
+#boutonSoundDesign{
+    background-color: red;
+    color: white;
+    border: 1px dotted blue;
+}
+#boutonMesProjetsPhilosophiques{
+
+    background-color: purple;
+    color: yellow;
+    border: 1px solid yellow;
+}
+#boutonPositionMonContenu{
+    flex-direction: column;
+    justify-content: center;
+}
+#centreGroupeBouton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    border: 1px dotted white;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid yellow;
+    background-color: purple;
+}
+/* Mon Profil */
+#blocCaticornPresentation{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    /* justify-content: center; */
+}
+#maBiographie{
+    display: flex;
+    flex-direction: column;
+}
+#Profil{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 800px;
+    padding: 30px;
+    /* padding-left: 20px; */
+    /* padding-right: 20px; */
+    height: auto;
+    background-color: rgb(28, 22, 39);
+}
+#CaticornQuiSuisJe{
+    word-wrap: break-word;
+    padding-bottom: 30px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+p{
+    text-align: center;
+}
+#boutonTheiste{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 1px 0 black;
+}
+#boutonTheiste:hover{
+    background-color: yellow;
+    color: black;
+    transition: 0.5s ease;
+}
+
+/* Image Caticorn */
+#caticornImg1{
+    display: flex;
+    width: auto;
+    block-size: 400px;
+    box-shadow: 0 1px 15px 5px purple;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(14, 14, 14);
+    border: 1px dotted white;
+    transition: 1s;
+    block-size: 500px;
+}
+#imgPosition{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#caticornImg1:hover{
+    background-color: rgb(69, 20, 116);
+    transition: 1s;
+    block-size: 600px;
+}
+#clestialMusepiProfilTete{
+    border: 1px dotted yellow;
+    padding: 5px;
+    margin-bottom: 50px;
+    background-color: rgb(31, 31, 31);
+    transition: 1s;
+    width: 150px;
+}
+#clestialMusepiProfilTete:hover{
+    transition: 1s;
+    background-color: rgb(14, 14, 14);
+    background-color: rgb(69, 20, 116);
+}
+/* Image Caticorn */
+#titreCentreDetailsSummary{
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.lesOptionsTitre{
+    text-align: center;
+    display: flex;
+    width: 100%;
+    word-break: break-word;
+    height: 50px;
+    font-size: 10px;
+    background-color: black;
+    color: white;
+}
