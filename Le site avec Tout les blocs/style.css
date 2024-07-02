@@ -980,14 +980,6 @@ a{
     justify-content: center;
     padding-bottom: 15px;
 }
-::-webkit-scrollbar{
-    background-color: black;
-    border: 1px dotted white;
-}
-::-webkit-scrollbar-thumb{
-    border: 1px solid yellow;
-    background-color: purple;
-}
 /* Mon Profil */
 #blocCaticornPresentation{
     width: 100%;
