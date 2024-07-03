@@ -733,6 +733,7 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     color: white;
     border: 1px solid white;
     padding: 5px;
+    padding: 10px;
     display: flex;
     width: 50px;
     text-align: center;
@@ -864,8 +865,25 @@ li{
     text-align: center;
     justify-content: center;
     transition: 0,5s ease;
+    padding: 10px;
 }
 #boutonCartesien:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0,5s ease;
+}
+#boutonSophisme{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 0,5s ease;
+    padding: 10px;
+}
+#boutonSophisme:hover{
     background-color: rgb(49, 49, 49);
     transition: 0,5s ease;
 }
