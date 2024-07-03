@@ -316,10 +316,11 @@ thead,tbody{
     padding: 0;
     margin: 0;
     width: 100%;
-    /* justify-content: center; */
-    /* display: contents; */
     display: flex;
-    justify-content: space-around;
+    display: grid;
+    grid-template-columns: 100%;
+    background-color: black;
+    /* justify-content: space-around; */
 }
 a{
     text-decoration: none;
