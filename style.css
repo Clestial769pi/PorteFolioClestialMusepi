@@ -777,6 +777,7 @@ body, html {
 #titreVideo{
     align-items: center;
     justify-content: center;
+    display: flex;
 }
 li{
     text-align: start;
