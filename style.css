@@ -872,6 +872,7 @@ li{
     transition: 0,5s ease;
 }
 #boutonSophisme{
+    box-shadow: 0 1px 15px 0 purple;
     background-color: black;
     color: white;
     border: 1px solid white;
