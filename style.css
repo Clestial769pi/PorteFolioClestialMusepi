@@ -410,11 +410,30 @@ ul{
     margin-bottom: 5px;
     margin: 0;
 }
-#boutonChevalDeTrois:hover{
+#boutonChevalDeTrois:hover,#boutonChevalDeTroisInformatique:hover{
     background-color: yellow;
     color: purple;
     border: 1px dotted purple;
     transition: 1s;
+}
+#boutonChevalDeTroisInformatique{
+    padding: 15px;
+    background-color: purple;
+    /* width: auto; */
+    transition: 1s;
+    display: flex;
+    color: yellow;
+    border: 1px dotted yellow;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0;
+}
+#groupeDeBouton{
+    display: flex;
+    flex-direction: row;
 }
 #boutonChevalDeTrois{
     padding: 15px;
