@@ -146,6 +146,9 @@ h1,h2,h3,h4,p{
 .couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
     box-shadow: 0 1px 1px 0 black;
 }
+.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
+    letter-spacing: 0;
+}
 .couleurBleu{
     background-color: blue;
     margin: 5px;
