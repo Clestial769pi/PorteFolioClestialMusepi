@@ -854,3 +854,18 @@ li{
     display: flex;
     flex-direction: column;
 }
+#boutonCartesien{
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 0,5s ease;
+}
+#boutonCartesien:hover{
+    background-color: rgb(49, 49, 49);
+    transition: 0,5s ease;
+}
