@@ -767,7 +767,6 @@ body, html {
     margin: 15px;
 }
 #videoCentre{
-    /* display: grid; */
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -786,9 +785,4 @@ li{
     align-items: start;
     margin: 0;
     padding: 0;
-}
-
-#videoCadreBorderGrid,html,#blocA,#blocB,#blocC,html,footer,body{
-    display: grid;
-    grid-template-columns: auto;
 }

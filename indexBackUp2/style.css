@@ -1,784 +1,152 @@
-html{
-    display: grid;
-    width: 100%;
+/* html{
+    margin: 0;
+    padding: 0;
+    width: auto;
+    display: flex;
+    justify-content: center;
+} */
+* {
+    word-wrap: normal;
 }
-body,header{
+body{
     overflow-x: hidden;
-    padding: 0;
-    margin: 0;
-    font-size: 15px;
     font-family: 'Times New Roman';
-    font-weight: lighter;
+    font-weight: normal;
     word-wrap: break-word;
-    background-color: rgb(52, 33, 77);
-    transition: 1s;
-}
-body:hover{
-    background-color: rgb(59, 34, 92);
-    transition: 1s;
-}
-#cadreBanniereSansTransition{
-    z-index: +99;
-    background-color:purple;
-    display: grid;
-    position:fixed ;
-    top: 0;
-    width: 100%;
-}
-#banniereClestialMusepi{
-    word-wrap: break-word;
-    margin: 15px;
-    width: 100%;
     padding: 0;
     margin: 0;
+    min-width: 100px;
     top: 0;
-    transition: 1s;
-    background-color: white;
-    position: fixed;
-    justify-content: center;
-    align-items: center;
-    border-bottom: 1px solid yellow;
-    box-shadow: 0 1px 1px 0 purple;
-}
-#banniereClestialMusepi:hover{
-    background-color: black;
-    color: white;
-    transition: 1s;
-    box-shadow: 0 1px 10px 0 rgba(87, 17, 122, 0.71);
-    border-bottom: 1px solid purple;
-}
-#banniere{
-    background-color: white;
-    flex-direction: column;
-    display: inline;
-    font-style: italic;
-    letter-spacing: 15px;
-    font-size: 30px;
-    text-align: center;
-    color: purple;
-    padding: 5px;
-    padding-left: 10px;
-    margin: 0;
-    transition: 1s;
-    display: flex;
-}
-#banniere:hover{
-    background-color: black;
-    color: white;
-    letter-spacing: 5px;
-    transition: 1s;
-}
-#banniereSousTitre{
-    display: flex;
-    justify-content: center;
-    background-color: black;
-    display: inline-block;
-    color: white;
-    padding-top: 5px;
-    font-size: 15px;
-    letter-spacing: 5px;
-    text-align: center;
-    padding-bottom: 15px;
-    margin: 0;
-    width: 100%;
-    height: auto;
-}
-#banniereSousTitre:hover{
-    color:black;
-    background-color: yellow;
-}
-.couleurBleu{
-    background-color: blue;
-    color: white;
-    border: 1px dotted red;
-}
-.couleurRouge{
-    background-color: red;
-    color: white;
-    border: 1px dotted blue;
-}
-.couleurViolet{
-    background-color: purple;
-    color: white;
-    border: 1px dotted yellow;
-}
-.couleurJaune{
-    background-color: yellow;
-    color: black;
-    border: 1px dotted purple;
-}
-.couleurJaune:hover{
-    background-color: purple;
-    color: white;
-    border: 1px solid yellow;
-}
-.couleurViolet:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px dotted purple;
-}
-.couleurRouge:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid blue;
-}
-.couleurBleu:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid red;
-}
-.couleurBleuInverse:hover,.couleurRougeInverse:hover{
-    background-color: purple;
-    color: yellow;
-    border: 1px solid blue;
-}
-.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
-    box-shadow: 0 1px 1px 0 black;
-}
-.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-    letter-spacing: 0;
-    cursor: pointer;
-    text-align: justify;
-}
-#detailsSummaryBlocPosition{
-    z-index: 1;
-    align-items: center;
-    /* height: 50px; */
-    justify-content: center;
-    display: flex;
-}
-summary{
-    list-style:none
-}
-/* .couleurTitreSummary{
-    display: flex;
-    color: white;
-    height: 100px;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    background-color: blueviolet;
-    cursor: pointer;
-}
-.couleurTitreSummary:hover{
-    background-color: yellow;
-    color: black;
-    transition: 1s;
-} */
-
-#gridIdCadre{
-    padding-top: 70px; 
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: 60px;
-}
-#divIdBorderCadreNews{
-    /* z-index: 1; */
-    border: 1px solid purple;
-    height: auto;
-    width: auto;
-    background-color: white;
-    padding: 15px;
-}
-#divIdBorderCadreNews{
-    background-color: rgb(255, 255, 212);
-    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.541);
-}
-#titreNews{
-    color: white;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-}
-#titreDerniereMiseAJour{
-    font-size: 15px;
-}
-#textMessageDuSite{
-    text-align: justify;
-}
-
-#cadreDuDrapeau{
-    border: 1px solid black;
-    height: 80px;
-    width: 120px;
-    display: flex;
-}
-#drapeauBleu,#drapeauRouge,#drapeauBlanc{
-    width: 40px;
-    height: 80px;
-}
-#drapeauBleu:hover,#drapeauRouge:hover,#drapeauBlanc:hover{
-    transition: 5s;
-}
-#drapeauBleu:hover{
-    background-color: red;
-}
-#drapeauRouge:hover{
-    background-color: blue;
-}
-#drapeauBlanc:hover{
-    background-color: purple;
-}
-#drapeauBleu{
-    background-color: blue;
-}
-#drapeauBlanc{
-    background-color: white;
-}
-#drapeauRouge{
-    background-color: red;
-}
-#viveLaFranceTexteDuBas{
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    word-break: break-all;
-    word-wrap: break-word;
-    width: 120px;
-    height: 30px;
-}
-#viveLaFranceTexteDuBas{
-    background-color: white;
-    border: 1px dotted rgb(0, 0, 0);
-}
-#viveLaFranceTexteDuBas:hover{
-    background-color: yellow;
-    border: 1px dotted rgb(0, 0, 0);
-}
-#leToutLeCadreDuDrapeauComplet{
-    z-index: +99;
-    display: grid;
-    margin: 0;
-    padding: 0;
-    justify-content: center;
-    width: 100%;
-    height: auto;
-}
-#toutDroitReserver{
-    word-wrap: break-word;
-    color: white;
-    /* background-color: black; */
-    text-align: center;
-    justify-content: center;
-}
-#cadreFooterDrapeau{
-    z-index: +99;
-    position: fixed;
     bottom: 0;
-    width: 100%;
-    height: 150px;
-    flex-direction: column;
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: black;
-}
-
-#ulLiListStyle{
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-#size150Px{
-    /* height: 250px; */
-    width: 100%;
-    background-color: black; /* Pour le vide du top, la bannière */
-}
-
-::-webkit-scrollbar{
-    background-color: black;
-    border: 1px dotted white;
-}
-::-webkit-scrollbar-thumb{
-    border: 1px solid yellow;
-    background-color: purple;
-}
-
-#titreCentreHn{
-    justify-content: center;
-    align-items:center ;
-    display: flex;
-}
-
-.titreHcouleurBlanc{
-    color: white;
-    padding-top: 15px;
-    padding-bottom: 15px;
-}
-
-/* Les Boutons */
-h1{
-    font-size: 15px;
-}
-.h1titreCentre{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    word-break: break-all;
-}
-
-.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-    letter-spacing: 0;
-}
-
-.couleurBleu{
-    background-color: blue;
-    color: white;
-    border: 1px dotted red;
-}
-.couleurRouge{
-    background-color: red;
-    color: white;
-    border: 1px dotted blue;
-}
-.couleurViolet{
-    background-color: purple;
-    color: white;
-    border: 1px dotted yellow;
-}
-.couleurJaune{
-    background-color: yellow;
-    color: black;
-    border: 1px dotted purple;
-}
-.couleurJaune:hover{
-    background-color: purple;
-    color: white;
-    border: 1px solid yellow;
-}
-.couleurViolet:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px dotted purple;
-}
-.couleurRouge:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid blue;
-}
-.couleurBleu:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid red;
-}
-.couleurBleuInverse:hover,.couleurRougeInverse:hover{
-    background-color: purple;
-    color: yellow;
-    border: 1px solid blue;
-}
-/* La liste */
-/* ul,li,a{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-} */
-#cadreGridBouton{
-    display: grid;
-    grid-template-rows: 100%;
-}
-/* Les hovers des boutons*/
-#boutonTwitter:hover{
-    background-color: rgb(0, 179, 255);
-    color: black;
-}
-#boutonYoutube:hover{
-    background-color: red;
-    color: white;
-}
-#boutonInstagram:hover{
-    background-color: rgb(255, 0, 153);
-    color: rgb(255, 183, 1);
-}
-#boutonPaypal:hover{
-    background-color: rgb(255, 242, 0);
-    color: rgb(0, 64, 255);
-    border: 1px dotted purple;
-}
-#boutonTwitter:hover,#boutonYoutube:hover,#boutonInstagram:hover,#boutonPaypal:hover{
-    letter-spacing: 5px;
-    font-size: 20px;
-}
-#boutonTwitter,#boutonYoutube,#boutonInstagram,#boutonPaypal{   
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 5px;
-    margin:5px 0 5px 0;
-    width: 400px;
-    height: 15px;
-    transition: 0.5s;
-}
-#boutonTwitter{
-    background-color: rgb(0, 130, 186);
-    color: white;
-    border: 1px solid rgb(0, 200, 255);
-}
-#boutonYoutube{
-    background-color: rgb(158, 0, 0);
-    color: white;
-    border: 1px solid rgb(255, 128, 128);
-}
-#boutonInstagram{
-    background-color: rgb(213, 114, 38);
-    color: white;
-    border: 1px solid rgb(207, 42, 1);
-}
-#boutonPaypal{
-    background-color: rgb(5, 0, 158);
-    color: rgb(0, 64, 255);
-    border: 1px dotted rgb(70, 181, 255);
-}
-
-/* Les URL */
-h1{
-    font-size: 15px;
-    margin: 0;
-    padding: 0;
-}
-.h1titreCentre{
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    padding: 0;
-    margin: 0;
-    word-break: break-all;
-}
-textarea{
-    padding: 0;
-    margin: 0;
     width: auto;
-    height: 15px;
+/* Responsive */
+    @media (min-width:0) and (max-width:0) {
+        * {
+            visibility: hidden;
+        }
+    }
+    @media (min-width:0px) and (max-width:135px) {
+        * {
+            visibility: hidden;
+        }
+    }
+    @media (min-width:135px) and (max-width:166px) {
+        #blocA{
+            padding-top:210px;
+        }
+    }
+    @media (min-width:166px) and (max-width:184px) {
+        #blocA{
+            padding-top:220px;
+        }
+    }
+    @media (min-width:184px) and (max-width:214px) {
+        #blocA{
+            /* padding-top:175px; */
+            padding-top: 185px;
+        }
+    }
+    @media (min-width:214px) and (max-width:232px) {
+        #blocA{
+            padding-top:185px;
+        }
+    }
+    @media (min-width:232px) and (max-width:342px) {
+        #blocA{
+            padding-top:140px;
+        }
+    }
+    @media (min-width:342px) and (max-width:659px) {
+        #blocA{
+            padding-top:120px;
+        }
+    }
 }
-textarea{
-    word-break: break-word;
-    overflow-y: hidden;
-    resize: none;
-    /* word-break: break-all; */
-}
-.couleurBleuText{
-    background-color: blue;
+/* Bloc du haut de la page */
+#blocA{
+    padding-top:100px ;
+    background-color: black;
     color: white;
-    border: 1px dotted red;
+    width: auto;
+    height: auto;
+    word-break: break-all;
 }
-.couleurRougeText{
-    background-color: red;
-    color: white;
-    border: 1px dotted blue;
-}
-.couleurVioletText{
-    background-color: purple;
-    color: white;
-    border: 1px dotted yellow;
-}
-.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune{
-    word-break: break-word;
-}
-.couleurBleu{
-    background-color: blue;
-    color: white;
-    border: 1px dotted red;
-}
-.couleurRouge{
-    background-color: red;
-    color: white;
-    border: 1px dotted blue;
-}
-.couleurViolet{
-    background-color: purple;
-    color: white;
-    border: 1px dotted yellow;
-}
-.couleurJaune{
-    background-color: yellow;
-    color: black;
-    border: 1px dotted purple;
-}
-#cadreGridTextArea{
-    width: 500px;
-    padding: 0;
-    margin: 0;
-    display: grid;
-    grid-template-columns: 100% ;
-}
-.centreCadre{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Les Citations */
-
-details{
-
-    padding: 0;
-    margin: 0;
-    background-color: white;
-}
-#boutonChevalDeTrois{
-background-color: black;
-color: white;
-height: 20px;
-width: 80px;
-padding: 10px;
-margin: 0;
-display: flex;
-text-align: center;
-align-items: center;
-justify-content: center;
-box-shadow: 0 1px 1px 0 black;
-}
-#boutonChevalDeTrois:hover{
-background-color: yellow;
-color: black;
-transition: 0.5s ease;
-}
-a{
-text-decoration: none;
-}
-#boutonCentre{
-height: 20px;
-padding: 0;
-margin: 0;
-flex-direction: column;
-align-items: center;
-display: flex;
-justify-content: center;
-}
-q{
-padding: 0;
-margin: 0;
-}
-#couleurTitreSummary{
-    /* z-index: auto; */
-    display: grid;
-    display: inline;
-    width: 100%;
-    background-color: purple;
-    color: white;
-    list-style: none;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    cursor: pointer;
-    transition: 0.5s;
-    box-shadow: 0 0 5px 0 rgb(255, 0, 255);
-}
-#couleurTitreSummary:hover{
-    letter-spacing: 5px;
-    background-color: yellow;
-    transition: 0.5s;
-    color: black;
-}
-#cadreSummaryBorderTitreEtTexte{
-    /* background-color: aqua; */
-    background-color: white;
-    padding: 15px;
-    border-bottom: 1px solid black;
-    box-shadow: 0 1px 3px 0 purple;
-}
-#detailsSummaryBlocPosition{
-    
-    background-color: white ;
-    padding: 0;
+/* La bannière */
+#blocANavBannière{
     text-align: center;
-    list-style-type: none;
-    margin: 0;
-    /* border-bottom: 1px solid black; */
-}
-#banniereSousTitre:hover{
-    color:black;
-    background-color: yellow;
-}
-.couleurBleu{
-    background-color: blue;
-    color: white;
-    border: 1px dotted red;
-}
-.couleurRouge{
-    background-color: red;
-    color: white;
-    border: 1px dotted blue;
-}
-.couleurViolet{
-    background-color: purple;
-    color: white;
-    border: 1px dotted yellow;
-}
-.couleurJaune{
-    background-color: yellow;
-    color: black;
-    border: 1px dotted purple;
-}
-.couleurJaune:hover{
-    background-color: purple;
-    color: white;
-    border: 1px solid yellow;
-}
-.couleurViolet:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px dotted purple;
-}
-.couleurRouge:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid blue;
-}
-.couleurBleu:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid red;
-}
-.couleurBleuInverse:hover,.couleurRougeInverse:hover{
-    background-color: purple;
-    color: yellow;
-    border: 1px solid blue;
-}
-.couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
-    box-shadow: 0 1px 1px 0 black;
-}
-.couleurBleu,.couleurRouge,.couleurViolet,.couleurJaune,.couleurBleuInverse,.couleurRougeInverse{
-
-    padding-left: 5px;
-    padding-right: 5px;
-    margin-left: 5px;
-    margin-right: 10px;
-    letter-spacing: 0;
-    cursor: pointer;
-    text-align: justify;
-}
-
-/* summary */
-
-#blocPrincipaleDetailsSummary{
-    border: 1px solid black;
+    z-index: +999;
     background-color: white;
+    position: fixed;
+    height: auto;
     width: 100%;
-    height: 100%;
-    word-break: break-word;
+    top: 0;
+    word-break: break-all;
+    box-shadow: 0 1px 15px 3px rgba(0, 0, 0, 0.171);
 }
-/* Les summary général */
-#summaryTitreRegleDuJeu,#summaryTitreAttention,#summaryTitreContenuDeMonSite,#summaryTitreBiographie{
+/* Bloc du milieu de la page */
+#blocB{
+    background-color: white;
+    width: auto;
+    height: auto;
+}
+/* Bloc du bas de la page */
+#blocC{
+    background-color: black;
+    width: auto;
+    height: auto;
+}
+/* Blocage des titres H (nombres) */
+h1,h2,h3,h4,p{
+    padding: 10px;
+    margin: 0;
+    word-wrap: break-word;
+}
+.paragraphePadding{
+    padding-top: 15px;
+}
+/* Mes configurations des class pour les textes*/
+.texteCentre{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.titreH1Config1{
+    padding-top: 100px;
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+.titreH1Config2{
+    font-size: 15px;
+    font-weight:bold;
+    padding: 5px;
+}
+.titreH1Config3{
+    font-size: 20px;
+    font-weight:bold;
+    padding: 5px;
+}
+.textAlignJustify{text-align: justify;}
+/* Modèle d'encadrement des textes */
+#texteBlocFeuilleConfig{
+    background-color: rgb(48, 22, 63);
     width: 100%;
     height: auto;
-    text-align: center;
-    justify-content: center;
-    list-style-type:none;
-    cursor: pointer;
-    padding-bottom: 5px;
-    box-shadow: 0 1px 5px 0 purple;
-    margin-bottom: 15px;
-}
-#blocDetailsBiographie{
-    background-color: yellow;
-    justify-content: center;
-    color: black;
-    transition: 1s;
-    border: 1px solid purple;
-}
-#blocDetailsBiographie:hover{
-    background-color: purple;
-    justify-content: center;
-    color: yellow;
-    transition: 1s;
-    letter-spacing: 8px;
-    border: 1px solid yellow;
-}
-#blocDetailsReglesDuJeu{
-    background-color: blue;
-    justify-content: center;
     color: white;
-    transition: 1s;
-    border: 1px dotted red;
 }
-#blocDetailsReglesDuJeu:hover{
-    background-color: red;
-    color: yellow;
-    transition: 1s;
-    letter-spacing: 8px;
-    border: 1px solid blue;
-}
-#blocDetailsContenuDeMonSite{
-    background-color: purple;
-    justify-content: center;
-    color: white;
-    transition: 1s;
-    border: 1px dotted yellow;
-}
-#blocDetailsContenuDeMonSite:hover{
-    background-color: yellow;
-    color: purple;
-    transition: 1s;
-    letter-spacing: 8px;
-    border: 1px solid purple;
-}
-#blocDetailsAttention{
-    background-color: red;
-    justify-content: center;
-    color: white;
-    transition: 1s;
-    border: 1px dotted blue;
-}
-#blocDetailsAttention:hover{
-    background-color: blue;
-    color: yellow;
-    transition: 1s;
-    letter-spacing: 8px;
-    border: 1px solid red;
-}
-#cadreDesBoitesDetailsSummary{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    background-color: aqua;
-    margin-bottom: 300px;
-}
-#divCadreBoiteDesDetailsSammary{
-    justify-content: center;
-    display: flex;
-    /* flex-direction: column; */
-}
-details{
-    padding: 0;
-    margin: 0;
-}
-#titreCentreHn{
-    justify-content: center;
-    align-items:center ;
-    display: flex;
-}
-.titreH1ClassSummary{
-    /* padding: 15px; */
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    display: inline;
-    /* align-items: center; */
-    padding-left: 15px;
-}
-.paragrapheClassSummary{
-    padding: 15px;
+/* Le bloc de texte */
+#blocText1{
+    height: auto;
+    width: auto;
     text-align: justify;
+    justify-content: center;
+    display: flex;
+    align-items: center;
 }
-/* Les couleurs */
 .couleurBleu,.couleurRouge,.couleurBleuInverse,.couleurRougeInverse,.couleurViolet,.couleurJaune{
     box-shadow: 0 1px 1px 0 black;
 }
 .couleurBleu{
-    display: inline;
     background-color: blue;
     margin: 5px;
     padding-left: 5px;
@@ -788,7 +156,6 @@ details{
     cursor: pointer;
 }
 .couleurRouge{
-    display: inline;
     background-color: red;
     margin: 5px;
     padding-left: 5px;
@@ -798,7 +165,6 @@ details{
     cursor: pointer;
 }
 .couleurBleuInverse{
-    display: inline;
     background-color: blue;
     margin: 5px;
     padding-left: 5px;
@@ -808,7 +174,6 @@ details{
     cursor: pointer;
 }
 .couleurRougeInverse{
-    display: inline;
     background-color: red;
     margin: 5px;
     padding-left: 5px;
@@ -818,7 +183,6 @@ details{
     cursor: pointer;
 }
 .couleurViolet{
-    display: inline;
     background-color: rgba(128, 0, 128, 0.900);
     margin: 5px;
     padding-left: 5px;
@@ -828,7 +192,6 @@ details{
     cursor: pointer;
 }
 .couleurJaune{
-    display: inline;
     background-color: yellow;
     margin: 5px;
     padding-left: 5px;
@@ -862,183 +225,385 @@ details{
     color: yellow;
     border: 1px solid blue;
 }
-/* Les couleurs */
-ul{
-    margin: 0;
-    padding: 0;
-}
-li{
-    /* padding: 15px; */
-    margin: 0;
-    padding: 0;
-    list-style-position:inside;
-    margin-left: 15px;
-    margin-inline-end: 0;
-    /* padding-bottom: 15px; */
-}
-#equationPlank{
+/* Le tableau */
+#tableauConfig{
+    flex-direction:column;
+    background-color: black;
+    height: 100%;
+    width: 100%;
     display: flex;
-    align-items: start;
-    margin: 0;
-    padding: 0;
-}
-h3{
+    align-items: center;
+    justify-content: center;
     padding: 0;
     margin: 0;
+    /* flex-direction:row; */
 }
-#videoCentre{
+tr,th,td{
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    background-color: white;
+    width: 100%;
+    height: auto;
     justify-content: center;
     display: flex;
-    padding-bottom: 15px;
+}
+#lesBoutonDesLiens{
+    flex-direction:row;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
     width: auto;
 }
-#boutonCartesien{
-    background-color: black;
-    color: white;
-    height: 20px;
-    width: 60px;
-    padding: 10px;
-    margin: 0;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 1px 0 black;
-}
-#boutonCartesien:hover{
-    background-color: yellow;
-    color: black;
-    transition: 0.5s ease;
-}
-
-a{
-    text-decoration: none;
-}
-#boutonCentre{
-    flex-direction: column;
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    /* padding: 15px; */
-}
-#boutonMesMusiques,#boutonSoundDesign,#boutonMesProjetsPhilosophiques{
-    height: 20px;
-    width: 300px;
-    padding: 10px;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 1px 0 black;
-}
-#boutonMesMusiques:hover{
+#lesLiensWeb{
+    flex-direction:row;
     background-color: red;
+    padding-left: 50px;
+    padding-right: 50px;
     color: white;
-    border: 1px solid blue;
+    width: auto;
 }
-#boutonSoundDesign:hover{
-    background-color: blue;
-    color: white;
-    border: 1px solid red;
+#tableColumnDirectionColumn{
+    /* display: flex; */
+    height: auto;
+    justify-content: center;
+    flex-direction:column;
 }
-#boutonMesProjetsPhilosophiques:hover{
-    background-color: yellow;
-    color: purple;
-    border: 1px solid purple;
-}
-
-#boutonMesMusiques{
-    background-color: blue;
-    color: white;
-    border: 1px dotted red;
-}
-#boutonSoundDesign{
-    background-color: red;
-    color: white;
+#TableauA{
     border: 1px dotted blue;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: contents;
 }
-#boutonMesProjetsPhilosophiques{
-
-    background-color: purple;
-    color: yellow;
-    border: 1px solid yellow;
+#TableauB{
+    border: 1px dotted red;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    height: auto;
+    display: contents;
 }
-#boutonPositionMonContenu{
-    flex-direction: column;
-    justify-content: center;
-}
-#centreGroupeBouton{
+table{
+    margin: 0;
+    padding: 0;
     display: flex;
-    align-items: center;
-    justify-content: center;
-    padding-bottom: 15px;
 }
-::-webkit-scrollbar{
-    background-color: black;
-    border: 1px dotted white;
-}
-::-webkit-scrollbar-thumb{
-    border: 1px solid yellow;
-    background-color: purple;
-}
-/* Mon Profil */
-#blocCaticornPresentation{
+/* Les boutons, configuration de la position */
+#lesBoutonConfig{
+    display: flex;
     width: 100%;
     height: 100%;
-    display: flex;
-    flex-direction: row;
-    /* align-items: center; */
-    /* justify-content: center; */
-}
-#maBiographie{
-    display: flex;
-    flex-direction: column;
-}
-#Profil{
-    color: white;
-    display: flex;
+    background-color: aquamarine;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 0;
+    border: 1px solid black;
+    justify-content: center;
     align-items: center;
-    flex-direction: column;
-    word-wrap: break-word;
-    width: 800px;
-    padding: 30px;
-    /* padding-left: 20px; */
-    /* padding-right: 20px; */
+}
+thead,tbody{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: auto;
     height: auto;
-    background-color: rgb(28, 22, 39);
 }
-#CaticornQuiSuisJe{
-    word-wrap: break-word;
-    padding-bottom: 30px;
-    color: white;
-    width: 100%;
+#textareaConfig{
+    padding: 0;
+    margin: 0;
+    /* width: 100%; */
+    display: grid;
+    grid-template-columns: 100%;
+    /* display: flex; */
+    justify-content: space-around;
+}
+a{
+    text-decoration: none;
+    width: 
+    auto;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+    padding: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
-p{
-    text-align: center;
-}
-#boutonTheiste{
-    background-color: black;
-    color: white;
-    height: 20px;
-    width: 60px;
-    padding: 10px;
+textarea{
     display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 1px 0 black;
+    padding: 0;
+    margin: 0;
+    width: 0;
 }
-#boutonTheiste:hover{
-    background-color: yellow;
-    color: black;
-    transition: 0.5s ease;
+/* Les boutons des liens webs */
+#youtubeBouton{
+    background-color: rgb(112, 0, 0);
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    transition: 0.5s;
+}
+#youtubeBouton:hover{
+    background-color: red;
+    letter-spacing: 3px;
+    transition: 0.5s;
 }
 
-/* Image Caticorn */
+#twitterBouton{
+    background-color: rgb(0, 188, 212);
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    transition: 0.5s;
+}
+#twitterBouton:hover{
+    background-color: rgb(0, 225, 255);
+    letter-spacing: 3px;
+    color: black;
+    transition: 0.5s;
+}
+#instagramBouton{
+    background-color: rgb(184, 98, 0);
+    text-align: center;
+    display: flex;
+    color: white;
+    justify-content: center;
+    transition: 0.5s;
+}
+#instagramBouton:hover{
+    background-color: rgb(255, 136, 0);
+    letter-spacing: 3px;
+    transition: 0.5s;
+}
+#DonBouton{
+    background-color: rgb(0, 0, 143);
+    text-align: center;
+    display: flex;
+    color: rgb(40, 40, 255);
+    justify-content: center;
+    border: 1px dotted rgb(59, 59, 255);
+    transition: 0.5s;
+}
+#DonBouton:hover{
+    letter-spacing: 3px;
+    background-color: rgb(255, 251, 0);
+    color: rgb(40, 40, 255);
+    border: 1px dotted rgb(59, 59, 255);
+}
+ul{
+    list-style: square;
+    padding: 0;
+    margin: 0;
+}
+#boutonLienConfig{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0;
+    padding:0;
+    height: 100%;
+}
+summary{
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: rgb(40, 39, 102);
+    color: white;
+    transition: 1s;
+}
+#summaryColorationRouge{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: red;
+    color: white;
+    /* transition: 1s; */
+}
+#summaryColorationRouge:hover{
+    border-bottom: 1px solid black;
+    background-color: yellow;
+    color: black;
+}
+summary:hover{
+    background-color: black;
+    letter-spacing: 5px;
+    color: yellow;
+    cursor: pointer;
+    transition: 1s;
+}
+summary:hover:before{
+    content: "#";
+}
+#summaryColorationJaune{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: yellow;
+    color: black;
+    transition: 1s;
+}
+#summaryColorationJaune:hover{
+    border-bottom: 1px solid black;
+    background-color: purple;
+    color: white;
+}
+#summaryColorationViolet{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-bottom: 5px;
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: purple;
+    color: white;
+    transition: 1s;
+}
+#summaryColorationViolet:hover{
+    border-bottom: 1px solid black;
+    background-color: yellow;
+    color: black;
+}
+#summaryColorationBleu{
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    margin-top: 5px;
+    margin-bottom: 5px;
+    height: 30px;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    background-color: blue;
+    color: white;
+    transition: 1s;
+}
+#summaryColorationBleu:hover{
+    border-bottom: 1px solid black;
+    background-color: yellow;
+    color: black;
+}
+/* Drapeau de France */
+#encadrementDrapeau{
+    bottom: 40px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 3px 0 rgba(0, 0, 0, 0.705);
+    width: 150px;
+    height: auto;
+}
+/* La couleur Bleu */
+#blocBleuFranceDrapeau{
+    background-color: blue;
+    width: 50px;
+    height: 100px;
+}
+/* La couleur Blanc */
+#blocBlancFranceDrapeau{
+    background-color: rgb(255, 255, 255);
+    width: 50px;
+    height: 100px;
+}
+/* La couleur Rouge */
+#blocRougeFranceDrapeau{
+    background-color: rgb(255, 0, 0);
+    width: 50px;
+    height: 100px;
+    align-items: end;
+    flex-wrap: wrap;
+}
+/* 
+Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les légendes, le diable n'est pas forcément le méchant de l'histoire. 
+*/
+#blocBleuFranceDrapeau:hover{
+    background-color: Red;
+    transition: 1s;
+}
+#blocBlancFranceDrapeau:hover{
+    background-color: purple;
+    transition: 1s;
+}
+#blocRougeFranceDrapeau:hover{
+    background-color: blue;
+    transition: 1s;
+}
+#divDrapeauFrance{
+    display: flex;
+    border: 1px solid purple;
+    width: 150px;
+    height: 100px;    
+    opacity: 50%;
+}
+#divDrapeauFrance:hover{
+    opacity: 100%;
+}
+#ViveLaFrance{
+    border: 1px dotted black;
+    width: 150px;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: black;
+    background-color: white;
+}
+/* Pour que le curseur glisse sur "Vive la France !" */
+#ViveLaFrance:hover{
+    background-color: yellow;
+    cursor: default;
+    color: black;
+}
+#positionDrapeau{
+    /* position: fixed; */
+    bottom: 0;
+    width: 100%;
+    background: black;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+#tousDroitsReserves{
+    background-color:rgb(43, 43, 43);
+    color: white;
+    height: auto;
+    padding: 0;
+    margin: 0;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    /* position: fixed; */
+    display: flex;
+}
+#imgArborescencePosition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 #caticornImg1{
     display: flex;
     width: auto;
@@ -1051,46 +616,178 @@ p{
     transition: 1s;
     block-size: 500px;
 }
-#imgPosition{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 #caticornImg1:hover{
     background-color: rgb(69, 20, 116);
     transition: 1s;
     block-size: 600px;
 }
+#imgPosition{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    padding: 15px;
+}
+#CaticornQuiSuisJe{
+    word-wrap: break-word;
+    padding-bottom: 30px;
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#Profil{
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    word-wrap: break-word;
+    width: 800px;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: auto;
+}
+#blocCaticornPresentation{
+    width: auto;
+    height: auto;
+    display: flex;
+}
+#biographie{
+    word-wrap: break-word;
+    height: 1430.66px;
+    width: auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: white;
+    text-align: justify;
+}
+::-webkit-scrollbar{
+    background-color: black;
+    border: 1px dotted white;
+}
+::-webkit-scrollbar-thumb{
+    border: 1px solid yellow;
+    background-color: purple;
+}
 #clestialMusepiProfilTete{
-    border: 1px dotted yellow;
-    padding: 5px;
-    margin-bottom: 50px;
     background-color: rgb(31, 31, 31);
     transition: 1s;
-    width: 150px;
 }
 #clestialMusepiProfilTete:hover{
     transition: 1s;
     background-color: rgb(14, 14, 14);
     background-color: rgb(69, 20, 116);
 }
-/* Image Caticorn */
-#titreCentreDetailsSummary{
-    /* display: flex; */
-    margin: 0;
-    padding: 0;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+#boxBorder{
+    border: 1px solid black;
 }
-.lesOptionsTitre{
-    text-align: center;
-    display: flex;
-    width: 100%;
-    word-break: break-word;
-    height: 50px;
-    font-size: 10px;
+#boutonTheiste{
     background-color: black;
     color: white;
+    border: 1px solid white;
+    padding: 5px;
+    display: flex;
+    width: 50px;
+    text-align: center;
+    justify-content: center;
+    transition: 0,5s ease;
+}
+#boutonTheiste:hover{background-color: rgb(49, 49, 49);
+transition: 0,5s ease;}
+body, html {
+    -webkit-tap-highlight-color: transparent; /* Pour Safari et Chrome */
+    outline: none; /* Pour enlever le contour de focus */
+  }
+#boutonMesMusiques{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: 20px;
+    border: 1px dotted red;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    padding: 15px;
+}
+#boutonMesMusiques:hover{
+    background-color: yellow;
+    color: black;
+}
+#boutonSoundDesign{
+    text-align: center;
+    align-items: center;
+    width: 150px;
+    height: auto;
+    border: 1px dotted blue;
+    justify-content: center;
+    background-color: red;
+    color: white;
+    padding: 15px;
+}
+#boutonSoundDesign:hover{
+    background-color: yellow;
+    color: black;
+}
+#boutonMesProjetsPhilosophiques{
+    text-align: center;
+    align-items: center;
+    width: 230px;
+    height: auto;
+    border: 1px dotted yellow;
+    justify-content: center;
+    background-color: purple;
+    color: white;
+    padding: 15px;
+}
+#boutonMesProjetsPhilosophiques:hover{
+    background-color: yellow;
+    color: black;
+    border: 1px solid purple;
+}
+#boutonPositionMonContenu{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#colomnsTable{
+    background-color: aqua;
+    height: 500px;
+    width: auto;
+}
+#cadreDesVidéos{
+    background-color: aquamarine;
+    height: auto;
+    width: auto;
+}
+#video{
+    display: flex;
+    border: 1px dotted black;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    /* height: 315px; */
+    height: auto;
+    margin: 15px;
+}
+#videoCentre{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+}
+#titreVideo{
+    align-items: center;
+    justify-content: center;
+}
+li{
+    text-align: start;
+}
+#equationPlank{
+    display: flex;
+    align-items: start;
+    margin: 0;
+    padding: 0;
 }
