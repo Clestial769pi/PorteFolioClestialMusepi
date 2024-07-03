@@ -763,7 +763,9 @@ body, html {
     flex-direction: column;
 }
 
-#cadreDesVidéos{
+#cadreDesVideos{
+    display: grid;
+    grid-template-columns: 50%;
     background-color:purple ;
     color: white;
     overflow: scroll;
