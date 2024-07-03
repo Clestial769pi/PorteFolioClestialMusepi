@@ -413,7 +413,7 @@ ul{
 #boutonChevalDeTroisInformatique:hover{
     background-color: purple;
     color: yellow;
-    border: 1px dotted purple;
+    border: 1px dotted yellow;
     transition: 1s;
 }
 #boutonChevalDeTrois:hover{
