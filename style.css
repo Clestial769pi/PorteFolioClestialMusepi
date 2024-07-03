@@ -410,6 +410,27 @@ ul{
     margin-bottom: 5px;
     margin: 0;
 }
+#boutonChevalDeTrois:hover{
+    background-color: yellow;
+    color: purple;
+    border: 1px dotted purple;
+    transition: 1s;
+}
+#boutonChevalDeTrois{
+    padding: 15px;
+    background-color: purple;
+    /* width: auto; */
+    transition: 1s;
+    display: flex;
+    color: yellow;
+    border: 1px dotted yellow;
+    width: 100px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin: 0;
+}
 summary{
     height: 30px;
     width: auto;
@@ -611,7 +632,7 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     align-items: center;
     justify-content: center;
     background-color: rgb(14, 14, 14);
-    border: 1px dotted white;
+    border: 1px dotted yellow;
     transition: 1s;
     block-size: 500px;
 }
@@ -670,6 +691,7 @@ Les hovers qui inversent le drapeau, uniquement pour le curseur, car dans les l√
     background-color: purple;
 }
 #clestialMusepiProfilTete{
+    border: 1px dotted yellow;
     background-color: rgb(31, 31, 31);
     transition: 1s;
 }
@@ -796,4 +818,14 @@ li{
 #videoCadreBorderGrid,html,#blocA,#blocB,#blocC,html,footer,body{
     display: grid;
     grid-template-columns: auto;
+}
+.texteCenter{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    /* background-color: aqua; */
+}
+#lienWikipediaChevalDeTrois{
+    display: flex;
+    flex-direction: column;
 }
