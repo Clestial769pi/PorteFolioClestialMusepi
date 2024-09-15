@@ -184,7 +184,7 @@ ul,li{
 #gridLesLiens{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 30px 1fr 1fr;
+    grid-template-rows: 30px 1fr 45px;
 }
 
 .Blue{
@@ -308,4 +308,19 @@ ul,li{
 
 #textePaddingBottom{
     padding-bottom: 100px;
+}
+
+#tousDroitsReserves{
+    background-color:rgb(43, 43, 43);
+    color: white;
+    height: 50px;
+    width: auto;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    text-align: center;
+    grid-column: 2 3;
+    grid-row: 3 4;
 }
