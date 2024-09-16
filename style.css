@@ -2,6 +2,7 @@
 }
 
 *{
+    cursor: url('./Cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png'), auto;
     -webkit-tap-highlight-color: transparent;
     outline: none;
 }
@@ -369,3 +370,4 @@ ul,li{
     text-align: center;
     color: white;
 }
+
