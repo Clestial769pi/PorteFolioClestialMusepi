@@ -173,14 +173,14 @@ ul,li{
 }
 
 /* Les Hovers des Liens */
-.BoiteBouton:hover,#LienFaireUnDon:hover,#lienInstagram:hover,#LienYoutube:hover,#LienTwitter:hover{
-    font-weight: bold;
-    background-color: yellow;
+.BoiteBouton:hover,
+#LienFaireUnDon:hover,
+#lienInstagram:hover,
+#LienYoutube:hover,
+#LienTwitter:hover{
     transition: 0.5s ease;
-    color: white;
-    font-size: 15px;
     letter-spacing: 5px;
-    color: black;
+    border: 1px solid purple;
     box-shadow: 0 0 1px 0 yellow;
 }
 
@@ -190,6 +190,7 @@ ul,li{
     grid-template-rows: 45px 300px 400px 1fr;
 }
 
+/* Les Cadres des lettres */
 .Blue{
     letter-spacing: 0;
     background-color: blue;
