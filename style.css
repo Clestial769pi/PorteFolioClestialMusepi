@@ -186,7 +186,7 @@ ul,li{
 #gridLesLiens{
     display: grid;
     grid-template-columns: 1fr 9fr 1fr;
-    grid-template-rows: 45px 300px 450px 1fr;
+    grid-template-rows: 45px 300px 400px 1fr;
 }
 
 .Blue{
@@ -247,8 +247,6 @@ ul,li{
     text-align: justify;
     padding: 15px;
     margin: 0;
-
-  
 }
 .paragrapheP{
     font-size: 15px;
@@ -287,10 +285,6 @@ ul,li{
     background-color: purple;
 }
 
-#iFrameVideo{
-    display: grid;
-}
-
 #videoYoutube{
     display: flex;
     grid-auto-rows:min-content/max-content;
@@ -307,4 +301,22 @@ ul,li{
     justify-content: center;
     align-items: center;
     width: auto;
+}
+
+#footerBlocBottomEnd{
+    background-color: red;
+    box-shadow: 0 0 2px 0 red;
+    width:  auto;
+    height: 2px;
+    grid-column: 2;
+    grid-row: 5;
+}
+
+#HeadBlocTopStart{
+    background-color: blue;
+    box-shadow: 0 0 2px 0 blue;
+    width:  auto;
+    height: 2px;
+    grid-column: 2;
+    grid-row: 2;
 }
