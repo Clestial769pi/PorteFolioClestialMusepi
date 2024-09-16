@@ -243,6 +243,7 @@ ul,li{
     height: auto;
     grid-column: 2;
     grid-row: 3;
+    overflow-x: hidden;
     overflow-y: scroll;
     justify-content: center;
     align-items: center;
