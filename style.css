@@ -126,6 +126,7 @@ ul,li{
     color: white;
     background-color: rgb(0, 162, 255);
     justify-content: center;
+    transition: 0.5s;
 }
 #lienTwitter:hover{
     color:white;
@@ -144,6 +145,7 @@ ul,li{
     color: red;
     background-color: white;
     justify-content: center;
+    transition: 0.5s;
 }
 #lienYoutube:hover{
     color:white;
@@ -161,6 +163,7 @@ ul,li{
     color: rgb(255, 0, 179);
     background-color: #ffa600;
     justify-content: center;
+    transition: 0.5s;
 }
 #lienInstagram:hover{
     color:white;
@@ -198,6 +201,7 @@ ul,li{
     color: #1831a1;
     background-color:rgb(255, 210, 84);
     justify-content: center;
+    transition: 0.5s;
 }
 #lienFaireUnDon:hover{
     color: rgb(0, 50, 143);
