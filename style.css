@@ -185,7 +185,7 @@ ul,li{
 
 #gridLesLiens{
     display: grid;
-    grid-template-columns: 1fr 9fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr;
     grid-template-rows: 45px 300px 400px 1fr;
 }
 
