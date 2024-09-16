@@ -1,3 +1,6 @@
+@media (max-width:600px){
+}
+
 *{
     -webkit-tap-highlight-color: transparent;
     outline: none;
@@ -19,14 +22,20 @@ body{
 }
 
 .cadreA{
+    z-index: +999;
+    top: 0;
     background-color: aqua;
     border:5px solid blue;
 }
 .cadreB{
+    z-index: +999;
+    top: 0;
     background-color: aqua;
     border:5px solid red;
 }
 .cadreC{
+    z-index: +999;
+    top: 0;
     background-color: aqua;
     border:5px solid purple;
 }
