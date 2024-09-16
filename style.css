@@ -171,11 +171,13 @@ ul,li{
     width: auto;
 }
 
+/* Les Hovers des Liens */
 .BoiteBouton:hover,#LienFaireUnDon:hover,#lienInstagram:hover,#LienYoutube:hover,#LienTwitter:hover{
+    font-weight: bold;
     background-color: yellow;
     transition: 0.5s ease;
     color: white;
-    font-size: 10px;
+    font-size: 15px;
     letter-spacing: 5px;
     color: black;
     box-shadow: 0 0 1px 0 yellow;
