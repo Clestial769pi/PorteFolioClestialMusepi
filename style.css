@@ -168,7 +168,8 @@ ul,li{
 }
 #lienInstagram:hover{
     color:white;
-    background-color: #ff0080;
+    background: linear-gradient(to left,#ff00ff,#ff0080, #ffa600);
+    /* background-color: #ff0080; */
     transition: 0.5s;
 }
 
