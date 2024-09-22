@@ -309,6 +309,12 @@ body{margin: 0;}
     /* Cadre A */
 /* Cadre B */
 @media (min-width:0){
+    #textareaLien{
+        height: 35px;
+        width: 300px;
+        grid-column: 2;
+        grid-row: 1;
+    }
 #cadreBodyCadreB{
     display: grid;
     grid-column: 2;
