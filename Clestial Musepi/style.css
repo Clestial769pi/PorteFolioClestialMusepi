@@ -1,0 +1,649 @@
+*{
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+    -webkit-tap-highlight-color: transparent;
+}
+ul,li{
+    padding: 0;
+    margin: 0;
+    list-style-type: square;
+}
+a{text-decoration: none;}
+:root{
+    --transition1:0.3s;
+    --transition2:0.8s;
+}
+body{margin: 0;}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: orange;
+    width: 5px;
+    height: auto;
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+.BlocA,.BlocB,.BlocC,.BlocD,.BlocE{
+    padding-left: 3px;
+    padding-right: 3px;
+    border: 1px solid yellow;
+    box-shadow: 0 0 5px 1px rgb(37, 0, 37);
+    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
+}
+.BlocA:hover,.BlocB:hover,.BlocC:hover,.BlocD:hover,.BlocE:hover{
+    box-shadow: 0 0 5px 1px rgb(255, 208, 0);
+    background-color: rgb(113, 222, 255);
+    color: white;
+    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
+}
+.BlocA{
+    background-color: blue;
+    color: white;
+}
+.BlocB{
+    background-color: red;
+    color: white;
+}
+.BlocC{
+    background-color: purple;
+    color: pink;
+}
+.BlocD{
+    background-color: yellow;
+    color: black;
+}
+.BlocE{
+    background-color: green;
+    color: yellow;
+}
+#spanTwitter{
+    background: linear-gradient( to right, rgb(0, 225, 255),rgb(0, 204, 255));
+    color: black;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanYoutube{
+    background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
+    color: white;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanInstagram{
+    background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
+    color: white;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanSoundcloud{
+    background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
+    color: black;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanFaireUnDon{
+    background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
+    color: rgb(255, 225, 52);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#cadreBodyCadreABC{
+    display: grid;
+    grid-template-columns: 0px 1fr 1fr 0px;
+    grid-template-rows: 1fr 1fr 1fr;
+    background-color: gray;
+}
+/* Cadre A */
+@media (min-width:0){
+#ABCBlocInteraction{
+    display: grid;
+    grid-template-columns: 0px 30px 30px 30px 0px;
+    justify-content: center;
+    z-index: +999;
+    grid-column:2;
+}
+    #blocAInteraction{
+        grid-row: 1;
+        grid-column: 2;
+        /* background-color: blue; */
+    }
+    #blocBInteraction{
+        grid-row: 1;
+        grid-column: 4;
+        /* background-color: red; */
+    }
+    #blocCInteraction{
+        grid-row: 1;
+        grid-column: 3;
+        /* background-color: purple; */
+    }
+    #blocAInteraction,
+    #blocBInteraction,
+    #blocCInteraction{
+        transition: var(--transition1);
+        text-align: center;
+        justify-content: space-evenly;
+    }
+    #blocAInteraction:hover,#blocBInteraction:hover,#blocCInteraction:hover{
+        position: relative;
+        top:5px;
+        transition: var(--transition1);
+    }
+#cadreheaderCadreA{
+    /* overflow: hidden; */
+    display: grid;
+    grid-column: 1/4;
+    grid-row: 1;
+    grid-template-columns: 0px 1fr 0px;
+    grid-template-rows: 1fr;
+}
+    #cadreA{
+        overflow: hidden;
+        /* background-color: blue; */
+        grid-column: 1/4;
+        grid-row: 1;
+            display: grid;
+            grid-template-columns: 0px 1fr 0px;
+            grid-template-rows: 
+            /* cadreBanniere */
+            100px
+            /* cadreCaticorn */
+            200px;
+    }
+        #cadreABCBlocBanniere{
+            display: grid;
+            grid-template-columns: 0px 1fr 1fr 1fr 0px;
+            grid-template-rows: 5px;
+            grid-column: 2;
+            grid-row: 2;
+        }
+            #blocA{
+                grid-column: 2;
+                grid-row: 1;
+                background-color: blue;
+            }
+            #blocB{
+                grid-column: 4;
+                grid-row: 1;
+                background-color: red;
+            }
+            #blocC{
+                grid-column: 3;
+                grid-row: 1;
+                background-color: purple;
+            }
+                #cadreABCBlocBanniere1{
+                    display: grid;
+                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
+                    grid-template-rows: 2px;
+                    grid-column: 2/5;
+                    grid-row: 2;
+                }
+                #cadreABCBlocBanniere2{
+                    display: grid;
+                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
+                    grid-template-rows: 2px;
+                    padding-top: 2px;
+                    grid-column: 2/5;
+                    grid-row: 2;
+                }
+                #cadreABCBlocBanniere3{
+                    display: grid;
+                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
+                    grid-template-rows: 2px;
+                    grid-column: 2/5;
+                    grid-row: 3;
+                }
+                    #blocA2{
+                        grid-row: 1;
+                        grid-column: 2 / 5;
+                        background-color: blue;
+                    }
+                    #blocB2{
+                        grid-row: 1;
+                        grid-column: 2 / 5;
+                        background-color: red;
+                    }
+                    #blocC2{
+                        grid-row: 1;
+                        grid-column: 2 / 5;
+                        background-color: purple;
+                    }
+        #cadreBanniere{
+            background-color: white;
+            grid-row: 1;
+            grid-column: 1/4;
+                overflow: hidden;
+                position:sticky;
+                top: 0;
+                z-index: +999;
+                align-content: center;
+                    box-shadow: 0 1px 3px 0 purple;
+                    border-bottom: 1px solid rgba(255, 255, 0, 0);
+                    transition: var(--transition1);
+        }
+        #cadreBanniere:hover{
+            background-color: purple;
+            color: white;
+            box-shadow: 0 1px 3px 0 rgb(71, 0, 235);
+            border-bottom: 1px solid purple;
+            transition: var(--transition1);
+        }
+            #h1banniere{
+                text-align: center;
+                transition: var(--transition1);
+                font-size: 40px;
+                letter-spacing: 25px;
+            }
+                #h1banniere:hover{
+                    letter-spacing: 28px;
+                    color: yellow;
+                    transition: var(--transition1);
+                    font-size: 45px;
+                }
+                #cadreBanniereCaticorne{
+                    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(47, 0, 109));
+                    grid-column: 1/4;
+                    grid-row: 2;
+                    display: grid;
+                    overflow: hidden;
+                    border: 1px solid rgba(255, 255, 0, 0);
+                }
+                #cadreBanniereCaticorne:hover{
+                    background-color: purple;
+                    border: 1px solid yellow;
+                }
+                    #cadreCaticorn{
+                        /* overflow: hidden; */
+                        grid-row: 1;
+                        grid-column: 1/2;
+                        top: -124px;
+                        justify-self: center;
+                        height: 427px;
+                        width: 464px;
+                        position: relative;
+                        transition: var(--transition1);
+                    }
+                    #cadreCaticorn:hover{
+                        top: -130px;
+                        transition: var(--transition1);
+                    }
+}
+                    @media (min-width:0px) and (max-width:169px){
+                        #cadreCaticorn{
+                            left: -240px;
+                            top: -169px;
+                        }
+                    }
+                    @media (min-width:170px){
+                        #cadreCaticorn{
+                            left: -174px;
+                            top: -169px;
+                        }
+                    }
+                    @media (min-width:300px){
+                        #cadreCaticorn{
+                            left: -107px;
+                            top: -159px;
+                        }
+                    }
+                    @media (min-width:301px) and (max-width:3686px){
+                        #cadreCaticorn{
+                            left: -8px;
+                            top: -159px;
+                        }
+                    }
+                        #Imgcaticorn{
+                            position: absolute;
+                            left: -212px;
+                            top: 0px;
+                        }
+    /* Cadre A */
+/* Cadre B */
+@media (min-width:0){
+#cadreBodyCadreB{
+    display: grid;
+    grid-column: 2;
+    grid-row: 2;
+    grid-template-columns: 0px 1fr 1fr 0px;
+    grid-template-rows: 1fr;
+}
+    #cadreB{
+            overflow: hidden;
+        /* background-color: red; */
+        grid-column: 1/4;
+        grid-row: 2;
+            display: grid;
+            grid-template-columns: 0px 1fr 1fr 1fr 0px;
+            grid-template-rows: 1fr 265px;
+    }
+    @media (min-width:300px){
+        #cadreB{
+            grid-template-rows: 1fr 304px 1fr;
+            
+        }
+    }
+        #cadreDesLiensWeb{
+            align-content: center;
+            background-color: black;
+            border: 1px solid white;
+            overflow: hidden;
+            grid-row: 2;
+            grid-column: 2/5;
+            display: grid;
+            grid-template-columns: 0px 1fr 0px;
+            grid-template-rows: 60px 60px 60px 60px 60px;
+            /* border: 1px solid rgba(255, 255, 0, 0); */
+        }
+        #cadreDesLiensWeb:hover{
+            border: 1px solid yellow;
+        }
+}
+        @media (min-width:800px){
+            #cadreDesLiensWeb{
+                grid-column: 3/5;
+                grid-row: 2;
+            }
+        }
+@media (min-width:0){
+            #lienTwitter,
+            #lienYoutube,
+            #lienInstagram,
+            #lienSoundcloud,
+            #lienFaireUnDonPaypal{
+                text-align: center;
+                align-self: center;
+                box-shadow: 0 0 3px 0 black;
+                overflow: hidden;
+                text-align: center;
+                align-content: center;
+                letter-spacing: 5px;
+                transition: var(--transition1);
+                height: 100%;
+            }
+                #lienTwitter:hover,
+                #lienYoutube:hover,
+                #lienInstagram:hover,
+                #lienSoundcloud:hover,
+                #lienFaireUnDonPaypal:hover{
+                    border: 1px solid yellow;
+                    transition: var(--transition1);
+                    border: 1px solid purple;
+                    cursor: url('./cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png')pointer;
+                }
+                    #lienTwitter:active,#lienYoutube:active,#lienInstagram:active,#lienSoundcloud:active,#lienFaireUnDonPaypal:active{
+                        background-color: purple;
+                        color: yellow;
+                    }
+}
+                    @media (min-width:800px){
+                        #cadreDesLiensWeb{
+                            padding: 5px;
+                        }
+                    }
+@media (min-width:0){
+                        #lienTwitter{
+                            background: linear-gradient(to right, rgb(0, 225, 255), rgb(0, 204, 255));
+                            background-color: rgb(0, 153, 255);
+                            color: white;
+                            grid-column: 2;
+                            grid-row: 1;
+                            border: 1px solid cyan;
+                        }
+                        #lienTwitter:hover{
+                            background: black;
+                            color: white;
+                            letter-spacing: 10px;
+                        }
+                            #lienYoutube{
+                                background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
+                                background-color: red;
+                                color: white;
+                                grid-column: 2;
+                                grid-row: 2;
+                                border: 1px solid red;
+                            }
+                            #lienYoutube:hover{
+                                background: white;
+                                color: red;
+                                letter-spacing: 10px;
+                            }
+                                #lienInstagram{
+                                    background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
+                                    color: white;
+                                    background-color: orangered;
+                                    grid-column: 2;
+                                    grid-row: 3;
+                                    border: 1px solid purple;
+                                }
+                                #lienInstagram:hover{
+                                    background: white;
+                                    color: orangered;
+                                    letter-spacing: 10px;
+                                }
+                                    #lienSoundcloud{
+                                        background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
+                                        color: black;
+                                        grid-column: 2;
+                                        grid-row: 4;
+                                        border: 1px solid orange;
+                                    }
+                                    #lienSoundcloud:hover{
+                                        background: black;
+                                        color: orangered;
+                                        letter-spacing: 10px;
+                                    }
+                                        #lienFaireUnDonPaypal{
+                                            background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
+                                            color: rgb(255, 225, 52);
+                                            border: 1px solid yellow;
+                                            grid-column: 2;
+                                            grid-row: 5;
+                                        }
+                                        #lienFaireUnDonPaypal:hover{
+                                            background: rgb(0, 183, 255);
+                                            color: rgb(0, 33, 105);
+                                            letter-spacing: 10px;
+                                        }
+}
+                                        /* Video */
+                                        @media (min-width:0){
+                                        #cadrevideoYoutubeIframe{
+                                            background-color: black;
+                                            display: grid;
+                                            grid-row: 1;
+                                            grid-column: 2/5;
+                                            grid-template-columns: 0px 1fr 1fr 0px;
+                                            /* grid-template-rows: 35px 1fr; */
+                                            grid-template-rows: 40px 166px;
+                                            border: 1px solid rgba(255, 255, 0, 0);
+                                        }
+                                        #cadrevideoYoutubeIframe:hover{
+                                            border: 1px solid yellow;
+                                        }
+                                            #cadreTitreVideoIframeYoutubeIframe{
+                                                background-color: white;
+                                                color: black;
+                                                grid-row: 1;
+                                                grid-column: 2 / 4;
+                                                overflow: hidden;
+                                                z-index: +1;
+                                            }
+                                            #cadreTitreVideoIframeYoutubeIframe:hover{
+                                                background-color: red;color: white;
+                                            }
+                                                #titreVideoIframeYoutubeIframe{
+                                                    text-align: center;
+                                                }
+                                                    #videoYoutubeIframe{
+                                                        overflow: hidden;
+                                                        grid-column: 2/4;
+                                                        /* grid-row: 1/3; */
+                                                        grid-row: -1 / 3;
+                                                        margin: 0;
+                                                        justify-self: center;
+                                                        align-self: center;
+                                                        height: 100%;
+                                                        width: 100%;
+                                                    }
+                                                        #iFrameVideo{
+                                                            border: 1px solid yellow;
+                                                        }
+                                                    }
+                                        @media (min-width:800px){
+                                            #cadrevideoYoutubeIframe{
+                                                grid-row: 1;
+                                                grid-column: 4 / 5;
+                                            }
+                                            #cadreTitreVideoIframeYoutubeIframe{
+                                                grid-column: 2 / 4;
+                                                text-align: center;
+                                            }
+                                            #cadreB{
+                                                grid-template-rows: 438px 313px;
+                                            }
+                                        }
+                                            @media (min-width:1000px){
+                                            #cadrevideoYoutubeIframe{
+                                                grid-row: 1;
+                                                grid-column: 4 / 4;
+                                            }
+                                            #titreVideoIframeYoutubeIframe:hover{
+                                                letter-spacing: 15px;
+                                                transition: var(--transition1);
+                                                font-size: 30px;
+                                            }
+}          
+@media (min-width:0){
+    #cadreTextPresentationSite{
+        /* border: 1px solid rgba(255, 255, 0, 0); */
+        border: 1px solid white;
+        background-color: black;
+        grid-column: 2/5;
+        grid-row: 3;
+    }
+    #cadrepNewsText{
+        grid-column: 2/5;
+        grid-row: 2;
+        overflow-y: scroll;
+    }
+    #NewsText{
+        font-size: 15px;
+        text-align: justify;
+    }
+    #cadreTextPresentationSite:hover{
+        border: 1px solid yellow;
+    }
+        #h1TitreTextPresentationSite,#h2TitreTextPresentationSite,#pTitreTextPresentationSite1,#pTitreTextPresentationSite2{
+            padding: 15px;
+            color: yellow;
+        }
+        #cadrePTitreTextPresentationSite,#cadreUlLiLesListes,#cadrepNewsText{
+            overflow: hidden;
+            margin: 15px;
+            padding: 15px; 
+            color: yellow;
+            background: linear-gradient(to left bottom, rgb(93, 0, 136),rgb(65, 0, 117),rgb(18, 0, 99));
+            box-shadow: 0 0 3px 1px rgba(225, 0, 255, 0.658);
+            border: 1px solid rgba(255, 13, 114, 0.637);
+            display: grid;
+            grid-template-rows: 1fr;
+        }
+        #cadrePTitreTextPresentationSite:hover,#cadreUlLiLesListes:hover{
+            transition: 0.5s;               
+            color: white;
+            border: 1px solid yellow;
+            box-shadow: 0 0 1px 1px rgba(255, 255, 0, 0.418);
+        }
+            #pTitreTextPresentationSite{
+                text-align: justify;
+            }
+                #h1TitreTextPresentationSite,#h2TitreTextPresentationSite{
+                    text-align: center;
+                }
+                    #pTitreTextPresentationSite:hover{
+                        color: white;
+                    }
+                    #pTitreTextPresentationSite1{
+                        grid-row: 1;
+                    }
+                    #pTitreTextPresentationSite2{
+                        grid-row: 2;
+                    }
+                    #cadreLegendeOptionsLiens{
+                    grid-row: 4;
+                    grid-column: 2/5;
+                    background-color: black;
+                    border: 1px solid white;
+                    }
+                    #cadreLegendeOptionsLiens:hover{
+                        border: 1px solid yellow;
+                    }
+                        #ulLesListes{
+                            list-style-type: square;
+                            margin-left: 40px;
+                        }
+                        #cadrePlaylistVideo{
+                            border: 1px solid white;
+                            grid-column: 2 / 5;
+                            overflow: hidden;
+                            grid-row: 5;
+                            overflow-y: scroll;
+                            text-align: center;
+                            color: yellow;
+                            letter-spacing: 3px;
+                            font-size: 7px;
+                            background-color: rgb(0, 0, 0);
+                            text-shadow: 0 1px 7px rgba(255, 136, 0, 0.76);
+                        }
+                        #cadrePlaylistVideo:hover{
+                            border: 1px solid yellow;
+                        }
+}
+
+@media(min-width:800px){
+    #cadreTextPresentationSite{
+        grid-column: 3/4;
+        grid-row: 1;
+        overflow-y: scroll;
+    }
+    #cadreLegendeOptionsLiens{
+        grid-column: 2;
+        grid-row: 1;
+        overflow-y: scroll;
+        }
+    #cadrePlaylistVideo{
+        grid-column: 2 / 3;
+        /* overflow: hidden; */
+        grid-row: 2;
+    }
+}               
+
+    /* Cadre B */
+/* Cadre C */
+#cadreBodyCadreC{
+    display: grid;
+    grid-column: 2 / 4;
+    grid-row: 3;
+    grid-template-columns: 0px 1fr 1fr 0px;
+}
+    #cadreC{
+        overflow: hidden;
+        /* background-color: purple; */
+        background-color: black;   
+        grid-column: 1 / 4;
+        grid-row: 1;
+            grid-template-columns: 0px 1fr 0px;
+            grid-template-rows: 250px;
+    }
+        #tousDroitsReserves{
+            background-color: white;
+            color: black;
+            text-align: center;
+            grid-row: 1/3;
+        }
+    /* Cadre C */
