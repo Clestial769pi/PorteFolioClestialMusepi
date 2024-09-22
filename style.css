@@ -202,11 +202,11 @@ body{margin: 0;}
                         grid-column: 2 / 5;
                         background-color: blue;
                     }
-                    #blocB2{
+                    /* #blocB2{
                         grid-row: 1;
                         grid-column: 2 / 5;
                         background-color: red;
-                    }
+                    } */
                     #blocC2{
                         grid-row: 1;
                         grid-column: 2 / 5;
