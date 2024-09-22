@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     letter-spacing: 2px;
-    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+    cursor: URL(./image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
     -webkit-tap-highlight-color: transparent;
 }
 ul,li{
@@ -33,13 +33,13 @@ body{margin: 0;}
     padding-right: 3px;
     border: 1px solid yellow;
     box-shadow: 0 0 5px 1px rgb(37, 0, 37);
-    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
+    cursor: URL(./image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
 }
 .BlocA:hover,.BlocB:hover,.BlocC:hover,.BlocD:hover,.BlocE:hover{
     box-shadow: 0 0 5px 1px rgb(255, 208, 0);
     background-color: rgb(113, 222, 255);
     color: white;
-    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
+    cursor: URL(./image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png);
 }
 .BlocA{
     background-color: blue;
