@@ -134,7 +134,6 @@ body{margin: 0;}
         transition: var(--transition1);
     }
 #cadreheaderCadreA{
-    /* overflow: hidden; */
     display: grid;
     grid-column: 1/4;
     grid-row: 1;
@@ -142,7 +141,7 @@ body{margin: 0;}
     grid-template-rows: 1fr;
 }
     #cadreA{
-        overflow: hidden;
+        /* overflow: hidden; */
         /* background-color: blue; */
         grid-column: 1/4;
         grid-row: 1;
@@ -243,7 +242,7 @@ body{margin: 0;}
                     letter-spacing: 28px;
                     color: yellow;
                     transition: var(--transition1);
-                    font-size: 45px;
+                    font-size: 38px;
                 }
                 #cadreBanniereCaticorne{
                     background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(47, 0, 109));
