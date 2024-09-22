@@ -480,6 +480,7 @@ body{margin: 0;}
                                                     text-align: center;
                                                 }
                                                     #videoYoutubeIframe{
+                                                        display: flex;
                                                         overflow: hidden;
                                                         grid-column: 2/4;
                                                         /* grid-row: 1/3; */
