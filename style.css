@@ -554,7 +554,7 @@ body{margin: 0;}
             display: grid;
             grid-template-rows: 1fr;
         }
-        #cadrePTitreTextPresentationSite:hover,#cadreUlLiLesListes:hover{
+        #cadrePTitreTextPresentationSite:hover,#cadreUlLiLesListes:hover,#cadrepNewsText:hover{
             transition: 0.5s;               
             color: white;
             border: 1px solid yellow;
