@@ -103,7 +103,7 @@ body{margin: 0;}
     display: grid;
     grid-template-columns: 0px 30px 30px 30px 0px;
     justify-content: center;
-    z-index: +999;
+    /* z-index: +999; */
     grid-column:2;
 }
     #blocAInteraction{
