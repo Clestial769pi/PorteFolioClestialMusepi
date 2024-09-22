@@ -541,7 +541,7 @@ body{margin: 0;}
     }
         #h1TitreTextPresentationSite,#h2TitreTextPresentationSite,#pTitreTextPresentationSite1,#pTitreTextPresentationSite2{
             padding: 15px;
-            color: yellow;
+            /* color: yellow; */
         }
         #cadrePTitreTextPresentationSite,#cadreUlLiLesListes,#cadrepNewsText{
             overflow: hidden;
