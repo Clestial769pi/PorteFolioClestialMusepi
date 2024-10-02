@@ -102,7 +102,7 @@ body{
 }
 #spanmonLore{
     background: linear-gradient(to left, orange, red);
-    color: black;
+    color: yellow;
     padding-left: 5px;
     padding-right: 2px;
 }
