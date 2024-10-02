@@ -16,19 +16,24 @@ a{text-decoration: none;}
     --transition1:0.3s;
     --transition2:0.8s;
 }
-body{margin: 0;}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%
+}
 ::-webkit-scrollbar{
     width: 5px;
+    height: 5px;
 }
 ::-webkit-scrollbar-track{
     background-color: orange;
     width: 5px;
-    height: auto;
+    height: 5px;
 }
 ::-webkit-scrollbar-thumb{
     background-color: purple;
 }
-.BlocA,.BlocB,.BlocC,.BlocD,.BlocE{
+.BlocA,.BlocB,.BlocC,.BlocD,.BlocE,.BlocF{
     padding-left: 3px;
     padding-right: 3px;
     border: 1px solid yellow;
@@ -61,6 +66,10 @@ body{margin: 0;}
     background-color: green;
     color: yellow;
 }
+.BlocF{
+    background-color: orange;
+    color: red;
+}
 #spanTwitter{
     background: linear-gradient( to right, rgb(0, 225, 255),rgb(0, 204, 255));
     color: black;
@@ -88,6 +97,12 @@ body{margin: 0;}
 #spanFaireUnDon{
     background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
     color: rgb(255, 225, 52);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanmonLore{
+    background: linear-gradient(to left, orange, red);
+    color: black;
     padding-left: 5px;
     padding-right: 2px;
 }
@@ -226,8 +241,7 @@ body{margin: 0;}
                     transition: var(--transition1);
         }
         #cadreBanniere:hover{
-            background-color: purple;
-            color: white;
+            background-color: yellow;
             box-shadow: 0 1px 3px 0 rgb(71, 0, 235);
             border-bottom: 1px solid purple;
             transition: var(--transition1);
@@ -240,7 +254,7 @@ body{margin: 0;}
             }
                 #h1banniere:hover{
                     letter-spacing: 28px;
-                    color: yellow;
+                    color: purple;
                     transition: var(--transition1);
                     font-size: 38px;
                 }
@@ -255,11 +269,12 @@ body{margin: 0;}
                     margin-right: 10px;
                     display: grid;
                     overflow: hidden;
-                    border: 1px solid rgba(255, 255, 0, 0);
+                    border: 2px solid rgba(255, 255, 0, 0);
                 }
                 #cadreBanniereCaticorne:hover{
                     background-color: purple;
-                    border: 1px solid yellow;
+                    border: 2px solid yellow;
+                    transition: 1s;
                 }
                     #cadreCaticorn{
                         /* overflow: hidden; */
@@ -331,11 +346,11 @@ body{margin: 0;}
         grid-row: 2;
             display: grid;
             grid-template-columns: 0px 1fr 1fr 1fr 0px;
-            grid-template-rows: 1fr 265px;
+            grid-template-rows: 1fr 365px;
     }
     @media (min-width:300px){
         #cadreB{
-            grid-template-rows: 1fr 304px 1fr;
+            grid-template-rows: 1fr 363px 1fr;
             
         }
     }
@@ -343,12 +358,12 @@ body{margin: 0;}
             align-content: center;
             background-color: black;
             border: 1px solid white;
-            overflow: hidden;
+            /* overflow: hidden; */
             grid-row: 2;
             grid-column: 2/5;
             display: grid;
             grid-template-columns: 0px 1fr 0px;
-            grid-template-rows: 60px 60px 60px 60px 60px;
+            grid-template-rows: 60px 60px 60px 60px 60px 60px;
             /* border: 1px solid rgba(255, 255, 0, 0); */
         }
         #cadreDesLiensWeb:hover{
@@ -366,7 +381,8 @@ body{margin: 0;}
             #lienYoutube,
             #lienInstagram,
             #lienSoundcloud,
-            #lienFaireUnDonPaypal{
+            #lienFaireUnDonPaypal,
+            #lienmonLore{
                 text-align: center;
                 align-self: center;
                 box-shadow: 0 0 3px 0 black;
@@ -381,7 +397,8 @@ body{margin: 0;}
                 #lienYoutube:hover,
                 #lienInstagram:hover,
                 #lienSoundcloud:hover,
-                #lienFaireUnDonPaypal:hover{
+                #lienFaireUnDonPaypal:hover,
+                #lienmonLore:hover{
                     border: 1px solid yellow;
                     transition: var(--transition1);
                     border: 1px solid purple;
@@ -461,6 +478,18 @@ body{margin: 0;}
                                             color: rgb(0, 33, 105);
                                             letter-spacing: 10px;
                                         }
+                                            #lienmonLore{
+                                                background: linear-gradient(to left, orange, red);
+                                                color: rgb(255, 225, 52);
+                                                border: 1px solid purple;
+                                                grid-column: 2;
+                                                grid-row: 6;
+                                            }
+                                            #lienmonLore:hover{
+                                                background: red;
+                                                color: black;
+                                                letter-spacing: 10px;
+                                            }
 }
                                         /* Video */
                                         @media (min-width:0){
@@ -517,7 +546,7 @@ body{margin: 0;}
                                                 text-align: center;
                                             }
                                             #cadreB{
-                                                grid-template-rows: 438px 313px;
+                                                grid-template-rows: 438px 376px;
                                             }
                                         }
                                             @media (min-width:1000px){
@@ -561,7 +590,10 @@ body{margin: 0;}
             padding: 15px;
         }
         #cadrePTitreTextPresentationSite,#cadreUlLiLesListes,#cadrepNewsText{
-            overflow: hidden;
+            /* overflow: hidden; */
+            /* width: min-content; */
+            overflow-x: scroll;
+            overflow-y: hidden;
             margin: 15px;
             padding: 15px; 
             color: yellow;
