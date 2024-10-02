@@ -109,7 +109,7 @@ th,td{
                     text-align: center;
                     grid-row: 2;
                     height: 50px;
-                    width: 100%;
+                    width: auto;
                     justify-self: center;
                     place-content: center;
                     overflow: hidden;
