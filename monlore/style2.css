@@ -45,6 +45,10 @@ body{
     padding: 0;
     width: 100%;
 }
+strong{
+    font-size: 15px;
+    font-weight: bold;
+}
 a{
     cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
     text-decoration: none;
