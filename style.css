@@ -1,38 +1,20 @@
 *{
-    margin: 0;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    cursor: URL(./image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+    cursor: URL(./img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
     -webkit-tap-highlight-color: transparent;
 }
+a{
+    text-decoration: none;
+}
 ul,li{
-    padding: 0;
+    list-style: square;
     margin: 0;
-    list-style-type: square;
-}
-a{text-decoration: none;}
-:root{
-    --transition1:0.3s;
-    --transition2:0.8s;
-}
-body{
-    margin: 0;
+    margin-left: 25px;
     padding: 0;
-    width: 100%
 }
-::-webkit-scrollbar{
-    width: 5px;
-    height: 5px;
-}
-::-webkit-scrollbar-track{
-    background-color: orange;
-    width: 5px;
-    height: 5px;
-}
-::-webkit-scrollbar-thumb{
-    background-color: purple;
-}
+#ulLi{          
+    margin: 15px;
+    padding: 15px; 
+  }
 .BlocA,.BlocB,.BlocC,.BlocD,.BlocE,.BlocF{
     padding-left: 3px;
     padding-right: 3px;
@@ -70,6 +52,38 @@ body{
     background-color: orange;
     color: red;
 }
+#titreBienvenue,#enTantQue,#news{
+    color: yellow;
+    text-align: center;
+}
+#cliquezABC{
+    grid-column: 1/4;
+    text-align: center;
+    grid-row: 1;
+    color: rgb(218, 0, 199);
+}
+#titreBienvenue{
+    grid-column: 1/4;
+    grid-row: 2;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-shadow:  2px 1px 15px rgb(162, 0, 255);
+}
+.Ptexte{
+    margin: 15px;
+    padding: 15px; 
+    color: yellow;
+    overflow: hidden;
+    background: linear-gradient(to left bottom, rgb(93, 0, 136),rgb(65, 0, 117),rgb(18, 0, 99));
+    box-shadow: 0 0 3px 1px rgba(225, 0, 255, 0.658);
+    border: 1px solid rgba(255, 13, 114, 0.637);
+}
+.Ptexte:hover{
+    transition: 0.5s;               
+    color: white;
+    border: 1px solid yellow;
+    box-shadow: 0 0 1px 1px rgba(255, 255, 0, 0.418);
+}
 #spanTwitter{
     background: linear-gradient( to right, rgb(0, 225, 255),rgb(0, 204, 255));
     color: black;
@@ -106,594 +120,447 @@ body{
     padding-left: 5px;
     padding-right: 2px;
 }
-#cadreBodyCadreABC{
-    display: grid;
-    grid-template-columns: 0px 1fr 1fr 0px;
-    grid-template-rows: 1fr 1fr 1fr;
-    background-color: gray;
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    letter-spacing: 3px;
 }
-/* Cadre A */
-@media (min-width:0){
-#ABCBlocInteraction{
-    display: grid;
-    grid-template-columns: 0px 30px 30px 30px 0px;
-    justify-content: center;
-    /* z-index: +999; */
-    grid-column:2;
+::-webkit-scrollbar{
+    width: 5px;
+    height: 5px;
 }
-    #blocAInteraction{
-        grid-row: 1;
-        grid-column: 2;
+::-webkit-scrollbar-track{
+    background-color: orange;
+    width: 5px;
+    height: 5px;
+    height: auto;
+}
+::-webkit-scrollbar-thumb{
+    background-color: purple;
+}
+h1,h2,h3{margin: 0;}
+@media (min-width:0px){
+    #cadreBody{
+        background-color: black;
+        display: grid;
+        grid-template-columns: 0px 1fr 1fr 0px;
+        grid-template-rows: 356px;
+    }
+/* A */    
+    #A{
         /* background-color: blue; */
+        /* background-color: orange; */
+        grid-column: 1 / 4;
+        grid-template-columns: 1fr ;
+        grid-template-rows: 150px;
+        overflow: hidden;
     }
-    #blocBInteraction{
-        grid-row: 1;
-        grid-column: 4;
-        /* background-color: red; */
-    }
-    #blocCInteraction{
-        grid-row: 1;
-        grid-column: 3;
-        /* background-color: purple; */
-    }
-    #blocAInteraction,
-    #blocBInteraction,
-    #blocCInteraction{
-        transition: var(--transition1);
-        text-align: center;
-        justify-content: space-evenly;
-    }
-    #blocAInteraction:hover,#blocBInteraction:hover,#blocCInteraction:hover{
-        position: relative;
-        top:5px;
-        transition: var(--transition1);
-    }
-#cadreheaderCadreA{
-    display: grid;
-    grid-column: 1/4;
-    grid-row: 1;
-    grid-template-columns: 0px 1fr 0px;
-    grid-template-rows: 1fr;
-}
-    #cadreA{
-        /* overflow: hidden; */
-        /* background-color: blue; */
-        grid-column: 1/4;
-        grid-row: 1;
+        #cadreBanniereTeteTitre{
             display: grid;
-            grid-template-columns: 0px 1fr 0px;
-            grid-template-rows: 
-            /* cadreBanniere */
-            100px
-            /* cadreCaticorn */
-            200px;
-    }
-        #cadreABCBlocBanniere{
-            display: grid;
-            grid-template-columns: 0px 1fr 1fr 1fr 0px;
-            grid-template-rows: 5px;
-            grid-column: 2;
-            grid-row: 2;
+            grid-template-rows: 115px;
+            background-color: white;
+            border-bottom: 1px solid black;
+            box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.377);
+            position: fixed;
+            width: 100%;
+            z-index: +999;
+            transition: 1s;
         }
-            #blocA{
+        #cadreBanniereTeteTitre:hover{
+            transition: 0.5s;
+            background-color: yellow;
+            color: purple;
+        }
+            #cadreH1IdClestialMusepi{
+                text-align: center;
+                overflow: hidden;
+                height: max-content;
+                letter-spacing: 18px;
+                font-weight: lighter;
+                font-size: 25px;
+                text-transform: uppercase;
+                transition: 1s;
+                align-self: center;
+            }
+            /* cadre */
+            #cadreH1IdClestialMusepi:hover{
+                letter-spacing: 25px;
+                transition: 1s;
+            }
+            #cadreDivIdImgRognageHidden{
+                text-align: -webkit-center;
+                align-items: center;
+                background-color: rgb(19, 0, 37);
+                background: linear-gradient(top bottom, rgb(66, 0, 66), rgb(53, 0, 53));
+                box-shadow: 0 1px 5px rgb(39, 0, 39);
+                border-bottom: 2px solid orange;
+                transition: 0.5s;
+            }
+            #cadreDivIdImgRognageHidden:hover{
+                border-bottom: 2px solid purple;
+                transition: 0.5s;
+            }
+                #divIdImgRognageHidden{
+                    width: 432px;
+                    height: 317px;
+                    overflow: hidden;
+                    z-index: 1;
+                    position: relative;
+                }
+                    #imgCaticorn{
+                        position: relative;
+                        left: -389px;
+                        top: -47px;
+                        transition: 0.2s;
+                    }
+                    #imgCaticorn:hover{
+                        transition: 0.2s;
+                        top: -5px;
+                    }
+        /* Les touches des commandes ABC */
+        #cadreCadreDivIdCommandeABC{
+            text-align: -webkit-center;
+        }
+        #cadreDivIdCommande{
+            background-color: orange;
+            /* width: 150px; */
+            display: grid;
+            grid-column: 1 / 4;
+            grid-template-columns: 0px 35px 35px 35px 0px;
+            grid-template-rows: 35px;
+            /* box-shadow: 0 1px 5px rgb(39, 0, 39); */
+            overflow: hidden;
+            /* border: 1px solid white; */
+            justify-content: center;
+        }
+            /* ABC */
+    #A,#B,#C{
+        grid-column: 1 / 5;
+
+    }  
+            #blocABouton{
+                background-color: blue;
                 grid-column: 2;
                 grid-row: 1;
-                background-color: blue;
+                place-content: center;
+                border: 1px solid rgba(128, 0, 128, 0);
+                box-shadow: 1px 2px 3px purple;
             }
-            #blocB{
-                grid-column: 4;
-                grid-row: 1;
-                background-color: red;
+            #blocABouton:hover{
+                background-color: orange;
+                border: 1px solid purple;
             }
-            #blocC{
+            #blocCBouton{
+                background-color: purple;
                 grid-column: 3;
                 grid-row: 1;
-                background-color: purple;
+                place-content: center;
+                border: 1px solid rgba(128, 0, 128, 0);
+                box-shadow: 1px 2px 5px yellow;
             }
-                #cadreABCBlocBanniere1{
-                    display: grid;
-                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
-                    grid-template-rows: 2px;
-                    grid-column: 2/5;
-                    grid-row: 2;
-                }
-                /* #cadreABCBlocBanniere2{
-                    display: grid;
-                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
-                    grid-template-rows: 2px;
-                    padding-top: 2px;
-                    grid-column: 2/5;
-                    grid-row: 2;
-                }
-                #cadreABCBlocBanniere3{
-                    display: grid;
-                    grid-template-columns: 0px 1fr 1fr 1fr 0px;
-                    grid-template-rows: 2px;
-                    grid-column: 2/3;
-                    grid-row: 3;
-                } */
-                    #blocA2{
-                        grid-row: 1;
-                        grid-column: 2 / 5;
-                        background-color: blue;
-                    }
-                    /* #blocB2{
-                        grid-row: 1;
-                        grid-column: 2 / 5;
-                        background-color: red;
-                    } */
-                    /* #blocC2{
-                        grid-row: 1;
-                        grid-column: 2 / 5;
-                        background-color: purple;
-                    } */
-        #cadreBanniere{
-            background-color: white;
-            grid-row: 1;
-            grid-column: 1/4;
-                overflow: hidden;
-                position:sticky;
-                top: 0;
-                z-index: +999;
-                align-content: center;
-                    box-shadow: 0 1px 3px 0 purple;
-                    border-bottom: 1px solid rgba(255, 255, 0, 0);
-                    transition: var(--transition1);
-        }
-        #cadreBanniere:hover{
-            background-color: yellow;
-            box-shadow: 0 1px 3px 0 rgb(71, 0, 235);
-            border-bottom: 1px solid purple;
-            transition: var(--transition1);
-        }
-            #h1banniere{
-                text-align: center;
-                transition: var(--transition1);
-                font-size: 40px;
-                letter-spacing: 25px;
+            #blocCBouton:hover{
+                background:linear-gradient(to right, blue 50%, red 50%);
+                border: 1px solid purple;
             }
-                #h1banniere:hover{
-                    letter-spacing: 28px;
-                    color: purple;
-                    transition: var(--transition1);
-                    font-size: 38px;
+            #blocBBouton{
+                background-color: red;
+                grid-column: 4;
+                grid-row: 1;
+                place-content: center;
+                border: 1px solid rgba(128, 0, 128, 0);
+                box-shadow: 1px 2px 3px purple;
+            }
+            #blocBBouton:hover{
+                align-items: center;
+                background-color: orange;
+                border: 1px solid purple;
+            }
+            #blocABouton,#blocBBouton{
+                padding: 2px;
+            }
+                #lettreA,#lettreB,#lettreC,
+                #blocABouton,#blocBBouton,#blocCBouton{
+                    align-self: center;
+                    color: white;
+                    margin: 0;
                 }
-                #cadreBanniereCaticorne{
-                    background: linear-gradient(to top, rgb(0, 0, 0) ,rgb(47, 0, 109));
-                    grid-column: 1/4;
-                    grid-row: 2;
-                    border-bottom-left-radius: 25px;
-                    border-bottom-right-radius: 25px;
-                    margin-bottom:10px;
-                    margin-left: 10px;
-                    margin-right: 10px;
-                    display: grid;
-                    overflow: hidden;
-                    border: 2px solid rgba(255, 255, 0, 0);
+                #blocABouton:hover,#blocBBouton:hover,#blocCBouton:hover{
+                    box-shadow: 0 1px 2px rgb(39, 0, 39);
                 }
-                #cadreBanniereCaticorne:hover{
-                    background-color: purple;
-                    border: 2px solid yellow;
-                    transition: 1s;
-                }
-                    #cadreCaticorn{
-                        /* overflow: hidden; */
-                        grid-row: 1;
-                        grid-column: 1/2;
-                        top: -124px;
-                        justify-self: center;
-                        height: 427px;
-                        width: 464px;
-                        position: relative;
-                        transition: var(--transition1);
-                    }
-                    #cadreCaticorn:hover{
-                        top: -130px;
-                        transition: var(--transition1);
-                    }
-}
-                    @media (min-width:0px) and (max-width:169px){
-                        #cadreCaticorn{
-                            left: -240px;
-                            top: -169px;
-                        }
-                    }
-                    @media (min-width:170px){
-                        #cadreCaticorn{
-                            left: -174px;
-                            top: -169px;
-                        }
-                    }
-                    @media (min-width:300px){
-                        #cadreCaticorn{
-                            left: -107px;
-                            top: -159px;
-                        }
-                    }
-                    @media (min-width:301px) and (max-width:3686px){
-                        #cadreCaticorn{
-                            left: -8px;
-                            top: -159px;
-                        }
-                    }
-                        #Imgcaticorn{
-                            position: absolute;
-                            left: -212px;
-                            top: 0px;
-                        }
-    /* Cadre A */
-/* Cadre B */
-@media (min-width:0){
-    #textareaLien{
-        height: 35px;
-        width: 300px;
-        grid-column: 2;
+    #B{
+        grid-row: 2 / 4;
+        display: grid;
+        grid-template-columns: 0px 1fr 1fr 0px;
+        grid-template-rows: 1fr ;
+    }
+    /* Bouton A */
+    .cadreOptionABCFonctionA{
+        display: none;
+        grid-column: 2/4;
         grid-row: 1;
-        overflow: hidden;
-        resize: none;
-    }
-#cadreBodyCadreB{
-    display: grid;
-    grid-column: 2;
-    grid-row: 2;
-    grid-template-columns: 0px 1fr 1fr 0px;
-    grid-template-rows: 1fr;
-}
-    #cadreB{
-            overflow: hidden;
-        /* background-color: red; */
-        grid-column: 1/4;
-        grid-row: 2;
-            display: grid;
-            grid-template-columns: 0px 1fr 1fr 1fr 0px;
-            grid-template-rows: 1fr 365px;
-    }
-    @media (min-width:300px){
-        #cadreB{
-            grid-template-rows: 1fr 363px 1fr;
-            
-        }
-    }
-        #cadreDesLiensWeb{
-            align-content: center;
-            background-color: black;
-            border: 1px solid white;
-            /* overflow: hidden; */
-            grid-row: 2;
-            grid-column: 2/5;
-            display: grid;
-            grid-template-columns: 0px 1fr 0px;
-            grid-template-rows: 60px 60px 60px 60px 60px 60px;
-            /* border: 1px solid rgba(255, 255, 0, 0); */
-        }
-        #cadreDesLiensWeb:hover{
-            border: 1px solid yellow;
-        }
-}
-        @media (min-width:800px){
-            #cadreDesLiensWeb{
-                grid-column: 3/5;
-                grid-row: 2;
-            }
-        }
-@media (min-width:0){
-            #lienTwitter,
-            #lienYoutube,
-            #lienInstagram,
-            #lienSoundcloud,
-            #lienFaireUnDonPaypal,
-            #lienmonLore{
-                text-align: center;
-                align-self: center;
-                box-shadow: 0 0 3px 0 black;
-                overflow: hidden;
-                text-align: center;
-                align-content: center;
-                letter-spacing: 5px;
-                transition: var(--transition1);
-                height: 100%;
-            }
-                #lienTwitter:hover,
-                #lienYoutube:hover,
-                #lienInstagram:hover,
-                #lienSoundcloud:hover,
-                #lienFaireUnDonPaypal:hover,
-                #lienmonLore:hover{
-                    border: 1px solid yellow;
-                    transition: var(--transition1);
-                    border: 1px solid purple;
-                    cursor: url('./cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png')pointer;
-                }
-                    #lienTwitter:active,#lienYoutube:active,#lienInstagram:active,#lienSoundcloud:active,#lienFaireUnDonPaypal:active{
-                        background-color: purple;
-                        color: yellow;
-                    }
-}
-                    @media (min-width:800px){
-                        #cadreDesLiensWeb{
-                            padding: 5px;
-                        }
-                    }
-@media (min-width:0){
-                        #lienTwitter{
-                            background: linear-gradient(to right, rgb(0, 225, 255), rgb(0, 204, 255));
-                            background-color: rgb(0, 153, 255);
-                            color: white;
-                            grid-column: 2;
-                            grid-row: 1;
-                            border: 1px solid cyan;
-                        }
-                        #lienTwitter:hover{
-                            background: black;
-                            color: white;
-                            letter-spacing: 10px;
-                        }
-                            #lienYoutube{
-                                background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
-                                background-color: red;
-                                color: white;
-                                grid-column: 2;
-                                grid-row: 2;
-                                border: 1px solid red;
-                            }
-                            #lienYoutube:hover{
-                                background: white;
-                                color: red;
-                                letter-spacing: 10px;
-                            }
-                                #lienInstagram{
-                                    background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
-                                    color: white;
-                                    background-color: orangered;
-                                    grid-column: 2;
-                                    grid-row: 3;
-                                    border: 1px solid purple;
-                                }
-                                #lienInstagram:hover{
-                                    background: white;
-                                    color: orangered;
-                                    letter-spacing: 10px;
-                                }
-                                    #lienSoundcloud{
-                                        background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
-                                        color: black;
-                                        grid-column: 2;
-                                        grid-row: 4;
-                                        border: 1px solid orange;
-                                    }
-                                    #lienSoundcloud:hover{
-                                        background: black;
-                                        color: orangered;
-                                        letter-spacing: 10px;
-                                    }
-                                        #lienFaireUnDonPaypal{
-                                            background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
-                                            color: rgb(255, 225, 52);
-                                            border: 1px solid yellow;
-                                            grid-column: 2;
-                                            grid-row: 5;
-                                        }
-                                        #lienFaireUnDonPaypal:hover{
-                                            background: rgb(0, 183, 255);
-                                            color: rgb(0, 33, 105);
-                                            letter-spacing: 10px;
-                                        }
-                                            #lienmonLore{
-                                                background: linear-gradient(to left, orange, red);
-                                                color: rgb(255, 225, 52);
-                                                border: 1px solid purple;
-                                                grid-column: 2;
-                                                grid-row: 6;
-                                            }
-                                            #lienmonLore:hover{
-                                                background: red;
-                                                color: black;
-                                                letter-spacing: 10px;
-                                            }
-}
-                                        /* Video */
-                                        @media (min-width:0){
-                                        #cadrevideoYoutubeIframe{
-                                            background-color: black;
-                                            display: grid;
-                                            grid-row: 1;
-                                            grid-column: 2/5;
-                                            grid-template-columns: 0px 1fr 1fr 0px;
-                                            /* grid-template-rows: 35px 1fr; */
-                                            grid-template-rows: 40px 166px;
-                                            border: 1px solid rgba(255, 255, 0, 0);
-                                        }
-                                        #cadrevideoYoutubeIframe:hover{
-                                            border: 1px solid yellow;
-                                        }
-                                            #cadreTitreVideoIframeYoutubeIframe{
-                                                background-color: white;
-                                                color: black;
-                                                grid-row: 1;
-                                                grid-column: 2 / 4;
-                                                overflow: hidden;
-                                                z-index: +1;
-                                            }
-                                            #cadreTitreVideoIframeYoutubeIframe:hover{
-                                                background-color: red;color: white;
-                                            }
-                                                #titreVideoIframeYoutubeIframe{
-                                                    text-align: center;
-                                                }
-                                                    #videoYoutubeIframe{
-                                                        display: flex;
-                                                        overflow: hidden;
-                                                        grid-column: 2/4;
-                                                        /* grid-row: 1/3; */
-                                                        grid-row: -1 / 3;
-                                                        margin: 0;
-                                                        justify-self: center;
-                                                        align-self: center;
-                                                        height: 100%;
-                                                        width: 100%;
-                                                    }
-                                                        #iFrameVideo{
-                                                            border: 1px solid yellow;
-                                                        }
-                                                    }
-                                        @media (min-width:800px){
-                                            #cadrevideoYoutubeIframe{
-                                                grid-row: 1;
-                                                grid-column: 4 / 5;
-                                            }
-                                            #cadreTitreVideoIframeYoutubeIframe{
-                                                grid-column: 2 / 4;
-                                                text-align: center;
-                                            }
-                                            #cadreB{
-                                                grid-template-rows: 438px 376px;
-                                            }
-                                        }
-                                            @media (min-width:1000px){
-                                            #cadrevideoYoutubeIframe{
-                                                grid-row: 1;
-                                                grid-column: 4 / 4;
-                                            }
-                                            #titreVideoIframeYoutubeIframe:hover{
-                                                letter-spacing: 15px;
-                                                transition: var(--transition1);
-                                                font-size: 30px;
-                                            }
-}          
-@media (min-width:0){
-    #cadreTextPresentationSite{
-        /* border: 1px solid rgba(255, 255, 0, 0); */
-        border: 1px solid white;
-        background-color: black;
-        grid-column: 2/5;
-        grid-row: 3;
-    }
-    #cadrepNewsText{
-        grid-column: 2/5;
-        grid-row: 2;
-        overflow-y: scroll;
-    }
-    #NewsText{
-        font-size: 15px;
+        /* grid-column: 2 / 4;
+        grid-row: 2 / 2; */
+        background-color: rgba(0, 0, 255, 0.500);
+        color: white;
         text-align: justify;
+        z-index: +1;
+        padding: 15px;
+        overflow-y: scroll;
+        border-right: 1px solid white;
     }
-    #cadreTextPresentationSite:hover{
+    .cadreOptionABCFonctionAAction{
+        display: block;
+        /* bloc bleu */
+    }
+    #textareaLien{
+        resize:none;
+    }
+    /* Bouton B */
+    .cadreOptionABCFonctionB{
+        display: none;
+        grid-column: 2/4;
+        grid-row: 1;
+        background-color: rgba(255, 0, 0, 0.500);
+        color: white;
+        text-align: justify;
+        z-index: +1;
+        padding: 15px;
+        overflow-y: scroll;
+        border-left: 1px solid white;
+        height: 1259px;
+    }
+    .cadreOptionABCFonctionBAction{
+        display: block;
+        /* bloc rouge */
+    }
+    #cadrePlaylistVideo{
+        border: 1px solid white;
+        grid-column: 2 / 5;
+        overflow: hidden;
+        grid-row: 5;
+        text-align: center;
+        color: yellow;
+        letter-spacing: 3px;
+        font-size: 7px;
+        background-color: rgb(0, 0, 0);
+        text-shadow: 0 1px 7px rgba(255, 136, 0, 0.76);
+    }
+    #cadrePlaylistVideo:hover{
         border: 1px solid yellow;
     }
-        #h1TitreTextPresentationSite,#h2TitreTextPresentationSite{
-            color: yellow;
-        }
-        #h1TitreTextPresentationSite{
-            box-shadow: 0 1px 3px yellow;
-        }
-        #pTitreTextPresentationSite1,#pTitreTextPresentationSite2,#h1TitreTextPresentationSite,#h2TitreTextPresentationSite{
-            padding: 15px;
-        }
-        #cadrePTitreTextPresentationSite,#cadreUlLiLesListes,#cadrepNewsText{
-            /* overflow: hidden; */
-            /* width: min-content; */
-            overflow-x: scroll;
-            overflow-y: hidden;
-            margin: 15px;
-            padding: 15px; 
-            color: yellow;
-            background: linear-gradient(to left bottom, rgb(93, 0, 136),rgb(65, 0, 117),rgb(18, 0, 99));
-            box-shadow: 0 0 3px 1px rgba(225, 0, 255, 0.658);
-            border: 1px solid rgba(255, 13, 114, 0.637);
-            display: grid;
-            grid-template-rows: 1fr;
-        }
-        #cadrePTitreTextPresentationSite:hover,#cadreUlLiLesListes:hover,#cadrepNewsText:hover{
-            transition: 0.5s;               
+        /* Bouton C */
+        .cadreOptionABCFonctionC{
+            display: none;
+            grid-column: 2/4;
+            grid-row: 1;
+            /* background-color: purple; */
             color: white;
-            border: 1px solid yellow;
-            box-shadow: 0 0 1px 1px rgba(255, 255, 0, 0.418);
+            text-align: justify;
+            z-index: 0;
         }
-            #pTitreTextPresentationSite{
-                text-align: justify;
-            }
-                #h1TitreTextPresentationSite,#h2TitreTextPresentationSite{
-                    text-align: center;
-                }
-                    #pTitreTextPresentationSite:hover{
-                        color: white;
-                    }
-                    #pTitreTextPresentationSite1{
-                        grid-row: 1;
-                    }
-                    #pTitreTextPresentationSite2{
-                        grid-row: 2;
-                    }
-                    #cadreLegendeOptionsLiens{
-                    grid-row: 4;
-                    grid-column: 2/5;
-                    background-color: black;
-                    border: 1px solid white;
-                    }
-                    #cadreLegendeOptionsLiens:hover{
-                        border: 1px solid yellow;
-                    }
-                        #ulLesListes{
-                            list-style-type: square;
-                            margin-left: 40px;
-                        }
-                        #cadrePlaylistVideo{
-                            border: 1px solid white;
-                            grid-column: 2 / 5;
-                            overflow: hidden;
-                            grid-row: 5;
-                            overflow-y: scroll;
-                            text-align: center;
-                            color: yellow;
-                            letter-spacing: 3px;
-                            font-size: 7px;
-                            background-color: rgb(0, 0, 0);
-                            text-shadow: 0 1px 7px rgba(255, 136, 0, 0.76);
-                        }
-                        #cadrePlaylistVideo:hover{
-                            border: 1px solid yellow;
-                        }
-}
-
-@media(min-width:800px){
-    #cadreTextPresentationSite{
-        grid-column: 3/4;
-        grid-row: 1;
-        overflow-y: scroll;
-    }
-    #cadreLegendeOptionsLiens{
-        grid-column: 2;
-        grid-row: 1;
-        overflow-y: scroll;
+        .cadreOptionABCFonctionCAction{
+            display: block;
+            /* bloc rouge */
         }
-    #cadrePlaylistVideo{
-        grid-column: 2 / 3;
-        /* overflow: hidden; */
-        grid-row: 2;
+    /* B */    
+    #B{
+        /* background-color: red; */
+        /* background-color: rgb(27, 0, 27); */
+        transition: 1s;
     }
-}               
-
-    /* Cadre B */
-/* Cadre C */
-#cadreBodyCadreC{
-    display: grid;
-    grid-column: 2 / 4;
-    grid-row: 3;
-    grid-template-columns: 0px 1fr 1fr 0px;
-}
-    #cadreC{
-        overflow: hidden;
+    /* #B:hover{
+        background-color: orange;
+        transition: 1s;
+    } */
+    #cadreBanniereTeteTitre{
+        grid-template-rows: 115px;
+    }
+    /* C */
+    #C{
         /* background-color: purple; */
-        background-color: black;   
-        grid-column: 1 / 4;
-        grid-row: 1;
-            grid-template-columns: 0px 1fr 0px;
-            grid-template-rows: 250px;
+        background-color: black;
     }
-        #tousDroitsReserves{
-            background-color: white;
-            color: black;
-            text-align: center;
-            grid-row: 1/3;
+    #cadreDesLiensWeb{
+        align-content: center;
+        background-color: black;
+        border: 1px solid white;
+        overflow: hidden;
+        grid-row: 2;
+        grid-column: 2/5;
+        display: grid;
+        grid-template-columns: 0px 1fr 0px;
+        grid-template-rows: 60px 60px 60px 60px 60px 60px;
+    }
+    #cadreDesLiensWeb:hover{
+        border: 1px solid yellow;
+    }
+    #lienTwitter,
+    #lienYoutube,
+    #lienInstagram,
+    #lienSoundcloud,
+    #lienFaireUnDonPaypal,
+    #lienmonLore{
+        text-align: center;
+        align-self: center;
+        box-shadow: 0 0 3px 0 black;
+        overflow: hidden;
+        text-align: center;
+        align-content: center;
+        letter-spacing: 5px;
+        transition: var(--transition1);
+        height: 100%;
+    }
+        #lienTwitter:hover,
+        #lienYoutube:hover,
+        #lienInstagram:hover,
+        #lienSoundcloud:hover,
+        #lienFaireUnDonPaypal:hover,
+        #lienmonLore:hover{
+            border: 1px solid yellow;
+            transition: var(--transition1);
+            border: 1px solid purple;
+            cursor: url('./cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png')pointer;
         }
-    /* Cadre C */
+            #lienTwitter:active,#lienYoutube:active,#lienInstagram:active,#lienSoundcloud:active,#lienFaireUnDonPaypal:active{
+                background-color: purple;
+                color: yellow;
+            }
+            #lienTwitter{
+                background: linear-gradient(to right, rgb(0, 225, 255), rgb(0, 204, 255));
+                background-color: rgb(0, 153, 255);
+                color: white;
+                grid-column: 2;
+                grid-row: 1;
+                border: 1px solid cyan;
+            }
+            #lienTwitter:hover{
+                background: black;
+                color: white;
+                letter-spacing: 10px;
+            }
+                #lienYoutube{
+                    background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
+                    background-color: red;
+                    color: white;
+                    grid-column: 2;
+                    grid-row: 2;
+                    border: 1px solid red;
+                }
+                #lienYoutube:hover{
+                    background: white;
+                    color: red;
+                    letter-spacing: 10px;
+                }
+                    #lienInstagram{
+                        background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
+                        color: white;
+                        background-color: orangered;
+                        grid-column: 2;
+                        grid-row: 3;
+                        border: 1px solid purple;
+                    }
+                    #lienInstagram:hover{
+                        background: white;
+                        color: orangered;
+                        letter-spacing: 10px;
+                    }
+                        #lienSoundcloud{
+                            background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
+                            color: black;
+                            grid-column: 2;
+                            grid-row: 4;
+                            border: 1px solid orange;
+                        }
+                        #lienSoundcloud:hover{
+                            background: black;
+                            color: orangered;
+                            letter-spacing: 10px;
+                        }
+                            #lienFaireUnDonPaypal{
+                                background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
+                                color: rgb(255, 225, 52);
+                                border: 1px solid yellow;
+                                grid-column: 2;
+                                grid-row: 5;
+                            }
+                            #lienFaireUnDonPaypal:hover{
+                                background: rgb(0, 183, 255);
+                                color: rgb(0, 33, 105);
+                                letter-spacing: 10px;
+                            }
+                                #lienmonLore{
+                                    background: linear-gradient(to left, orange, red);
+                                    color: rgb(255, 225, 52);
+                                    border: 1px solid purple;
+                                    grid-column: 2;
+                                    grid-row: 6;
+                                }
+                                #lienmonLore:hover{
+                                    background: red;
+                                    color: black;
+                                    letter-spacing: 10px;
+                                }
+}
+@media (min-width:100px){
+    #imgCaticorn{
+        left: -373px;
+    }
+}
+@media (min-width:300px){
+    #imgCaticorn{
+        left: -286px;
+    }
+}
+
+    @media (min-width:450px){
+        /* A */
+        #cadreBody{
+            grid-template-columns: 0px 1fr 1fr 0px;
+        }
+        #cadreBanniereTeteTitre{
+            grid-template-rows: 80px;
+        }
+        #imgCaticorn{
+            left: -212px;
+        }
+        #imgCaticorn:hover{
+            top: -25px;
+        }
+        /* B */
+            /* Bouton A */
+            .cadreOptionABCFonctionA{
+                grid-column: 2;
+                grid-row: 1/3;
+            }
+            .cadreOptionABCFonctionAAction{
+                display: block;
+                /* bloc bleu */
+            }
+            /* Bouton B */
+            .cadreOptionABCFonctionB{
+                grid-column: 3;
+                grid-row: 1/3;
+            }
+            .cadreOptionABCFonctionBAction{
+                display: block;
+                /* bloc rouge */
+            }
+        /* C */
+    }
+    @media (min-width:800px){
+        #cadreDesLiensWeb{
+            grid-column: 3/5;
+            grid-row: 2;
+        }
+    }
+    @media (min-width:900px){
+        #cadreBody{
+            grid-template-columns: 0px 1fr 1fr 1fr 0px;
+        }
+    }
+        /* A */
+        /* B */
+        /* C */
+

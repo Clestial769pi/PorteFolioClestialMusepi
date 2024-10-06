@@ -3,7 +3,7 @@
     font-family: 'Times New Roman', Times, serif;
     font-weight: lighter;
     letter-spacing: 2px;
-    cursor: URL(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+    cursor: URL(../image/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
     -webkit-tap-highlight-color: transparent;
 }
 ::-webkit-scrollbar{
