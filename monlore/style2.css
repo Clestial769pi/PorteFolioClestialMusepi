@@ -19,6 +19,9 @@
 ::-webkit-scrollbar-thumb{
     background-color: purple;
 }
+#warHammer40000Com{
+    cursor: URL(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+}
 .BlocA{
     background-color: blue;
     color: white;
