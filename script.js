@@ -45,11 +45,5 @@ console.log(cadreOptionABCFonctionC)
 blocCBouton.addEventListener('click',function(){
     cadreOptionABCFonctionC.classList.toggle("cadreOptionABCFonctionCAction");
     console.log("cadreOptionABCFonctionCAction");
-
-    if(cadreOptionABCFonctionC){
-        cadreOptionABCFonctionB.classList.remove('cadreOptionABCFonctionB')
-        cadreOptionABCFonctionA.classList.remove('cadreOptionABCFonctionA')
-        blocCBouton = true;
-    }
 });
 
