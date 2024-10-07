@@ -6,8 +6,15 @@ const cadreOptionABCFonctionA=document.querySelector('.cadreOptionABCFonctionA')
 console.log(cadreOptionABCFonctionA)
 
 blocABouton.addEventListener('click',function(){
-    cadreOptionABCFonctionA.classList.toggle("cadreOptionABCFonctionAAction")
-    console.log("cadreOptionABCFonctionAAction")
+    cadreOptionABCFonctionA.classList.toggle("cadreOptionABCFonctionAAction");
+    console.log("cadreOptionABCFonctionAAction");
+
+    // console.log("cadreOptionABCFonctionAAction")
+    //     if(cadreOptionABCFonctionA!=true){
+    //         cadreOptionABCFonctionB.classList.remove('cadreOptionABCFonctionB');
+    //         cadreOptionABCFonctionA.classList.add('cadreOptionABCFonctionA');
+    //         blocABouton = true;
+    //     }
 });
 
 // Bouton B
@@ -18,8 +25,14 @@ const cadreOptionABCFonctionB=document.querySelector('.cadreOptionABCFonctionB')
 console.log(cadreOptionABCFonctionB)
 
 blocBBouton.addEventListener('click',function(){
-    cadreOptionABCFonctionB.classList.toggle("cadreOptionABCFonctionBAction")
-    console.log("cadreOptionABCFonctionBAction")
+    cadreOptionABCFonctionB.classList.toggle("cadreOptionABCFonctionBAction");
+    console.log("cadreOptionABCFonctionBAction");
+
+    // if(cadreOptionABCFonctionB!=true){
+    //     cadreOptionABCFonctionA.classList.remove('cadreOptionABCFonctionA');
+    //     cadreOptionABCFonctionB.classList.add('cadreOptionABCFonctionB');
+    //     blocBBouton = true;
+    // }
 });
 
 // Bouton C
@@ -30,6 +43,13 @@ const cadreOptionABCFonctionC=document.querySelector('.cadreOptionABCFonctionC')
 console.log(cadreOptionABCFonctionC)
 
 blocCBouton.addEventListener('click',function(){
-    cadreOptionABCFonctionC.classList.toggle("cadreOptionABCFonctionCAction")
-    console.log("cadreOptionABCFonctionCAction")
+    cadreOptionABCFonctionC.classList.toggle("cadreOptionABCFonctionCAction");
+    console.log("cadreOptionABCFonctionCAction");
+
+    if(cadreOptionABCFonctionC){
+        cadreOptionABCFonctionB.classList.remove('cadreOptionABCFonctionB')
+        cadreOptionABCFonctionA.classList.remove('cadreOptionABCFonctionA')
+        blocCBouton = true;
+    }
 });
+
