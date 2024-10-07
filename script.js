@@ -22,6 +22,13 @@ console.log(cadreOptionABCFonctionB);
 //     console.log("cadreOptionABCFonctionBAction");
 // });
 
+// Bouton C
+const blocCBouton=document.querySelector("#blocCBouton")
+console.log(blocCBouton);
+
+const cadreOptionABCFonctionC=document.querySelector('.cadreOptionABCFonctionC');
+console.log(cadreOptionABCFonctionC);
+
 
 // fONCTION
 function activationDesactivation(activation,desactivation){
@@ -59,15 +66,18 @@ blocBBouton.addEventListener('click', () => {
     activationDesactivation(cadreOptionABCFonctionB, cadreOptionABCFonctionA);
 });
 
-// Bouton C
-const blocCBouton=document.querySelector("#blocCBouton")
-console.log(blocCBouton);
-
-const cadreOptionABCFonctionC=document.querySelector('.cadreOptionABCFonctionC');
-console.log(cadreOptionABCFonctionC);
-
-blocCBouton.addEventListener('click',function(){
-    cadreOptionABCFonctionC.classList.toggle("cadreOptionABCFonctionCAction");
-    console.log("cadreOptionABCFonctionCAction");
+blocCBouton.addEventListener('click', () => {
+    activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA,cadreOptionABCFonctionB);
 });
+
+// blocCBouton.addEventListener('click', () => {
+//     activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA, cadreOptionABCFonctionB);
+// });
+
+
+
+// blocCBouton.addEventListener('click',function(){
+//     cadreOptionABCFonctionC.classList.toggle("cadreOptionABCFonctionCAction");
+//     console.log("cadreOptionABCFonctionCAction");
+// });
 
