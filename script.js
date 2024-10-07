@@ -58,18 +58,45 @@ function activationDesactivation(activation,desactivation){
 // };
 
 // Ajout d'événements de clic aux boutons
+// blocABouton.addEventListener('click', () => {
+//     activationDesactivation(cadreOptionABCFonctionA, cadreOptionABCFonctionB);
+// });
+
+// blocBBouton.addEventListener('click', () => {
+//     activationDesactivation(cadreOptionABCFonctionB, cadreOptionABCFonctionA);
+// });
+
+// blocCBouton.addEventListener('click', () => {
+//     activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA,cadreOptionABCFonctionB);
+// });
+
+function activationDesactivation(activation, ...desactivation) {
+    activation.style.display = (activation.style.display === 'block') ? 'none' : 'block';
+    desactivation.forEach(fenetre => {
+        fenetre.style.display = 'none';
+    });
+}
+
 blocABouton.addEventListener('click', () => {
-    activationDesactivation(cadreOptionABCFonctionA, cadreOptionABCFonctionB);
+    activationDesactivation(cadreOptionABCFonctionA, cadreOptionABCFonctionB, cadreOptionABCFonctionC);
 });
 
 blocBBouton.addEventListener('click', () => {
-    activationDesactivation(cadreOptionABCFonctionB, cadreOptionABCFonctionA);
+    activationDesactivation(cadreOptionABCFonctionB, cadreOptionABCFonctionA, cadreOptionABCFonctionC);
 });
 
 blocCBouton.addEventListener('click', () => {
-    activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA,cadreOptionABCFonctionB);
+    activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA, cadreOptionABCFonctionB);
 });
 
+
+// function activationDesactivation(activation,desactivation) {
+//     activation.style.display = (activation.style.display === 'block');
+//     desactivation.forEach(cadreOptionABCFonctionA,cadreOptionABCFonctionB => { 
+//         cadreOptionABCFonctionA.style.display = 'none';
+//         cadreOptionABCFonctionB.style.display = 'none';
+//     });
+// }
 // blocCBouton.addEventListener('click', () => {
 //     activationDesactivation(cadreOptionABCFonctionC, cadreOptionABCFonctionA, cadreOptionABCFonctionB);
 // });
