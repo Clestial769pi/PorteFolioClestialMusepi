@@ -40,6 +40,15 @@ function activationDesactivation(activation,desactivation){
         }
 };
 
+// function activationDesactivation(activation,desactivation){
+//     if(activation.style.display='block'){
+//         activation.style.display='none';
+//     }else{
+//         activation.style.display='block';
+//         desactivation.style.display='none';
+//     }
+// }
+
 // blocABouton.addEventListener('click', function(){
 //     activationDesactivation(cadreOptionABCFonctionA,cadreOptionABCFonctionB);
 // })
