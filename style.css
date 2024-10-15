@@ -101,9 +101,14 @@ ul,li{
     text-transform: uppercase;
     text-shadow:  2px 1px 15px rgb(162, 0, 255);
 }
+.cadreVideo{
+    border: 1px dotted yellow;
+    padding: 0;
+}
 .Ptexte{
     margin: 15px;
     padding: 15px; 
+    justify-content: center;
     color: yellow;
     overflow: hidden;
     background: linear-gradient(to left bottom, rgb(93, 0, 136),rgb(65, 0, 117),rgb(18, 0, 99));
