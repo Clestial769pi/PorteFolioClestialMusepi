@@ -13,8 +13,8 @@ ul,li{
 }
 #pCadreTextArea{
     display: grid;
-    grid-template-columns: 12px 1fr 12px;
-    grid-template-rows: 15px;
+    grid-template-columns: 5px 1fr 5px;
+    grid-template-rows: 1fr 1fr;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -23,7 +23,7 @@ ul,li{
     background-color: white;
     align-self: center;
     place-content: center;
-    width: 500px;
+    width: auto;
     padding: 1px;
     border: 1px dotted black;
     color: black;
@@ -32,7 +32,6 @@ ul,li{
     resize: none;
     grid-column: 2;
     grid-row: 1;
-    overflow-y: hidden;
 }
 #divIdReferencement:hover,#textareaLien:hover{
     background-color: yellow;
