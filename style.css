@@ -11,6 +11,33 @@ ul,li{
     margin-left: 25px;
     padding: 0;
 }
+#pCadreTextArea{
+    display: grid;
+    grid-template-columns: 12px 1fr 12px;
+    grid-template-rows: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#divIdReferencement,#textareaLien{
+    background-color: white;
+    align-self: center;
+    place-content: center;
+    width: 500px;
+    padding: 1px;
+    border: 1px dotted black;
+    color: black;
+    text-align: center;
+    cursor: text;
+    resize: none;
+    grid-column: 2;
+    grid-row: 1;
+    overflow-y: hidden;
+}
+#divIdReferencement:hover,#textareaLien:hover{
+    background-color: yellow;
+    color: purple;
+}
 #tousDroitsReserves{
     background-color: white;
     color: black;
@@ -322,7 +349,17 @@ h1,h2,h3{margin: 0;}
         /* bloc bleu */
     }
     #textareaLien{
-        resize:none;
+        background-color: white;
+        padding: 5px;
+        border: 1px dotted black;
+        color: black;
+        text-align: center;
+        cursor: text;
+        resize: none;
+        grid-column: 2;
+        grid-row: 1;
+        overflow-y: hidden;
+        
     }
     /* Bouton B */
     .cadreOptionABCFonctionB{
