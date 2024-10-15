@@ -103,6 +103,7 @@ ul,li{
 .cadreVideo{
     border: 1px dotted yellow;
     padding: 0;
+    box-shadow: 1px 1px 25px 5px purple;
 }
 .Ptexte{
     margin: 15px;
