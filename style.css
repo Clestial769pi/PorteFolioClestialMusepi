@@ -11,6 +11,9 @@ ul,li{
     margin-left: 25px;
     padding: 0;
 }
+:root{
+    --transition1:0.2s;
+}
 #pCadreTextArea{
     display: grid;
     grid-template-columns: 5px 1fr 5px;
@@ -458,6 +461,7 @@ h1,h2,h3{margin: 0;}
         #lienFaireUnDonPaypal:hover,
         #lienmonLore:hover{
             border: 1px solid yellow;
+            font-size: 15px;
             transition: var(--transition1);
             border: 1px solid purple;
             cursor: url('./cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png')pointer;
