@@ -188,11 +188,11 @@ th,td{
                                     width: 100px;
                                     height: 100px;
                                     overflow: hidden;
-                                    border: 1px solid blue;
+                                    border: 1px solid purple;
                                     border-radius: 15px;
                                 }
                                 #cadreDivIdCaticornPhotoProfil:hover{
-                                    background-color: blue;
+                                    background-color: purple;
                                 }
                                 #cadreDivIdCaticornPhotoProfil2{   
                                     justify-self: center;
@@ -201,11 +201,11 @@ th,td{
                                     width: 100px;
                                     height: 100px;
                                     overflow: hidden;
-                                    border: 1px solid red;
+                                    border: 1px solid purple;
                                     border-radius: 15px;
                                 }
                                 #cadreDivIdCaticornPhotoProfil2:hover{
-                                    background-color: red;
+                                    background-color: purple;
                                 }
                                 #cadreDivIdCaticornPhotoProfil3{ 
                                     justify-self: center;  
@@ -310,11 +310,11 @@ th,td{
                     width: 100px;
                     height: 100px;
                     overflow: hidden;
-                    border: 1px solid purple;
+                    border: 1px solid blue;
                     border-radius: 15px;
                 }
                 #cadreDivIdCaticornPhotoProfil:hover{
-                    background-color: purple;
+                    background-color: blue;
                 }
                 #cadreDivIdCaticornPhotoProfil2{   
                     justify-self: center;
@@ -323,11 +323,11 @@ th,td{
                     width: 100px;
                     height: 100px;
                     overflow: hidden;
-                    border: 1px solid purple;
+                    border: 1px solid red;
                     border-radius: 15px;
                 }
                 #cadreDivIdCaticornPhotoProfil2:hover{
-                    background-color: purple;
+                    background-color: red;
                 }
                 #cadreDivIdCaticornPhotoProfil3{ 
                     justify-self: center;  
