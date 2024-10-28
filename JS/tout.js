@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"Adam":"couleur1",
 "dit : (gère)":"couleur1",
 "vomir":"couleur1",
 "Masculin":"couleur1",
@@ -95,7 +96,10 @@ const motsClasses = {
 "alchimique":"couleur1",
 "solution":"couleur1",
 "réalité":"couleur1",
+"oui":"couleur1",
+"vie":"couleur1",
 // B
+"Ève":"couleur2",
 "(digère)":"couleur2",
 "chier":"couleur2",
 "féminin":"couleur2",
@@ -185,7 +189,14 @@ const motsClasses = {
 "satanisme":"couleur2",
 "dissolution":"couleur2",
 "récit":"couleur2",
+"non":"couleur2",
+"mort":"couleur2",
 // C
+"échelle":"couleur3",
+"puissance":"couleur3",
+"fusionnels":"couleur3",
+"conflictuels":"couleur3",
+"violent":"couleur3",
 "taille":"couleur3",
 "et":"couleur3",
 "Omniprésent":"couleur3",
@@ -251,12 +262,15 @@ const motsClasses = {
 "ou": "couleur3",
 "Key":"couleur3",
 "key":"couleur3",
+"symétriques":"couleur3",
 // D
+"homogènes":"couleur4",
 "Paix":"couleur4",
 "paix":"couleur4",
 "D": "couleur4",
 "Cadre":"couleur4",
 "cadre":"couleur4",
+"limites":"couleur4",
 // E
 "E": "couleur5",
 
