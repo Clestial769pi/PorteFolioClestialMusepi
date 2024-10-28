@@ -25,6 +25,7 @@ const motsClasses = {
 "vomir":"couleur1",
 "Masculin":"couleur1",
 "Catholique":"couleur1",
+"Omnipotent":"couleur1",
 "Le baptême":"couleur1",
 "doigts":"couleur1",
 "Patriarcat":"couleur1",
@@ -99,6 +100,8 @@ const motsClasses = {
 "oui":"couleur1",
 "vie":"couleur1",
 "Vie":"couleur1",
+"petits":"couleur1",
+"zoom":"couleur1",
 // B
 "Ève":"couleur2",
 "(digère)":"couleur2",
@@ -193,6 +196,8 @@ const motsClasses = {
 "non":"couleur2",
 "mort":"couleur2",
 "Mort":"couleur2",
+"grand":"couleur2",
+"dézoom":"couleur2",
 // C
 "échelle":"couleur3",
 "puissance":"couleur3",
