@@ -98,6 +98,7 @@ const motsClasses = {
 "réalité":"couleur1",
 "oui":"couleur1",
 "vie":"couleur1",
+"Vie":"couleur1",
 // B
 "Ève":"couleur2",
 "(digère)":"couleur2",
@@ -191,6 +192,7 @@ const motsClasses = {
 "récit":"couleur2",
 "non":"couleur2",
 "mort":"couleur2",
+"Mort":"couleur2",
 // C
 "échelle":"couleur3",
 "puissance":"couleur3",
