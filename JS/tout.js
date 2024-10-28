@@ -261,6 +261,9 @@ const motsClasses = {
 "E": "couleur5",
 
 //C (spécial)
+"pirate":"couleur3",
+"bateau":"couleur3",
+"symbolique":"couleur3",
 "Mathématiques":"couleur3",
 "Philosophique":"couleur3",
 "Symbolique":"couleur3",
