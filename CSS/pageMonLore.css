@@ -57,3 +57,10 @@ td,th{
 }
 #img1,#img2,#img3,#img4{border-radius: 15px;}
 #boiteDialogueTexte{text-align: -webkit-center;}
+#caticorn{
+    background-color: purple;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    overflow: scroll;
+}
