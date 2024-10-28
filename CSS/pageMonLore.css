@@ -1,0 +1,67 @@
+table{
+    background-color: white;
+    border: 1px solid orange;
+    /* width: 100%; */
+    display: flex;
+    width:auto;
+    height: auto;
+    flex-direction: column;
+}
+td,th{
+    border: 1px solid purple;
+    /* display: flex; */
+    padding: 15px;
+}
+#tableCadre{
+    justify-content: center;
+    width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    overflow-wrap: break-word;
+    overflow: scroll;
+}
+#imageAlignementCorps{
+    text-align: -webkit-center;
+}
+#imageAlignementTete{
+    width: 100%;
+    text-align: -webkit-center;
+    display: flex;
+    justify-content: space-between;
+}
+#img1{
+    border: 1px solid blue;
+}
+#img1:hover{
+    background-color: blue;
+}
+#img2{
+    border: 1px solid red;
+}
+#img2:hover{
+    background-color: red;
+}
+#img3{
+    border: 1px solid purple;
+}
+#img3:hover{
+    background-color: purple;
+}
+#img1:hover,#img2:hover,#img3:hover,#img4:hover,#img1,#img2,#img3,#img4{
+    margin: 15px;
+    transition: 0.5s;
+}
+#img1,#img2,#img3{
+    display: flex;
+    width: auto;
+}
+/* #img4{
+    border: 1px solid orange;
+    text-align: center;
+    display: flex;
+}
+#img4:hover{
+    background-color: orange;
+} */
+#img1,#img2,#img3,#img4{border-radius: 15px;}
+#boiteDialogueTexte{text-align: -webkit-center;}

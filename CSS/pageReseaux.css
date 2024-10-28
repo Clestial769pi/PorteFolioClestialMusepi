@@ -1,0 +1,172 @@
+#cadreDesLiensWeb{
+    align-content: center;
+    background-color: black;
+    border: 1px solid white;
+    overflow: hidden;
+    grid-row: 2;
+    grid-column: 2/5;
+    display: grid;
+    grid-template-columns: 0px 1fr 0px;
+    grid-template-rows: 60px 60px 60px 60px 60px 60px;
+}
+#cadreDesLiensWeb:hover{
+    border: 1px solid yellow;
+}
+#lienTwitter,
+#lienYoutube,
+#lienInstagram,
+#lienSoundcloud,
+#lienFaireUnDonPaypal,
+#lienAudius
+{
+    text-align: center;
+    align-self: center;
+    box-shadow: 0 0 3px 0 black;
+    overflow: hidden;
+    text-align: center;
+    align-content: center;
+    letter-spacing: 5px;
+    transition: var(--transition1);
+    height: 100%;
+}
+#lienTwitter:hover,
+#lienYoutube:hover,
+#lienInstagram:hover,
+#lienSoundcloud:hover,
+#lienFaireUnDonPaypal:hover,
+#lienAudius:hover
+{
+    border: 1px solid yellow;
+    font-size: 15px;
+    transition: var(--transition1);
+    border: 1px solid purple;
+    cursor: url('./cursor/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png')pointer;
+}
+#lienTwitter:active,
+#lienYoutube:active,
+#lienInstagram:active,
+#lienSoundcloud:active,
+#lienFaireUnDonPaypal:active,
+#lienAudius:active
+{
+    background-color: purple;
+    color: yellow;
+}
+#lienTwitter{
+    background: linear-gradient(to right, rgb(0, 225, 255), rgb(0, 204, 255));
+    background-color: rgb(0, 153, 255);
+    color: white;
+    grid-column: 2;
+    grid-row: 1;
+    border: 1px solid cyan;
+}
+#lienTwitter:hover{
+    background: black;
+    color: white;
+    letter-spacing: 10px;
+}
+#lienYoutube{
+    background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
+    background-color: red;
+    color: white;
+    grid-column: 2;
+    grid-row: 2;
+    border: 1px solid red;
+}
+#lienYoutube:hover{
+    background: white;
+    color: red;
+    letter-spacing: 10px;
+}
+#lienInstagram{
+    background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
+    color: white;
+    background-color: orangered;
+    grid-column: 2;
+    grid-row: 3;
+    border: 1px solid purple;
+}
+#lienInstagram:hover{
+    background: white;
+    color: orangered;
+    letter-spacing: 10px;
+}
+#lienSoundcloud{
+    background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
+    color: black;
+    grid-column: 2;
+    grid-row: 4;
+    border: 1px solid orange;
+}
+#lienSoundcloud:hover{
+    background: black;
+    color: orangered;
+    letter-spacing: 10px;
+}
+#lienAudius{
+    background: linear-gradient(to left, purple, rgb(122, 0, 204));
+    color: white;
+    border: 1px solid purple;
+    grid-column: 2;
+    grid-row: 5;
+}
+#lienAudius:hover{
+    background: white;
+    color: rgb(216, 0, 216);
+    letter-spacing: 10px;
+}
+#lienFaireUnDonPaypal{
+    background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
+    color: rgb(255, 225, 52);
+    border: 1px solid yellow;
+    grid-column: 2;
+    grid-row: 6;
+}
+#lienFaireUnDonPaypal:hover{
+    background: rgb(0, 183, 255);
+    color: rgb(0, 33, 105);
+    letter-spacing: 10px;
+}
+#spanTwitter{
+    background: linear-gradient( to right, rgb(0, 225, 255),rgb(0, 204, 255));
+    color: black;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanYoutube{
+    background:linear-gradient(to left, red 50%,rgb(139, 0, 0));
+    color: white;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanInstagram{
+    background: linear-gradient(to left, rgb(255, 145, 0), rgb(255, 102, 0),rgb(162, 0, 255),rgb(0, 102, 255));
+    color: white;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanSoundcloud{
+    background: linear-gradient(to left bottom, rgb(255, 136, 0)50%,rgb(255, 60, 0) );
+    color: black;
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanFaireUnDon{
+    background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
+    color: rgb(255, 225, 52);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+#spanAudius{
+    background: white;
+    color: rgb(216, 0, 216);
+    padding-left: 5px;
+    padding-right: 2px;
+}
+li{
+    text-align: justify;
+}
+ul{
+    margin: 0;
+    padding: 0;
+}
