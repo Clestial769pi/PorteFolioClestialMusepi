@@ -1,9 +1,9 @@
 const Lien = {
-    pageAcceuil: '<a href="/index.html"><li id="lienPageAcceuilCouleur">Acceuil</li></a>',
-    pageMonLore: '<a href="/pageMusique.html"><li id="lienPageMusiqueCouleur">Musique</li></a>',
-    pageMusique: '<a href="/pageMonLore.html"><li id="lienPageMonLoreCouleur">Mon lore</li></a>',
-    pageNews: '<a href="/pageNews.html"><li id="lienPageNews">News !</li></a>',
-    pageReseaux: '<a href="/pageReseaux.html"><li id="lienPageReseaux">Réseaux</li></a>',
+    pageAcceuil: '<a href="index.html"><li id="lienPageAcceuilCouleur">Acceuil</li></a>',
+    pageMonLore: '<a href="pageMusique.html"><li id="lienPageMusiqueCouleur">Musique</li></a>',
+    pageMusique: '<a href="pageMonLore.html"><li id="lienPageMonLoreCouleur">Mon lore</li></a>',
+    pageNews: '<a href="pageNews.html"><li id="lienPageNews">News !</li></a>',
+    pageReseaux: '<a href="pageReseaux.html"><li id="lienPageReseaux">Réseaux</li></a>',
 }
 const listLiens = 
 `
