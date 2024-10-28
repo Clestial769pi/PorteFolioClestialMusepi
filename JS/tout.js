@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"le paradis":"couleur1",
 "Adam":"couleur1",
 "dit : (gère)":"couleur1",
 "vomir":"couleur1",
@@ -103,6 +104,7 @@ const motsClasses = {
 "petits":"couleur1",
 "zoom":"couleur1",
 // B
+"enfer":"couleur2",
 "Ève":"couleur2",
 "(digère)":"couleur2",
 "chier":"couleur2",
@@ -198,6 +200,7 @@ const motsClasses = {
 "Mort":"couleur2",
 "grand":"couleur2",
 "dézoom":"couleur2",
+"Satan":"couleur2",
 // C
 "échelle":"couleur3",
 "puissance":"couleur3",
@@ -271,6 +274,7 @@ const motsClasses = {
 "key":"couleur3",
 "symétriques":"couleur3",
 // D
+"vérité":"couleur4",
 "homogènes":"couleur4",
 "Paix":"couleur4",
 "paix":"couleur4",
