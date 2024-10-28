@@ -63,4 +63,14 @@ td,th{
     align-items: center;
     display: flex;
     overflow: scroll;
+    transition: 0.9s;
+}
+#caticornImg{
+    top: 5px;
+    transition: 0.9s;
+    position: relative;
+}
+#caticornImg:hover{
+    top: 20px;
+    transition: 0.5s;
 }
