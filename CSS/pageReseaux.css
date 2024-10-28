@@ -33,8 +33,8 @@
 #lienYoutube:hover,
 #lienInstagram:hover,
 #lienSoundcloud:hover,
-#lienFaireUnDonPaypal:hover,
-#lienAudius:hover
+#lienAudius:hover,
+#lienFaireUnDonPaypal:hover
 {
     border: 1px solid yellow;
     font-size: 15px;
@@ -46,8 +46,8 @@
 #lienYoutube:active,
 #lienInstagram:active,
 #lienSoundcloud:active,
-#lienFaireUnDonPaypal:active,
-#lienAudius:active
+#lienAudius:active,
+#lienFaireUnDonPaypal:active
 {
     background-color: purple;
     color: yellow;
@@ -106,9 +106,9 @@
 #lienAudius{
     background: linear-gradient(to left, purple, rgb(122, 0, 204));
     color: white;
-    border: 1px solid purple;
     grid-column: 2;
     grid-row: 5;
+    border: 1px solid purple;
 }
 #lienAudius:hover{
     background: white;
@@ -118,15 +118,16 @@
 #lienFaireUnDonPaypal{
     background: linear-gradient(to left, rgb(0, 56, 161), rgb(0, 33, 124));
     color: rgb(255, 225, 52);
-    border: 1px solid yellow;
     grid-column: 2;
     grid-row: 6;
+    border: 1px solid yellow;
 }
 #lienFaireUnDonPaypal:hover{
     background: rgb(0, 183, 255);
     color: rgb(0, 33, 105);
     letter-spacing: 10px;
 }
+/* Les Spans */
 #spanTwitter{
     background: linear-gradient( to right, rgb(0, 225, 255),rgb(0, 204, 255));
     color: black;

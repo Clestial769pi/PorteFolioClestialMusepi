@@ -95,8 +95,6 @@ const motsClasses = {
 "alchimique":"couleur1",
 "solution":"couleur1",
 "réalité":"couleur1",
-// "≤":"couleur1",
-// "<":"couleur1",
 // B
 "(digère)":"couleur2",
 "chier":"couleur2",
@@ -187,8 +185,6 @@ const motsClasses = {
 "satanisme":"couleur2",
 "dissolution":"couleur2",
 "récit":"couleur2",
-// "≥":"couleur2",
-// ">":"couleur2",
 // C
 "taille":"couleur3",
 "et":"couleur3",
@@ -301,7 +297,7 @@ const motsClasses = {
 "pi": "couleur3",
 "piquante": "couleur3",
 "Piquante": "couleur3",
-"=":"couleur3",
+// "=":"couleur3",
 "Mathématique": "couleur3",
 "mathématique": "couleur3",
 "Quanta": "couleur3",

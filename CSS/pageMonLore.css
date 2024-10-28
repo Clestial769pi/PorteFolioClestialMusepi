@@ -55,13 +55,5 @@ td,th{
     display: flex;
     width: auto;
 }
-/* #img4{
-    border: 1px solid orange;
-    text-align: center;
-    display: flex;
-}
-#img4:hover{
-    background-color: orange;
-} */
 #img1,#img2,#img3,#img4{border-radius: 15px;}
 #boiteDialogueTexte{text-align: -webkit-center;}
