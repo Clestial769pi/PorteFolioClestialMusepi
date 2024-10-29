@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"christianisme":"couleur1",
 "Début":"couleur1",
 "Genèse":"couleur1",
 "Jésus":"couleur1",
