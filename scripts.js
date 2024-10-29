@@ -284,6 +284,11 @@ const motsClasses = {
 "le concret":"couleur2",
 "irresponsable":"couleur2",
 // C
+"univers":"couleur3",
+"totaux":"couleur3",
+"totale":"couleur3",
+"total":"couleur3",
+"totalité":"couleur3",
 "œil":"couleur3",
 "blasphème":"couleur3",
 "mer":"couleurs3",
