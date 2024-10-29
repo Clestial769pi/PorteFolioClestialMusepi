@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"anciens":"couleur1",
 "L'ombre":"couleur1",
 "L'un":"couleur1",
 "01ʳᵉ personne":"couleur1",
@@ -124,6 +125,7 @@ const motsClasses = {
 "singularité":"couleur1",
 "01ᵉ groupe":"couleur1",
 // B
+"nouveaux":"couleur2",
 "la lumière":"couleur2",
 "l'autre":"couleur2",
 "02ᵉ personne":"couleur2",
@@ -243,6 +245,7 @@ const motsClasses = {
 "pluralité":"couleur2",
 "02ᵉʳ groupe":"couleur2",
 // C
+"corne":"couleur3",
 "un tout":"couleur3",
 "tout":"couleur3",
 "Tout":"couleur3",
