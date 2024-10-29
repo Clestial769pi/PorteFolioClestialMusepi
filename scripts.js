@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"Liberté":"couleur1",
 "l'Alpha":"couleur1",
 "commencement":"couleur1",
 "paradis":"couleur1",
@@ -114,6 +115,7 @@ const motsClasses = {
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
 // B
+"fraternité":"couleur2",
 "l'Oméga":"couleur2",
 "fin":"couleur2",
 "haute":"couleur2",
@@ -222,6 +224,7 @@ const motsClasses = {
 " Dézoom ":"couleur2",
 "Satan":"couleur2",
 // C
+"égalité":"couleur3",
 "équations":"couleur3",
 "Centriste":"couleur3",
 "3ᵉ groupe":"couleur3",
