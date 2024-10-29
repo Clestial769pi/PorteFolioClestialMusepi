@@ -259,6 +259,7 @@ const motsClasses = {
 "02ᵉʳ groupe":"couleur2",
 "deux":"couleur2",
 "la hauteur":"couleur2",
+"adversité":"couleur2",
 // C
 "Saint-Esprit":"couleur3",
 "les deux polarités":"couleur3",
