@@ -104,7 +104,6 @@ const motsClasses = {
 "Démocratie":"couleur1",
 "démocratie":"couleur1",
 "Producteur":"couleur1",
-"Lune":"couleur1",
 "l'alpha":"couleur1",
 "haut":"couleur1",
 "alchimique":"couleur1",
@@ -117,6 +116,7 @@ const motsClasses = {
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
 "ancienne":"couleur1",
+"Soleil":"couleur1",
 // B
 "pluralité":"couleur2",
 "queue":"couleur2",
@@ -215,7 +215,6 @@ const motsClasses = {
 "Dictature":"couleur2",
 "dictature":"couleur2",
 "consommateur":"couleur2",
-"Soleil":"couleur2",
 "L'oméga":"couleur2",
 "bas":"couleur2",
 "satanisme":"couleur2",
@@ -229,7 +228,9 @@ const motsClasses = {
 " Dézoom ":"couleur2",
 "Satan":"couleur2",
 "nouvelle":"couleur2",
+"Lune":"couleur2",
 // C
+"enfant":"couleur3",
 "équilibres":"couleur3",
 "frontière":"couleur3",
 "onde":"couleur3",
