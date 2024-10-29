@@ -517,6 +517,7 @@ const motsClasses = {
 // "Ciel": "couleur3",
 // "ciel": "couleur3",
 "∞":"couleur3",
+"temps":"couleur3",
 "Espace et Temps":"couleur3",
 "Symbole":"couleur3",
 "symbole":"couleur3",
