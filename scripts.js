@@ -376,6 +376,7 @@ const motsClasses = {
 "intéractions":"couleur3",
 "chromosomes":"couleur3",
 "Nous":"couleur3",
+"foules":"couleur3",
 "masse":"couleur3",
 "groupe":"couleur3",
 "sommes":"couleur3",
