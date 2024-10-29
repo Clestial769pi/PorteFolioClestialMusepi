@@ -297,6 +297,7 @@ const motsClasses = {
 "mal":"couleur2",
 "chaotique":"couleur2",
 // C
+"humaine":"couleur3",
 "commune":"couleur3",
 "dégâts collatéraux":"couleur3",
 "valeur":"couleur3",
