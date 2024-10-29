@@ -116,6 +116,7 @@ const motsClasses = {
 "petits":"couleur1",
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
+"ancienne":"couleur1",
 // B
 "pluralité":"couleur2",
 "queue":"couleur2",
@@ -227,6 +228,7 @@ const motsClasses = {
 " dézoom ":"couleur2",
 " Dézoom ":"couleur2",
 "Satan":"couleur2",
+"nouvelle":"couleur2",
 // C
 "équilibres":"couleur3",
 "frontière":"couleur3",
