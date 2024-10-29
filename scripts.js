@@ -303,6 +303,7 @@ const motsClasses = {
 "chaotique":"couleur2",
 "mourir":"couleur2",
 // C
+"religieux":"couleur3",
 "un prédateur algorithmique":"couleur3",
 "humaine":"couleur3",
 "commune":"couleur3",
