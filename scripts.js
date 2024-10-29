@@ -301,6 +301,7 @@ const motsClasses = {
 "mal":"couleur2",
 "chaotique":"couleur2",
 // C
+"un prédateur algorithmique":"couleur3",
 "humaine":"couleur3",
 "commune":"couleur3",
 "dégâts collatéraux":"couleur3",
