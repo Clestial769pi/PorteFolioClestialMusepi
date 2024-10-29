@@ -306,6 +306,8 @@ const motsClasses = {
 "mourir":"couleur2",
 "globale":"couleur2",
 // C
+"Si":"couleur3",
+"si":"couleur3",
 "changement":"couleur3",
 "histoires":"couleur3",
 "sacrifié":"couleur3",
@@ -472,6 +474,7 @@ const motsClasses = {
 "contradictions":"couleur4",
 "côtés":"couleur4",
 "extrêmes":"couleur4",
+"extrême":"couleur4",
 "extrémités":"couleur4",
 "vérité":"couleur4",
 "homogènes":"couleur4",
