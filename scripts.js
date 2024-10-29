@@ -269,6 +269,7 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 // C
+"lié":"couleur3",
 "conséquences":"couleur3",
 "variantes":"couleur3",
 "génération":"couleur3",
