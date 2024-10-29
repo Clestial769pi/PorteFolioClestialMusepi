@@ -291,6 +291,7 @@ const motsClasses = {
 "irresponsable":"couleur2",
 "mal":"couleur2",
 // C
+"religion":"couleur3",
 "corrompu":"couleur3",
 "humains":"couleur3",
 "Péché originel":"couleur3",
