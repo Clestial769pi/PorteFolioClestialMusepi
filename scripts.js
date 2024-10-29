@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"sujet":"couleur1",
 "froid":"couleur1",
 "Froid":"couleur1",
 "L'abstrait":"couleur1",
@@ -134,6 +135,7 @@ const motsClasses = {
 "01ᵉ groupe":"couleur1",
 "la profondeur":"couleur1",
 // B
+"verbe":"couleur2",
 "Chaud":"couleur2",
 "Le concret":"couleur2",
 "Fils":"couleur2",
@@ -267,6 +269,7 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 // C
+"complément":"couleur3",
 "Apocalypse":"couleur3",
 "Serpent":"couleur3",
 "serpent":"couleur3",
