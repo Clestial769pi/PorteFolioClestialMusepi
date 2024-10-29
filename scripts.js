@@ -321,6 +321,7 @@ const motsClasses = {
 "valeur":"couleur3",
 "réaction":"couleur3",
 "ensembles":"couleur3",
+"perspective":"couleur3",
 "théorie":"couleur3",
 "Théorie":"couleur3",
 "fusion":"couleur3",
