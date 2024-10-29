@@ -20,6 +20,8 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"Début":"couleur1",
+"Genèse":"couleur1",
 "Jésus":"couleur1",
 "têtes":"couleur1",
 "libres":"couleur1",
@@ -145,6 +147,7 @@ const motsClasses = {
 "responsable":"couleur1",
 "bien":"couleur1",
 // B
+"Fin":"couleur2",
 "Juda":"couleur2",
 "esclaves":"couleur2",
 "Esclaves":"couleur2",
