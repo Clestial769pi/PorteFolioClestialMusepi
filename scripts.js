@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"singularité":"couleur1",
 "tête":"couleur1",
 "Liberté":"couleur1",
 "l'Alpha":"couleur1",
@@ -116,6 +117,7 @@ const motsClasses = {
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
 // B
+"pluralité":"couleur2",
 "queue":"couleur2",
 "fraternité":"couleur2",
 "l'Oméga":"couleur2",
