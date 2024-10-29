@@ -215,6 +215,7 @@ const motsClasses = {
 " Dézoom ":"couleur2",
 "Satan":"couleur2",
 // C
+"équations":"couleur3",
 "Centriste":"couleur3",
 "3ᵉ groupe":"couleur3",
 "3ᵉ personne":"couleur3",
