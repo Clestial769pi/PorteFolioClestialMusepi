@@ -20,6 +20,8 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"l'Alpha":"couleur1",
+"commencement":"couleur1",
 "paradis":"couleur1",
 "basse":"couleur1",
 "Gauchiste":"couleur1",
@@ -112,6 +114,8 @@ const motsClasses = {
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
 // B
+"l'Oméga":"couleur2",
+"fin":"couleur2",
 "haute":"couleur2",
 "grands":"couleur2",
 "Droitard":"couleur2",
