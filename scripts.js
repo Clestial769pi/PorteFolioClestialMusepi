@@ -230,6 +230,7 @@ const motsClasses = {
 "nouvelle":"couleur2",
 "Lune":"couleur2",
 // C
+"société":"couleur3",
 "pentacle":"couleur3",
 "enfant":"couleur3",
 "équilibres":"couleur3",
