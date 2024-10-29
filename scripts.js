@@ -139,6 +139,7 @@ const motsClasses = {
 "oui":"couleur1",
 "Oui":"couleur1",
 "vie":"couleur1",
+"vies":"couleur1",
 "Vie":"couleur1",
 "petits":"couleur1",
 " zoom ":"couleur1",
@@ -303,6 +304,8 @@ const motsClasses = {
 "chaotique":"couleur2",
 "mourir":"couleur2",
 // C
+"sacrifié":"couleur3",
+"sacrifiées":"couleur3",
 "religieux":"couleur3",
 "un prédateur algorithmique":"couleur3",
 "humaine":"couleur3",
