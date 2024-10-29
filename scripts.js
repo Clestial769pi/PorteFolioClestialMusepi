@@ -450,6 +450,7 @@ const motsClasses = {
 "cosmos":"couleur3",
 "rapport de force":"couleur3",
 // D
+"extrêmes":"couleur4",
 "extrémités":"couleur4",
 "vérité":"couleur4",
 "homogènes":"couleur4",
