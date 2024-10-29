@@ -270,6 +270,7 @@ table{
     width:auto;
     height: auto;
     flex-direction: column;
+    font-size: 13px;
 }
 td,th{
     border: 1px solid purple;
