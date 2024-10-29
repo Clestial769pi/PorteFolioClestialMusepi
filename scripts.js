@@ -262,6 +262,7 @@ const motsClasses = {
 "deux":"couleur2",
 "la hauteur":"couleur2",
 "adversité":"couleur2",
+"le concret":"couleur2",
 // C
 "totalité":"couleur3",
 "Saint-Esprit":"couleur3",
