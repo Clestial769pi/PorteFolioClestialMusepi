@@ -281,6 +281,7 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 // C
+"sagesse":"couleur3",
 "666":"couleur3",
 "six cent soixante-six":"couleur3",
 "lié":"couleur3",
