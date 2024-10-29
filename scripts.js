@@ -530,3 +530,20 @@ function appliquerClassesTexte(element) {
 // La fonction sur le ID
 const monElement = document.getElementById("ABC");
 appliquerClassesTexte(monElement);
+
+// Youtube API
+var player;
+function onYouTubeIframeAPIReady() {
+    player = new YT.Player('player', {
+        height: '100%',
+        width: '100%',
+        videoId: 'iFrameVideo',
+        events: {
+            'onError': onPlayerError
+        }
+    });
+}
+
+function onPlayerError(event) {
+    console.log('Error occurred: ', event.data);
+}
