@@ -220,6 +220,7 @@ const motsClasses = {
 "tu":"couleur2",
 "Avoir":"couleur2",
 "avoir":"couleur2",
+"autrui":"couleur2",
 "flore":"couleur2",
 "mauvais":"couleur2",
 "L'Entité 02":"couleur2",
