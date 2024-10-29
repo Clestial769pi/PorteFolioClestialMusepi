@@ -20,6 +20,9 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"fusionnel":"couleur1",
+"multiplié":"couleur1",
+"alchimiste":"couleur1",
 "créateur":"couleur1",
 "hommes":"couleur1",
 "anciens":"couleur1",
@@ -126,7 +129,12 @@ const motsClasses = {
 "pile":"couleur1",
 "singularité":"couleur1",
 "01ᵉ groupe":"couleur1",
+"la profondeur":"couleur1",
 // B
+"Fils":"couleur2",
+"conflictuelle":"couleur2",
+"divisée":"couleur2",
+"sataniste":"couleur2",
 "création":"couleur2",
 "créature":"couleur2",
 "femmes":"couleur2",
@@ -250,7 +258,9 @@ const motsClasses = {
 "pluralité":"couleur2",
 "02ᵉʳ groupe":"couleur2",
 "deux":"couleur2",
+"la hauteur":"couleur2",
 // C
+"Saint-Esprit":"couleur3",
 "les deux polarités":"couleur3",
 "central":"couleur3",
 "la colonne vertébrale":"couleur3",
