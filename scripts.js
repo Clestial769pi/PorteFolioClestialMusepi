@@ -142,6 +142,7 @@ const motsClasses = {
 "01ᵉ groupe":"couleur1",
 "la profondeur":"couleur1",
 "responsable":"couleur1",
+"bien":"couleur1",
 // B
 "esclaves":"couleur2",
 "Esclaves":"couleur2",
@@ -283,7 +284,11 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 "irresponsable":"couleur2",
+"mal":"couleur2",
 // C
+"jardin":"couleur3",
+"arbres":"couleur3",
+"Corne":"couleur3",
 "univers":"couleur3",
 "totaux":"couleur3",
 "totale":"couleur3",
@@ -414,6 +419,7 @@ const motsClasses = {
 "symétriques":"couleur3",
 "03ᵉ groupe":"couleur3",
 "cosmos":"couleur3",
+"rapport de force":"couleur3",
 // D
 "extrémités":"couleur4",
 "vérité":"couleur4",
