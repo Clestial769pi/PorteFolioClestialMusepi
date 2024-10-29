@@ -304,6 +304,7 @@ const motsClasses = {
 "chaotique":"couleur2",
 "mourir":"couleur2",
 // C
+"histoires":"couleur3",
 "sacrifié":"couleur3",
 "sacrifiées":"couleur3",
 "religieux":"couleur3",
