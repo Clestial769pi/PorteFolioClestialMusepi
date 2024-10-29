@@ -151,6 +151,7 @@ const motsClasses = {
 "la profondeur":"couleur1",
 "responsable":"couleur1",
 "bien":"couleur1",
+"vivre":"couleur1",
 // B
 "maux":"couleur2",
 "partir":"couleur2",
@@ -300,6 +301,7 @@ const motsClasses = {
 "irresponsable":"couleur2",
 "mal":"couleur2",
 "chaotique":"couleur2",
+"mourir":"couleur2",
 // C
 "un prédateur algorithmique":"couleur3",
 "humaine":"couleur3",
