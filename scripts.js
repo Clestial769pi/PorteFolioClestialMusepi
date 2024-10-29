@@ -20,6 +20,8 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"paradis":"couleur1",
+"basse":"couleur1",
 "Gauchiste":"couleur1",
 "premier":"couleur1",
 "1ᵉʳ groupe ":"couleur1",
@@ -110,6 +112,7 @@ const motsClasses = {
 " zoom ":"couleur1",
 " Zoom ":"couleur1",
 // B
+"haute":"couleur2",
 "grands":"couleur2",
 "Droitard":"couleur2",
 "dernier":"couleur2",
@@ -291,6 +294,7 @@ const motsClasses = {
 "key":"couleur3",
 "symétriques":"couleur3",
 // D
+"extrémités":"couleur4",
 "vérité":"couleur4",
 "homogènes":"couleur4",
 "Paix":"couleur4",
