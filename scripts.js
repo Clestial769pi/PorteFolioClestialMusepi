@@ -153,6 +153,7 @@ const motsClasses = {
 "responsable":"couleur1",
 "bien":"couleur1",
 "vivre":"couleur1",
+"locale":"couleur1",
 // B
 "maux":"couleur2",
 "partir":"couleur2",
@@ -303,6 +304,7 @@ const motsClasses = {
 "mal":"couleur2",
 "chaotique":"couleur2",
 "mourir":"couleur2",
+"globale":"couleur2",
 // C
 "changement":"couleur3",
 "histoires":"couleur3",
@@ -463,7 +465,11 @@ const motsClasses = {
 "03ᵉ groupe":"couleur3",
 "cosmos":"couleur3",
 "rapport de force":"couleur3",
+"langage":"couleur3",
 // D
+"paradoxes":"couleur4",
+"Contradictions":"couleur4",
+"contradictions":"couleur4",
 "côtés":"couleur4",
 "extrêmes":"couleur4",
 "extrémités":"couleur4",
