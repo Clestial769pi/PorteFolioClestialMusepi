@@ -288,6 +288,8 @@ const motsClasses = {
 "irresponsable":"couleur2",
 "mal":"couleur2",
 // C
+
+"humains":"couleur3",
 "Péché originel":"couleur3",
 "jardin":"couleur3",
 "arbres":"couleur3",
@@ -383,6 +385,7 @@ const motsClasses = {
 "énergie":"couleur3",
 "longueur d'onde":"couleur3",
 "être":"couleur3",
+"êtres":"couleur3",
 "binaire":"couleur3",
 "binaires":"couleur3",
 "anatomies":"couleur3",
