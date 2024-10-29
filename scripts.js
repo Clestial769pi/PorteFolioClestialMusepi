@@ -118,6 +118,7 @@ const motsClasses = {
 "ancienne":"couleur1",
 "Soleil":"couleur1",
 "pile":"couleur1",
+"singularité":"couleur1",
 // B
 "pluralité":"couleur2",
 "queue":"couleur2",
@@ -232,6 +233,7 @@ const motsClasses = {
 "Lune":"couleur2",
 "opposé":"couleur2",
 "face":"couleur2",
+"pluralité":"couleur2",
 // C
 "société":"couleur3",
 "pentacle":"couleur3",
