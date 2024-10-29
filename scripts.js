@@ -249,7 +249,9 @@ const motsClasses = {
 "face":"couleur2",
 "pluralité":"couleur2",
 "02ᵉʳ groupe":"couleur2",
+"deux":"couleur2",
 // C
+"les deux polarités":"couleur3",
 "central":"couleur3",
 "la colonne vertébrale":"couleur3",
 "corne":"couleur3",
