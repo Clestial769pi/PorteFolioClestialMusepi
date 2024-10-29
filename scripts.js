@@ -141,6 +141,7 @@ const motsClasses = {
 "singularité":"couleur1",
 "01ᵉ groupe":"couleur1",
 "la profondeur":"couleur1",
+"responsable":"couleur1",
 // B
 "esclaves":"couleur2",
 "Esclaves":"couleur2",
@@ -281,6 +282,7 @@ const motsClasses = {
 "la hauteur":"couleur2",
 "adversité":"couleur2",
 "le concret":"couleur2",
+"irresponsable":"couleur2",
 // C
 "œil":"couleur3",
 "blasphème":"couleur3",
