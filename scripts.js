@@ -226,6 +226,10 @@ const motsClasses = {
 " Dézoom ":"couleur2",
 "Satan":"couleur2",
 // C
+"équilibres":"couleur3",
+"frontière":"couleur3",
+"onde":"couleur3",
+"nuance":"couleur3",
 "égalité":"couleur3",
 "équations":"couleur3",
 "Centriste":"couleur3",
