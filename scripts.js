@@ -377,6 +377,7 @@ const motsClasses = {
 "chromosomes":"couleur3",
 "Nous":"couleur3",
 "foules":"couleur3",
+"probabilités":"couleur3",
 "masse":"couleur3",
 "groupe":"couleur3",
 "sommes":"couleur3",
