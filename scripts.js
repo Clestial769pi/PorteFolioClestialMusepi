@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"L'abstrait":"couleur1",
 "fusionnel":"couleur1",
 "multiplié":"couleur1",
 "alchimiste":"couleur1",
@@ -131,6 +132,7 @@ const motsClasses = {
 "01ᵉ groupe":"couleur1",
 "la profondeur":"couleur1",
 // B
+"Le concret":"couleur2",
 "Fils":"couleur2",
 "conflictuelle":"couleur2",
 "divisée":"couleur2",
