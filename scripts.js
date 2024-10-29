@@ -356,6 +356,7 @@ const motsClasses = {
 "marque":"couleur3",
 "nombre d'homme":"couleur3",
 "sagesse":"couleur3",
+"originelle":"couleur3",
 "666":"couleur3",
 "six cent soixante-six":"couleur3",
 "lié":"couleur3",
