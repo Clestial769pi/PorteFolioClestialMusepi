@@ -306,6 +306,7 @@ const motsClasses = {
 "mourir":"couleur2",
 "globale":"couleur2",
 // C
+
 "Si":"couleur3",
 "si":"couleur3",
 "changement":"couleur3",
@@ -352,6 +353,8 @@ const motsClasses = {
 "666":"couleur3",
 "six cent soixante-six":"couleur3",
 "lié":"couleur3",
+"conditions":"couleur3",
+"Conditions":"couleur3",
 "conséquences":"couleur3",
 "variantes":"couleur3",
 "génération":"couleur3",
