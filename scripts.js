@@ -250,6 +250,7 @@ const motsClasses = {
 "pluralité":"couleur2",
 "02ᵉʳ groupe":"couleur2",
 // C
+"la colonne vertébrale":"couleur3",
 "corne":"couleur3",
 "un tout":"couleur3",
 "tout":"couleur3",
