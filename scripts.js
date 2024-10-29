@@ -127,6 +127,7 @@ const motsClasses = {
 "singularité":"couleur1",
 "01ᵉ groupe":"couleur1",
 // B
+"création":"couleur2",
 "créature":"couleur2",
 "femmes":"couleur2",
 "nouveaux":"couleur2",
