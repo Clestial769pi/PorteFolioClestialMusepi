@@ -20,6 +20,12 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"libres":"couleur1",
+"Libres":"couleur1",
+"pauvre":"couleur1",
+"Pauvre":"couleur1",
+"pauvres":"couleur1",
+"Pauvres":"couleur1",
 "sujet":"couleur1",
 "froid":"couleur1",
 "Froid":"couleur1",
@@ -135,6 +141,12 @@ const motsClasses = {
 "01ᵉ groupe":"couleur1",
 "la profondeur":"couleur1",
 // B
+"esclaves":"couleur2",
+"Esclaves":"couleur2",
+"riche":"couleur2",
+"Riche":"couleur2",
+"riches":"couleur2",
+"Riches":"couleur2",
 "verbe":"couleur2",
 "Chaud":"couleur2",
 "Le concret":"couleur2",
@@ -269,6 +281,8 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 // C
+"666":"couleur3",
+"six cent soixante-six":"couleur3",
 "lié":"couleur3",
 "conséquences":"couleur3",
 "variantes":"couleur3",
