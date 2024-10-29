@@ -20,6 +20,8 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"Gauchiste":"couleur1",
+"premier":"couleur1",
 "1ᵉʳ groupe ":"couleur1",
 "1ʳᵉ personne":"couleur1",
 "petite":"couleur1",
@@ -105,8 +107,12 @@ const motsClasses = {
 "vie":"couleur1",
 "Vie":"couleur1",
 "petits":"couleur1",
-"zoom":"couleur1",
+" zoom ":"couleur1",
+" Zoom ":"couleur1",
 // B
+"grands":"couleur2",
+"Droitard":"couleur2",
+"dernier":"couleur2",
 "2ᵉ groupe":"couleur2",
 "2ᵉ personne":"couleur2",
 "grande":"couleur2",
@@ -205,9 +211,11 @@ const motsClasses = {
 "mort":"couleur2",
 "Mort":"couleur2",
 "grand":"couleur2",
-"dézoom":"couleur2",
+" dézoom ":"couleur2",
+" Dézoom ":"couleur2",
 "Satan":"couleur2",
 // C
+"Centriste":"couleur3",
 "3ᵉ groupe":"couleur3",
 "3ᵉ personne":"couleur3",
 "échelle":"couleur3",
@@ -286,7 +294,7 @@ const motsClasses = {
 "homogènes":"couleur4",
 "Paix":"couleur4",
 "paix":"couleur4",
-"D": "couleur4",
+" D ": "couleur4",
 "Cadre":"couleur4",
 "cadre":"couleur4",
 "limites":"couleur4",
