@@ -117,6 +117,7 @@ const motsClasses = {
 " Zoom ":"couleur1",
 "ancienne":"couleur1",
 "Soleil":"couleur1",
+"pile":"couleur1",
 // B
 "pluralité":"couleur2",
 "queue":"couleur2",
@@ -230,6 +231,7 @@ const motsClasses = {
 "nouvelle":"couleur2",
 "Lune":"couleur2",
 "opposé":"couleur2",
+"face":"couleur2",
 // C
 "société":"couleur3",
 "pentacle":"couleur3",
