@@ -229,6 +229,7 @@ const motsClasses = {
 "Satan":"couleur2",
 "nouvelle":"couleur2",
 "Lune":"couleur2",
+"opposé":"couleur2",
 // C
 "société":"couleur3",
 "pentacle":"couleur3",
