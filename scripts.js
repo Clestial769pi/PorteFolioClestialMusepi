@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"têtes":"couleur1",
 "libres":"couleur1",
 "Libres":"couleur1",
 "pauvre":"couleur1",
@@ -281,6 +282,9 @@ const motsClasses = {
 "adversité":"couleur2",
 "le concret":"couleur2",
 // C
+"blasphème":"couleur3",
+"mer":"couleurs3",
+"cornes":"couleur3",
 "l'intelligence":"couleur3",
 "troies":"couleur3",
 "trois":"couleur3",
