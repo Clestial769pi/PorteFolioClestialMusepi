@@ -86,6 +86,7 @@ const motsClasses = {
 "être":"couleur1",
 "faune":"couleur1",
 "bon":"couleur1",
+"bons":"couleur1",
 "L'Entité 01":"couleur1",
 "Occident":"couleur1",
 "gentil":"couleur1",
