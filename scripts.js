@@ -284,6 +284,7 @@ const motsClasses = {
 // C
 "blasphème":"couleur3",
 "mer":"couleurs3",
+"Mer":"couleurs3",
 "cornes":"couleur3",
 "l'intelligence":"couleur3",
 "troies":"couleur3",
