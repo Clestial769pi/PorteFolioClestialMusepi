@@ -343,6 +343,8 @@ const motsClasses = {
 "cornes":"couleur3",
 "l'intelligence":"couleur3",
 "troies":"couleur3",
+"pôles":"couleur3",
+"Pôles":"couleur3",
 "trois":"couleur3",
 "Pyramide":"couleur3",
 "pyramide":"couleur3",
