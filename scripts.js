@@ -276,7 +276,6 @@ const motsClasses = {
 "central":"couleur3",
 "la colonne vertébrale":"couleur3",
 "corne":"couleur3",
-"un tout":"couleur3",
 "tout":"couleur3",
 "Tout":"couleur3",
 "03ᵉ personne":"couleur3",
