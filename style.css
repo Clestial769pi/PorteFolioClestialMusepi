@@ -92,7 +92,7 @@ h1,h2,h3,h4,h5{
     padding-left: 5px;
     padding-right: 2px;
 }
-.couleur1:hover,.couleur2:hover,.couleur3:hover,.couleur4:hover{cursor:url(/IMG/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;}
+.couleur1:hover,.couleur2:hover,.couleur3:hover,.couleur4:hover{cursor:url(IMG/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;}
 .couleur3:hover{
     background-color: orange;
     border: 1px dotted purple;
