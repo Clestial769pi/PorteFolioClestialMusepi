@@ -306,6 +306,7 @@ const motsClasses = {
 "longueur":"couleur2",
 "collectif":"couleur2",
 // C
+"arbre":"couleur3",
 "religions":"couleur3",
 "interprétation":"couleur3",
 "couleur":"couleur3",
@@ -424,6 +425,7 @@ const motsClasses = {
 "équilibres":"couleur3",
 "frontière":"couleur3",
 "front":"couleur3",
+"Front":"couleur3",
 "onde":"couleur3",
 "nuance":"couleur3",
 "égalité":"couleur3",
