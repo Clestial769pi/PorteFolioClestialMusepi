@@ -306,6 +306,7 @@ const motsClasses = {
 "longueur":"couleur2",
 "collectif":"couleur2",
 // C
+"organisée":"couleur3",
 "individus":"couleur3",
 "individu":"couleur3",
 "l'arbre de la connaissance":"couleur3",
