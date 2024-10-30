@@ -204,9 +204,13 @@ li:hover{
         z-index: +999;
         width: auto;
         text-align: justify;
-        padding: 5px;
+        /* padding: 5px; */
+        padding-left: 15px;
+        padding-right: 15px;
+        /* height: 60px; */
         display:flex;
-        height: auto;
+        /* overflow-y: scroll;
+        overflow-x: hidden; */
         background-color: rgba(70, 0, 128, 0.945);
         color: rgb(255, 255, 255);
         border-top: orange;
