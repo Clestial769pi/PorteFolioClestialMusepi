@@ -309,7 +309,7 @@ const motsClasses = {
 "mourir":"couleur2",
 "globale":"couleur2",
 // C
-
+"collaboration":"couleur3",
 "Si":"couleur3",
 "si":"couleur3",
 "changement":"couleur3",
@@ -668,6 +668,7 @@ const motsClasses = {
 "Progression":"couleur3",
 "progression":"couleur3",
 };
+
 
 function appliquerClassesTexte(element) {
     let ABC = element.innerHTML;
