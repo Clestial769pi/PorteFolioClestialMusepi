@@ -705,32 +705,32 @@ appliquerClassesTexte(monElement);
 
 
 
-const apiKey = 'AIzaSyDZ0S7orN0fS11fOL0c78qrVn2niFXrEWI'; // Remplace par ta clé API
+const apiKey = 'AIzaSyBKZPm-m2oURe-W-GS9Q_-r9XtagVFUTJs'; // Remplace par ta clé API
 const playlistId = 'PLKC6RJj08gB-RPI9RuX10odCGYEW66twJ'; // Remplace par l'ID de ta playlist
 
-fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&key=${apiKey}`)
-    .then(response => {
-        if (!response.ok) {
-            throw new Error('Erreur lors du chargement de la playlist');
-        }
-        return response.json();
-    })
-    .then(data => {
-        const videos = data.items;
-        const videoContainer = document.getElementById('videoYoutubeIframe');
+// fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&playlistId=${playlistId}&key=${apiKey}`)
+//     .then(response => {
+//         if (!response.ok) {
+//             throw new Error('Erreur lors du chargement de la playlist');
+//         }
+//         return response.json();
+//     })
+//     .then(data => {
+//         const videos = data.items;
+//         const videoContainer = document.getElementById('videoYoutubeIframe');
 
-        if (videos.length === 0) {
-            videoContainer.innerHTML = '<p>Aucune vidéo disponible dans cette playlist.</p>';
-        } else {
-            videos.forEach(video => {
-                const videoId = video.snippet.resourceId.videoId;
-                videoContainer.innerHTML += `
-                <iframe id="iFrameVideo" width="100%" height="250px" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen target="_blank"></iframe>`
-            });
-        }
-    })
-    .catch(error => {
-        console.error('Error:', error);
-        const videoContainer = document.getElementById('videoYoutubeIframe');
-        videoContainer.innerHTML = '<p>Erreur lors du chargement de la playlist.</p>';
-    });
+//         if (videos.length === 0) {
+//             videoContainer.innerHTML = '<p>Aucune vidéo disponible dans cette playlist.</p>';
+//         } else {
+//             videos.forEach(video => {
+//                 const videoId = video.snippet.resourceId.videoId;
+//                 videoContainer.innerHTML += `
+//                 <iframe id="iFrameVideo" width="100%" height="250px" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen target="_blank"></iframe>`
+//             });
+//         }
+//     })
+//     .catch(error => {
+//         console.error('Error:', error);
+//         const videoContainer = document.getElementById('videoYoutubeIframe');
+//         videoContainer.innerHTML = '<p>Erreur lors du chargement de la playlist.</p>';
+//     });
