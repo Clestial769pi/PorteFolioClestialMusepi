@@ -193,7 +193,7 @@ li:hover{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         overflow-x: hidden;
-        /* overflow-y: hidden; */
+        overflow-y: hidden;
         margin: 0;
         padding: 0;
         /* height: 100%; */
@@ -235,6 +235,7 @@ li:hover{
             background-color: rgb(42, 0, 61);
             /* overflow-y: scroll; */
             overflow-x: hidden;
+                    /* overflow-y: hidden; */
             height: 100%;
             transition: var(--transition1);
         }
