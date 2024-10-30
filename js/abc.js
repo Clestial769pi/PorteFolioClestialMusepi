@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"question":"couleur1",
 "zéro":"couleur1",
 "mots":"couleur1",
 "rester":"couleur1",
@@ -140,6 +141,8 @@ const motsClasses = {
 "vivre":"couleur1",
 // "locale":"couleur1",
 // B
+"Réponse": "couleur2",
+"réponse": "couleur2",
 "maux":"couleur2",
 "partir":"couleur2",
 "Fin":"couleur2",
@@ -293,6 +296,7 @@ const motsClasses = {
 // C
 "collaboration":"couleur3",
 "Si":"couleur3",
+"voisins":"couleur3",
 // "si":"couleur3",
 "changement":"couleur3",
 "histoires":"couleur3",
@@ -621,8 +625,8 @@ const motsClasses = {
 "habilité": "couleur3",
 "Responsabilité": "couleur3",
 "responsabilité": "couleur3",
-"Réponse": "couleur3",
-"réponse": "couleur3",
+// "Réponse": "couleur3",
+// "réponse": "couleur3",
 "Pointe": "couleur3",
 "pointe": "couleur3",
 "Pointue": "couleur3",
