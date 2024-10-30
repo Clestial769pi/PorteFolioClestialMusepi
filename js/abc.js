@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"première":"couleur1",
 "main":"couleur1",
 "sol":"couleur1",
 "question":"couleur1",
@@ -306,7 +307,9 @@ const motsClasses = {
 "selle":"couleur2",
 "longueur":"couleur2",
 "collectif":"couleur2",
+"seconde":"couleur2",
 // C
+"caractéristiques":"couleur3",
 "arbre":"couleur3",
 "religions":"couleur3",
 "interprétation":"couleur3",
