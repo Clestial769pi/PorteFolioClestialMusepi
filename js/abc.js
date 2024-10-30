@@ -490,7 +490,9 @@ const motsClasses = {
 "rapport de force":"couleur3",
 "langage":"couleur3",
 // D
+"paradoxaux":"couleur4",
 "paradoxes":"couleur4",
+"contradictoires":"couleur4",
 "Contradictions":"couleur4",
 "contradictions":"couleur4",
 "côtés":"couleur4",
