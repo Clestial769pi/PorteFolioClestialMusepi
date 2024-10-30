@@ -294,6 +294,9 @@ const motsClasses = {
 "mourir":"couleur2",
 "globale":"couleur2",
 // C
+"modifie":"couleur3",
+"recycle":"couleur3",
+"revois":"couleur3",
 "collaboration":"couleur3",
 "Si":"couleur3",
 "voisins":"couleur3",
