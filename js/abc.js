@@ -298,6 +298,7 @@ const motsClasses = {
 "pieds":"couleur2",
 "selle":"couleur2",
 // C
+"l'arbre de la connaissance":"couleur3",
 "arborescence":"couleur3",
 "développer":"couleur3",
 "hasard":"couleur3",
