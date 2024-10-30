@@ -182,7 +182,7 @@ li:hover{
     border: 2px solid orange;
     cursor: url(img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
 }
-#bodyleftTextNews:hover{
+#bodyRightTextNews:hover{
     background-color: rgb(19, 0, 27);
     transition: var(--transition1);
 }
@@ -225,7 +225,7 @@ li:hover{
             padding-bottom: 5px;
             padding-top: 15px;
         }
-        #bodyleftTextNews{
+        #bodyRightTextNews{
             padding: 15px;
             border: 1px dotted purple;
             grid-column: 1;
@@ -256,7 +256,7 @@ li:hover{
         width: auto;
         height: 100%;
     }
-    #bodyleftTextNews{
+    #bodyRightTextNews{
         grid-column: 2/4;
         grid-row: 2;
     }
