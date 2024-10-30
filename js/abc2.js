@@ -2,6 +2,7 @@
 
 const motsClasses = {
 "si":"couleur3",
+"locale":"couleur1",
     };
     
     

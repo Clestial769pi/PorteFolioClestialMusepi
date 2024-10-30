@@ -138,7 +138,7 @@ const motsClasses = {
 "responsable":"couleur1",
 "bien":"couleur1",
 "vivre":"couleur1",
-"locale":"couleur1",
+// "locale":"couleur1",
 // B
 "maux":"couleur2",
 "partir":"couleur2",
