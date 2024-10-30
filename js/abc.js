@@ -489,6 +489,7 @@ const motsClasses = {
 "cosmos":"couleur3",
 "rapport de force":"couleur3",
 "langage":"couleur3",
+"l’arbre":"couleur3",
 // D
 "paradoxaux":"couleur4",
 "paradoxes":"couleur4",
