@@ -1,5 +1,5 @@
 const Lien = {
-    pageAcceuil: '<a href="html/index.html"><li id="lienPageAcceuilCouleur">Acceuil</li></a>',
+    pageAcceuil: '<a href="index.html"><li id="lienPageAcceuilCouleur">Acceuil</li></a>',
     pageMonLore: '<a href="html/pageMusique.html"><li id="lienPageMusiqueCouleur">Musique</li></a>',
     pageMusique: '<a href="html/pageMonLore.html"><li id="lienPageMonLoreCouleur">Mon lore</li></a>',
     pageNews: '<a href="html/pageNews.html"><li id="lienPageNews">News !</li></a>',
