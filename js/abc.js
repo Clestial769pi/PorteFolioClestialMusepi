@@ -142,6 +142,7 @@ const motsClasses = {
 "bien":"couleur1",
 "vivre":"couleur1",
 "largeur":"couleur1",
+"individuel":"couleur1",
 // "locale":"couleur1",
 // B
 "Réponse": "couleur2",
@@ -302,6 +303,7 @@ const motsClasses = {
 "pieds":"couleur2",
 "selle":"couleur2",
 "longueur":"couleur2",
+"collectif":"couleur2",
 // C
 "individus":"couleur3",
 "individu":"couleur3",
