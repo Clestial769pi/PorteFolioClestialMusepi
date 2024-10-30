@@ -64,6 +64,10 @@ h2{color: rgb(241, 0, 241);font-size: 15px;}
     font-weight: bold;
     letter-spacing: 15px;
     color: white;
+    text-align: center;
+}
+.h1Left{
+    text-align: left;
 }
 .couleur1 {     
     background-color: blue;
