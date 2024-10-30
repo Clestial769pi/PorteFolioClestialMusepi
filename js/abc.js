@@ -306,6 +306,7 @@ const motsClasses = {
 "longueur":"couleur2",
 "collectif":"couleur2",
 // C
+"religions":"couleur3",
 "interprétation":"couleur3",
 "couleur":"couleur3",
 "Simultanément":"couleur3",
