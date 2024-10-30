@@ -589,6 +589,8 @@ const motsClasses = {
 "Génocides":"couleur3",
 "génocides":"couleur3",
 "Conflits":"couleur3",
+"Conflit":"couleur3",
+"conflit":"couleur3",
 "conflits":"couleur3",
 "Sophisme":"couleur3",
 "sophisme":"couleur3",
