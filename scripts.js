@@ -20,6 +20,7 @@ document.querySelector('#lesLiensJS').innerHTML = listLiens;
 
 const motsClasses = {
 // A
+"zéro":"couleur1",
 "mots":"couleur1",
 "rester":"couleur1",
 "christianisme":"couleur1",
