@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+
 "sol":"couleur1",
 "question":"couleur1",
 "zéro":"couleur1",
@@ -58,6 +59,7 @@ const motsClasses = {
 "Dieu":"couleur1",
 "dieu":"couleur1",
 "Acheter":"couleur1",
+"acheter":"couleur1",
 "Prédateur":"couleur1",
 "Faible":"couleur1",
 "faible":"couleur1",
