@@ -535,6 +535,7 @@ const motsClasses = {
 "langage":"couleur3",
 "l’arbre":"couleur3",
 // D
+"sélectionné":"couleur4",
 "paradoxaux":"couleur4",
 "paradoxes":"couleur4",
 "contradictoires":"couleur4",
