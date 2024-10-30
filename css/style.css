@@ -192,6 +192,24 @@ li:hover{
 }
 
 @media(min-width:0){
+    #blocPrevention:hover{
+        opacity: 100%;
+    }
+    #blocPrevention{
+        opacity: 50%;
+        z-index: +999;
+        width: auto;
+        text-align: justify;
+        padding: 5px;
+        display:flex;
+        height: auto;
+        background-color: rgba(70, 0, 128, 0.945);
+        color: rgb(255, 255, 255);
+        border-top: orange;
+        box-shadow: 1px 2px 5px 1px orange;
+        position:fixed;
+        bottom: 0;
+    }
     #BlocABCBodyCadre{
         display: grid;
         grid-template-columns: 1fr;
