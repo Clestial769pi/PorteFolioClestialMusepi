@@ -382,6 +382,8 @@ const motsClasses = {
 "six cent soixante-six":"couleur3",
 "lié":"couleur3",
 "conditions":"couleur3",
+"condition":"couleur3",
+"Condition":"couleur3",
 "Conditions":"couleur3",
 "conséquences":"couleur3",
 "variantes":"couleur3",
