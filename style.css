@@ -193,7 +193,7 @@ li:hover{
         grid-template-columns: 1fr;
         grid-template-rows: auto auto auto;
         overflow-x: hidden;
-        overflow-y: hidden;
+        /* overflow-y: hidden; */
         margin: 0;
         padding: 0;
         height: 100%;
@@ -224,6 +224,8 @@ li:hover{
             padding-left: 0;
             padding-bottom: 5px;
             padding-top: 15px;
+                height: max-content;
+
         }
         #bodyRightTextNews{
             padding: 15px;
@@ -231,7 +233,7 @@ li:hover{
             grid-column: 1;
             grid-row: 3;
             background-color: rgb(42, 0, 61);
-            overflow-y: scroll;
+            /* overflow-y: scroll; */
             height: 100%;
             transition: var(--transition1);
         }
