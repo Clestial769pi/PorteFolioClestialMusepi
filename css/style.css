@@ -97,7 +97,7 @@ h2{color: rgb(241, 0, 241);font-size: 15px;}
     padding-left: 5px;
     padding-right: 2px;
 }
-.couleur1:hover,.couleur2:hover,.couleur3:hover,.couleur4:hover{cursor:url(img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;}
+.couleur1:hover,.couleur2:hover,.couleur3:hover,.couleur4:hover{cursor:url(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;}
 .couleur3:hover{
     background-color: orange;
     border: 1px dotted purple;
@@ -184,7 +184,7 @@ li:hover{
     background-color: rgb(58, 0, 58);
     box-shadow: 1px 2px 2px 1px var(--couleur4-2);
     border: 2px solid orange;
-    cursor: url(img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
+    cursor: url(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
 }
 #bodyRightTextNews:hover{
     background-color: rgb(19, 0, 27);
@@ -399,7 +399,7 @@ h1{
     font-size: 15px;
     transition: var(--transition1);
     border: 1px solid purple;
-    cursor: url(img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png)pointer;
+    cursor: url(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png)pointer;
 }
 #lienTwitter:active,
 #lienYoutube:active,
