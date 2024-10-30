@@ -196,11 +196,11 @@ li:hover{
     #bottomPadding{
         margin-bottom: 150px;
     }
-    #blocPrevention:hover{
+    /* #blocPrevention:hover{
         opacity: 100%;
-    }
+    } */
     #blocPrevention{
-        opacity: 50%;
+        opacity: 90%;
         z-index: +999;
         width: auto;
         text-align: justify;
