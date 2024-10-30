@@ -289,7 +289,6 @@ const motsClasses = {
 "Satan":"couleur2",
 "nouvelle":"couleur2",
 "Lune":"couleur2",
-"opposé":"couleur2",
 "face":"couleur2",
 "pluralité":"couleur2",
 "02ᵉʳ groupe":"couleur2",
