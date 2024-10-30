@@ -400,6 +400,7 @@ const motsClasses = {
 "enfant":"couleur3",
 "équilibres":"couleur3",
 "frontière":"couleur3",
+"front":"couleur3",
 "onde":"couleur3",
 "nuance":"couleur3",
 "égalité":"couleur3",
