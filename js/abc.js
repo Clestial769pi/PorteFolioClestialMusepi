@@ -491,6 +491,7 @@ const motsClasses = {
 "raisonnement":"couleur3",
 "représentent":"couleur3",
 "lore":"couleur3",
+"Réseaux":"couleur3",
 "couleurs":"couleur3",
 "signifie":"couleur3",
 "variables":"couleur3",
