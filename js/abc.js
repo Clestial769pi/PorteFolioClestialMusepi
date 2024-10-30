@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"main":"couleur1",
 "sol":"couleur1",
 "question":"couleur1",
 "zéro":"couleur1",
