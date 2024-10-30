@@ -295,6 +295,7 @@ const motsClasses = {
 "globale":"couleur2",
 "dragon":"couleur2",
 "pieds":"couleur2",
+"selle":"couleur2",
 // C
 "arborescence":"couleur3",
 "développer":"couleur3",
