@@ -2,7 +2,6 @@
 
 const motsClasses = {
 // A
-
 "sol":"couleur1",
 "question":"couleur1",
 "zéro":"couleur1",
@@ -142,6 +141,7 @@ const motsClasses = {
 "responsable":"couleur1",
 "bien":"couleur1",
 "vivre":"couleur1",
+"largeur":"couleur1",
 // "locale":"couleur1",
 // B
 "Réponse": "couleur2",
@@ -301,6 +301,7 @@ const motsClasses = {
 "dragon":"couleur2",
 "pieds":"couleur2",
 "selle":"couleur2",
+"longueur":"couleur2",
 // C
 "individus":"couleur3",
 "individu":"couleur3",
