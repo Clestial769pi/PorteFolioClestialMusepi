@@ -691,8 +691,8 @@ appliquerClassesTexte(monElement);
 const apiKey1 = 'AIzaSyDZ0S7orN0fS11fOL0c78qrVn2niFXrEWI';
 const apiKey2 = 'AIzaSyBKZPm-m2oURe-W-GS9Q_-r9XtagVFUTJs';
 const playlistId1 = 'PLKC6RJj08gB-RPI9RuX10odCGYEW66twJ';
-const playlistId2 = 'PLKC6RJj08gB8Ojs4BHj7CGMhBxQ2ocxBb&pp=gAQBiAQB8AUB';
-const videoId = 'videoseries?si=Jpvo9CVA-1xzGVEU&amp';
+const playlistId2 = 'PLKC6RJj08gB8Ojs4BHj7CGMhBxQ2ocxBb';
+const videoId2 = 'videoseries?si=Jpvo9CVA-1xzGVEU&amp';
 
 const videoContainer = document.getElementById('video-container');
 
@@ -714,13 +714,13 @@ function displayVideos(videos) {
     const uniqueVideos = new Set();
 
     videos.forEach(video => {
-        const videoId = video.snippet.resourceId.videoId;
+        const videoId2 = video.snippet.resourceId.videoId;
 
-        if (!uniqueVideos.has(videoId)) {
-            uniqueVideos.add(videoId);
+        if (!uniqueVideos.has(videoId2)) {
+            uniqueVideos.add(videoId2);
 
             videoContainer.innerHTML += `
-                        <iframe id="iFrameVideo" width="100%" height="250px" src="https://www.youtube.com/embed/${videoId}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen target="_blank"></iframe>
+                        <iframe id="iFrameVideo" width="100%" height="250px" src="https://www.youtube.com/embed/${videoId2}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen target="_blank"></iframe>
                         `;
         }
     });
