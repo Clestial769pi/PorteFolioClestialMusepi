@@ -256,6 +256,8 @@ const motsClasses = {
 "Droites": "couleur2",
 "droites": "couleur2",
 "Plus": "couleur2",
+"Plusieurs": "couleur2",
+"plusieurs": "couleur2",
 "plus": "couleur2",
 "Yin":"couleur2",
 "yin":"couleur2",
@@ -300,6 +302,8 @@ const motsClasses = {
 "pieds":"couleur2",
 "selle":"couleur2",
 // C
+"individus":"couleur3",
+"individu":"couleur3",
 "l'arbre de la connaissance":"couleur3",
 "arborescence":"couleur3",
 "développer":"couleur3",
