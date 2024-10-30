@@ -688,5 +688,5 @@ appliquerClassesTexte(monElement);
 
 // Youtube API
 
-const apiKey = 'AIzaSyBKZPm-m2oURe-W-GS9Q_-r9XtagVFUTJs'; // Remplace par ta clé API
-const playlistId = 'PLKC6RJj08gB-RPI9RuX10odCGYEW66twJ'; // Remplace par l'ID de ta playlist
+const apiKey = 'AIzaSyBKZPm-m2oURe-W-GS9Q_-r9XtagVFUTJs';
+const playlistId = 'PLKC6RJj08gB-RPI9RuX10odCGYEW66twJ';
