@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Le rien":"couleur1",
 "Suffixe":"couleur1",
 "seuls":"couleur1",
 "jonction":"couleur1",
@@ -318,6 +319,7 @@ const motsClasses = {
 "seconde":"couleur2",
 "future":"couleur2",
 "conjonction":"couleur2",
+"Le tout":"couleur2",
 // C
 "instant":"couleur3",
 "principe":"couleur3",
@@ -448,6 +450,7 @@ const motsClasses = {
 "pentacle":"couleur3",
 "enfant":"couleur3",
 "équilibres":"couleur3",
+"équilibre":"couleur3",
 "frontière":"couleur3",
 "front":"couleur3",
 "Front":"couleur3",
@@ -552,6 +555,7 @@ const motsClasses = {
 "langage":"couleur3",
 "l’arbre":"couleur3",
 // D
+"D": "couleur4",
 "sélectionné":"couleur4",
 "paradoxaux":"couleur4",
 "paradoxes":"couleur4",
@@ -566,7 +570,7 @@ const motsClasses = {
 "homogènes":"couleur4",
 "Paix":"couleur4",
 "paix":"couleur4",
-" D ": "couleur4",
+
 "Cadre":"couleur4",
 "cadre":"couleur4",
 "limites":"couleur4",
