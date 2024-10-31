@@ -323,6 +323,7 @@ const motsClasses = {
 "future":"couleur2",
 "conjonction":"couleur2",
 "Le tout":"couleur2",
+"neuf":"couleur2",
 // C
 "adjectifs":"couleur3",
 "instant":"couleur3",
