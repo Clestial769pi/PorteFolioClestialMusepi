@@ -2,11 +2,12 @@
 
 const motsClasses = {
 // A
+"préfixe":"couleur1",
+"Préfixe":"couleur1",
 "minuscule":"couleur1",
 "Noms":"couleur1",
 "le rien":"couleur1",
 "Le rien":"couleur1",
-"Suffixe":"couleur1",
 "seuls":"couleur1",
 "jonction":"couleur1",
 "première":"couleur1",
@@ -158,7 +159,8 @@ const motsClasses = {
 // B
 "majuscule":"couleur2",
 "verbe":"couleur2",
-"préfixe":"couleur2",
+"Suffixe":"couleur2",
+"suffixe":"couleur2",
 "satanique":"couleur2",
 "envers":"couleur2",
 "airs":"couleur2",
@@ -327,6 +329,9 @@ const motsClasses = {
 "Le tout":"couleur2",
 "neuf":"couleur2",
 // C
+"essence":"couleur3",
+"quinte":"couleur3",
+"La quintessence":"couleur3",
 "adjectifs":"couleur3",
 "instant":"couleur3",
 "principe":"couleur3",
