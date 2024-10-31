@@ -329,6 +329,7 @@ const motsClasses = {
 "Le tout":"couleur2",
 "neuf":"couleur2",
 // C
+"les sages":"couleur3",
 "essence":"couleur3",
 "quinte":"couleur3",
 "La quintessence":"couleur3",
