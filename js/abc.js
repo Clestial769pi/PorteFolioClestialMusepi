@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"minuscule":"couleur1",
 "Noms":"couleur1",
 "le rien":"couleur1",
 "Le rien":"couleur1",
@@ -155,6 +156,7 @@ const motsClasses = {
 // "locale":"couleur1",
 "endroit":"couleur1",
 // B
+"majuscule":"couleur2",
 "verbe":"couleur2",
 "préfixe":"couleur2",
 "satanique":"couleur2",
