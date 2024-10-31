@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"le rien":"couleur1",
 "Le rien":"couleur1",
 "Suffixe":"couleur1",
 "seuls":"couleur1",
