@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Noms":"couleur1",
 "le rien":"couleur1",
 "Le rien":"couleur1",
 "Suffixe":"couleur1",
@@ -154,6 +155,7 @@ const motsClasses = {
 // "locale":"couleur1",
 "endroit":"couleur1",
 // B
+"verbe":"couleur2",
 "préfixe":"couleur2",
 "satanique":"couleur2",
 "envers":"couleur2",
@@ -322,6 +324,7 @@ const motsClasses = {
 "conjonction":"couleur2",
 "Le tout":"couleur2",
 // C
+"adjectifs":"couleur3",
 "instant":"couleur3",
 "principe":"couleur3",
 "philosophiquement":"couleur3",
