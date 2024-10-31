@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Suffixe":"couleur1",
 "seuls":"couleur1",
 "jonction":"couleur1",
 "première":"couleur1",
@@ -151,6 +152,7 @@ const motsClasses = {
 // "locale":"couleur1",
 "endroit":"couleur1",
 // B
+"préfixe":"couleur2",
 "satanique":"couleur2",
 "envers":"couleur2",
 "airs":"couleur2",
