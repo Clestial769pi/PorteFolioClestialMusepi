@@ -28,6 +28,7 @@ const motsClasses = {
 "fusionnel":"couleur1",
 "multiplié":"couleur1",
 "alchimiste":"couleur1",
+"alchimistes":"couleur1",
 "créateur":"couleur1",
 "hommes":"couleur1",
 "anciens":"couleur1",
