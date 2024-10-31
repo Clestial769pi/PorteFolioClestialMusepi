@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"seuls":"couleur1",
 "jonction":"couleur1",
 "première":"couleur1",
 "main":"couleur1",
@@ -313,6 +314,7 @@ const motsClasses = {
 "future":"couleur2",
 "conjonction":"couleur2",
 // C
+"problèmes":"couleur3",
 "compréhension":"couleur3",
 // "organisé":"couleur3",
 "représentation":"couleur3",
