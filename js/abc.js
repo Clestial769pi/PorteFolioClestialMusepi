@@ -151,6 +151,7 @@ const motsClasses = {
 // "locale":"couleur1",
 "endroit":"couleur1",
 // B
+"satanique":"couleur2",
 "envers":"couleur2",
 "airs":"couleur2",
 "nouveau":"couleur2",
