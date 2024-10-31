@@ -150,6 +150,7 @@ const motsClasses = {
 "individuel":"couleur1",
 // "locale":"couleur1",
 // B
+"endroit":"couleur2",
 "airs":"couleur2",
 "nouveau":"couleur2",
 "Réponse": "couleur2",
