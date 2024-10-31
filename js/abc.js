@@ -149,8 +149,9 @@ const motsClasses = {
 "largeur":"couleur1",
 "individuel":"couleur1",
 // "locale":"couleur1",
+"endroit":"couleur1",
 // B
-"endroit":"couleur2",
+"envers":"couleur2",
 "airs":"couleur2",
 "nouveau":"couleur2",
 "Réponse": "couleur2",
