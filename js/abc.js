@@ -410,6 +410,7 @@ const motsClasses = {
 "Condition":"couleur3",
 "Conditions":"couleur3",
 "conséquences":"couleur3",
+"Conséquences":"couleur3",
 "variantes":"couleur3",
 "génération":"couleur3",
 "complément":"couleur3",
