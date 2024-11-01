@@ -572,6 +572,7 @@ const motsClasses = {
 "l’arbre":"couleur3",
 "transformation":"couleur3",
 "Jugement":"couleur3",
+"Tricolores":"couleur3",
 // D
 "uniforme":"couleur4",
 "rien":"couleur4",
