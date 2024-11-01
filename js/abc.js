@@ -250,7 +250,6 @@ const motsClasses = {
 "méchant":"couleur2",
 "opposé":"couleur2",
 "adversaire":"couleur2",
-"Proche-Orient":"couleur2",
 "1":"couleur2",
 "Cieux":"couleur2",
 "cieux":"couleur2",
@@ -335,6 +334,7 @@ const motsClasses = {
 "Le tout":"couleur2",
 "neuf":"couleur2",
 // C
+"Moyen-Orient / Proche-Orient":"couleur3",
 "plomb en or":"couleur3",
 "les sages":"couleur3",
 "essence":"couleur3",
