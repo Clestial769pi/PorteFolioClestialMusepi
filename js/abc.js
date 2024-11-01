@@ -573,6 +573,7 @@ const motsClasses = {
 "Jugement":"couleur3",
 "Tricolores":"couleur3",
 // D
+"la pierre philosophale":"couleur4",
 "uniforme":"couleur4",
 "rien":"couleur4",
 "D": "couleur4",
