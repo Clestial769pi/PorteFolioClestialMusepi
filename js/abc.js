@@ -570,6 +570,7 @@ const motsClasses = {
 "rapport de force":"couleur3",
 "langage":"couleur3",
 "l’arbre":"couleur3",
+"transformation":"couleur3",
 // D
 "uniforme":"couleur4",
 "rien":"couleur4",
