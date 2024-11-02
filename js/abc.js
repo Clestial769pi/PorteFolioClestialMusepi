@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Préfixes":"couleur1",
 "chat":"couleur1",
 "plomb":"couleur1",
 "lettres":"couleur1",
@@ -160,6 +161,7 @@ const motsClasses = {
 // "locale":"couleur1",
 "endroit":"couleur1",
 // B
+"suffixes":"couleur2",
 "lion":"couleur2",
 "or":"couleur2",
 "chiffres":"couleur2",
