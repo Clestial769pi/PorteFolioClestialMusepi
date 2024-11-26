@@ -316,6 +316,11 @@ li:hover{
     justify-content: center;
     overflow-x: scroll;
 }
+#tableToDoListList:hover{
+    background-color: orangered;
+    color: white;
+    border: 1px solid yellow;
+}
 #tableToDoList{
     background-color: purple;
     color:white ;
