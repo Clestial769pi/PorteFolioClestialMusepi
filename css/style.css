@@ -160,6 +160,18 @@ li:hover{
     background-color: red;
     color: white;
 }
+#lienPageToDoListCouleur:hover{
+    background-color: pink;
+    color: black;
+}
+#lienPageToDoListCouleur{
+    background-color: purple;
+    color: yellow;
+}
+#lienPageNews{
+    background-color: red;
+    color: white;
+}
 #lienPageNews:hover{
     background-color: green;
     color: white;
