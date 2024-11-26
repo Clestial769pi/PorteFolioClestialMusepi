@@ -4,6 +4,7 @@ const Lien = {
     pageMusique: '<a href="../html/pageMonLore.html"><li id="lienPageMonLoreCouleur">Mon lore</li></a>',
     pageNews: '<a href="../html/pageNews.html"><li id="lienPageNews">News !</li></a>',
     pageReseaux: '<a href="../html/pageReseaux.html"><li id="lienPageReseaux">Réseaux</li></a>',
+    pageToDoList: '<a href="../html/pageToDoList.html"><li id="lienPageToDoList">To Do List</li></a>',
 }
 const listLiens = 
 `
@@ -12,6 +13,7 @@ const listLiens =
     ${Lien.pageMusique}
     ${Lien.pageReseaux}
     ${Lien.pageMonLore}
+    ${Lien.pageToDoList}
     ${Lien.pageNews}
 </ul> 
 `

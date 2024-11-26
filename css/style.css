@@ -298,6 +298,26 @@ li:hover{
 }
 
 /* Mon Lore */
+#tableToDoListCenter{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+#tableToDoList{
+    background-color: purple;
+    color:white ;
+    border: 1px dotted white;
+    height: auto;
+    width: auto;
+    font-size: 13px;
+    text-align-last: center;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    width: max-content;
+}
 table{
     background-color: white;
     border: 1px solid orange;
