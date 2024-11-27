@@ -145,8 +145,8 @@ li:hover{
     color: white;
 }
 #lienPageAcceuilCouleur{
-    background-color: black;
-    color: blue;
+    background-color: blue;
+    color: white;
 }
 #lienPageAcceuilCouleur:hover{
     background-color: blue;
