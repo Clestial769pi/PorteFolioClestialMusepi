@@ -150,7 +150,7 @@ li:hover{
 }
 #lienPageAcceuilCouleur:hover{
     background-color: black;
-    color: blue;
+    color: rgb(0, 110, 255);
 }
 #lienPageMusiqueCouleur:hover{
     background-color: orange;
