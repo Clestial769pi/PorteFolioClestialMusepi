@@ -144,6 +144,10 @@ li:hover{
     background-color: purple;
     color: white;
 }
+#lienPageAcceuilCouleur{
+    background-color: black;
+    color: blue;
+}
 #lienPageAcceuilCouleur:hover{
     background-color: blue;
     color: white;
@@ -171,6 +175,10 @@ li:hover{
 #lienPageNewsCouleur{
     background-color: red;
     color: white;
+}
+#lienPageNewsCouleur:hover{
+    background-color: black;
+    color: red;
 }
 #lienPageNews:hover{
     background-color: green;
