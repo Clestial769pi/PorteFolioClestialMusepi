@@ -149,8 +149,8 @@ li:hover{
     color: white;
 }
 #lienPageAcceuilCouleur:hover{
-    background-color: blue;
-    color: white;
+    background-color: black;
+    color: blue;
 }
 #lienPageMusiqueCouleur:hover{
     background-color: orange;
