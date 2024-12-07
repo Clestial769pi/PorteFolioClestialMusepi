@@ -337,6 +337,7 @@ const motsClasses = {
 "Le tout":"couleur2",
 "neuf":"couleur2",
 "Global":"couleur2",
+"global":"couleur2",
 // C
 "Moyen-Orient / Proche-Orient":"couleur3",
 "plomb en or":"couleur3",
