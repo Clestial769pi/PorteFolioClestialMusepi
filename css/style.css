@@ -5,7 +5,7 @@
 }
 :root{
     /* -- (var () pour déclancher la variable*/
-    --transition1:0.5s;
+    --transition1:0.3s;
     --couleur1:rgb(88, 33, 237);
     --couleur2:rgb(190, 33, 237);
     --couleur3:rgb(237, 33, 182);
