@@ -160,6 +160,7 @@ const motsClasses = {
 "individuel":"couleur1",
 // "locale":"couleur1",
 "endroit":"couleur1",
+"Local":"couleur1",
 // B
 "suffixes":"couleur2",
 "lion":"couleur2",
@@ -335,6 +336,7 @@ const motsClasses = {
 "conjonction":"couleur2",
 "Le tout":"couleur2",
 "neuf":"couleur2",
+"Global":"couleur2",
 // C
 "Moyen-Orient / Proche-Orient":"couleur3",
 "plomb en or":"couleur3",
