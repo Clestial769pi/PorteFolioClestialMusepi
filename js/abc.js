@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"pensée":"couleur1",
 "Préfixes":"couleur1",
 "chat":"couleur1",
 "plomb":"couleur1",
@@ -338,6 +339,7 @@ const motsClasses = {
 "neuf":"couleur2",
 "Global":"couleur2",
 "global":"couleur2",
+"En acte":"couleur2",
 // C
 "Moyen-Orient / Proche-Orient":"couleur3",
 "plomb en or":"couleur3",
@@ -582,6 +584,7 @@ const motsClasses = {
 "transformation":"couleur3",
 "Jugement":"couleur3",
 "Tricolores":"couleur3",
+"en parole":"couleur3",
 // D
 "la pierre philosophale":"couleur4",
 "uniforme":"couleur4",
