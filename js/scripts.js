@@ -5,6 +5,7 @@ const Lien = {
     pageNews: '<a href="html/pageNews.html"><li id="lienPageNewsCouleur">News !</li></a>',
     pageReseaux: '<a href="html/pageReseaux.html"><li id="lienPageReseauxCouleur">Réseaux</li></a>',
     pageToDoList: '<a href="html/pageToDoList.html"><li id="lienPageToDoListCouleur">To Do List</li></a>',
+    paddingDown : '<div id="bottomPadding"></div>',
 }
 const listLiens = 
 `
@@ -15,6 +16,7 @@ const listLiens =
     ${Lien.pageMonLore}
     ${Lien.pageToDoList}
     ${Lien.pageNews}
+    ${Lien.paddingDown}
 </ul> 
 `
 // Application des liens sur ID > #lesLiensJS
