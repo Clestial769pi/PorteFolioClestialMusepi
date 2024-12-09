@@ -2,7 +2,7 @@
 
 const motsClasses = {
 // A
-"pensée":"couleur1",
+"En pensée":"couleur1",
 "Préfixes":"couleur1",
 "chat":"couleur1",
 "plomb":"couleur1",
