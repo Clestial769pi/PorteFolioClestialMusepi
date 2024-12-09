@@ -44,6 +44,7 @@
     margin-top: 15px;
 }
 body{
+    background-color: black;
     margin: 0;
     padding: 0;
 }
@@ -207,8 +208,11 @@ li:hover{
     border: 2px solid orange;
     cursor: url(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;
 }
+#bodyRightTextNews{
+    background-color: black;
+}
 #bodyRightTextNews:hover{
-    background-color: rgb(19, 0, 27);
+    background-color: rgba(179, 0, 255, 0.308);
     transition: var(--transition1);
 }
 
