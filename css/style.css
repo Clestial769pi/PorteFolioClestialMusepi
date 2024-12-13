@@ -606,9 +606,11 @@ ul{
     margin: 0;
     padding: 0;
 }
-#liHoverList{
+.liHoverList{
+    color: white;
     background-color: purple;
 }
-#liHoverList:hover{
-    background-color: orange;
+.liHoverList:hover{
+    color: black;
+    background-color: rgba(255, 166, 0, 0.466);
 }
