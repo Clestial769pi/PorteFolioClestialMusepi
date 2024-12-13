@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"émetteur":"couleur1",
 "absente":"couleur1",
 "En pensée":"couleur1",
 "Préfixes":"couleur1",
@@ -164,6 +165,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"récepteur":"couleur2",
 "présente":"couleur2",
 "suffixes":"couleur2",
 "lion":"couleur2",
