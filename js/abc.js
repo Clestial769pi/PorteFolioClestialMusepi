@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"absente":"couleur1",
 "En pensée":"couleur1",
 "Préfixes":"couleur1",
 "chat":"couleur1",
@@ -163,6 +164,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"présente":"couleur2",
 "suffixes":"couleur2",
 "lion":"couleur2",
 "or":"couleur2",
@@ -586,6 +588,7 @@ const motsClasses = {
 "Tricolores":"couleur3",
 "en parole":"couleur3",
 // D
+"le pas-sage":"couleur4",
 "la pierre philosophale":"couleur4",
 "uniforme":"couleur4",
 "rien":"couleur4",
@@ -612,6 +615,7 @@ const motsClasses = {
 "E": "couleur5",
 
 //C (spécial)
+"passage":"couleur3",
 "pirate":"couleur3",
 "bateau":"couleur3",
 "symbolique":"couleur3",
