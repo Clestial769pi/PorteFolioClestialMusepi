@@ -348,7 +348,7 @@ const motsClasses = {
 "conflictuel":"couleur3",
 "l'entité perturbatrice":"couleur3",
 "le criminel":"couleur3",
-"arme du crime":"couleur3",
+"crime":"couleur3",
 "Moyen-Orient / Proche-Orient":"couleur3",
 "plomb en or":"couleur3",
 "les sages":"couleur3",
