@@ -608,10 +608,10 @@ ul{
     padding: 0;
 }
 .liHoverListC{
-    border-color: yellow;
+    border-color: purple;
     border: 1px dotted orange;
-    color: rgb(226, 154, 255);
-    background-color: rgba(128, 0, 128, 0.836);
+    color: purple;
+    background-color: rgba(128, 0, 128, 0.13);
 }
 .liHoverListC:hover{
     border: 1px dotted;
