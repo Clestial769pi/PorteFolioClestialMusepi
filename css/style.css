@@ -610,7 +610,7 @@ ul{
 .liHoverListC{
     border-color: yellow;
     border: 1px dotted orange;
-    color: white;
+    color: orange;
     background-color: purple;
 }
 .liHoverListC:hover{
@@ -621,7 +621,7 @@ ul{
 }
 .liHoverListD{
     background-color: rgba(255, 166, 0, 0.466);
-    color: black;
+    color: purple;
     border: 1px dotted yellow;
 }
 .liHoverListD:hover{
