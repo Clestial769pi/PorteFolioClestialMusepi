@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Pôle sud":"couleur1",
 "Conducteur":"couleur1",
 "Bas":"couleur1",
 "Éteint":"couleur1",
@@ -169,6 +170,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Pôle nord":"couleur2",
 "Non-conducteur":"couleur2",
 "Haut":"couleur2",
 "Vrai":"couleur2",
