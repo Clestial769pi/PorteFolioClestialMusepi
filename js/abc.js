@@ -170,6 +170,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"L'autre":"couleur2",
 "Pôle nord":"couleur2",
 "Non-conducteur":"couleur2",
 "Haut":"couleur2",
