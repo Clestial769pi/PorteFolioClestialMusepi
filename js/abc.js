@@ -356,6 +356,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"spin":"couleur3",
 "conflictuel":"couleur3",
 "l'entité perturbatrice":"couleur3",
 "le criminel":"couleur3",
