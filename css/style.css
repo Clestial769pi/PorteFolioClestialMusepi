@@ -610,7 +610,7 @@ ul{
 .liHoverListC{
     border-color: yellow;
     border: 1px dotted orange;
-    color: purple;
+    color: rgb(177, 0, 231);
     background-color: rgba(128, 0, 128, 0.493);
 }
 .liHoverListC:hover{
