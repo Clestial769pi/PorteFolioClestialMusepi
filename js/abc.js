@@ -2,6 +2,10 @@
 
 const motsClasses = {
 // A
+"Conducteur":"couleur1",
+"Bas":"couleur1",
+"Éteint":"couleur1",
+"Faux":"couleur1",
 "émetteur":"couleur1",
 "absente":"couleur1",
 "En pensée":"couleur1",
@@ -165,6 +169,9 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Non-conducteur":"couleur2",
+"Haut":"couleur2",
+"Vrai":"couleur2",
 "récepteur":"couleur2",
 "présente":"couleur2",
 "suffixes":"couleur2",
