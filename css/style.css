@@ -625,8 +625,8 @@ ul{
     border: 1px dotted yellow;
 }
 .liHoverListD:hover{
-    border-color: orange;
-    background-color: purple;
+    border-color: purple;
+    background-color: orange;
 }
 .tdHeightScrollbar{
     height: min-content;
