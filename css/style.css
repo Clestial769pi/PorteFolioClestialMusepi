@@ -135,7 +135,7 @@ ul,li{
 li{
     padding: 5px;
     font-size: 12px;
-    border: 1px dotted purple;
+    border: 1px dotted orange;
     margin-left: 15px;
     margin-top: 5px;
     /* margin: 5px; */
@@ -144,6 +144,7 @@ li{
 li:hover{
     background-color: purple;
     color: white;
+    border: 1px dotted orange;
 }
 #lienPageAcceuilCouleur{
     background-color: blue;
@@ -608,7 +609,7 @@ ul{
 }
 .liHoverListC{
     border-color: yellow;
-    border: 1px dotted;
+    border: 1px dotted orange;
     color: white;
     background-color: purple;
 }
