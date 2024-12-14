@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Ordo":"couleur1",
 "Pôle sud":"couleur1",
 "Conducteur":"couleur1",
 "Bas":"couleur1",
