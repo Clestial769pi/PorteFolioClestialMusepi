@@ -611,6 +611,8 @@ ul{
     background-color: purple;
 }
 .liHoverListC:hover{
+    border: 1px dotted;
+    border-color: yellow;
     color: black;
     background-color: rgba(255, 166, 0, 0.466);
 }
@@ -620,6 +622,8 @@ ul{
     border: 1px dotted yellow;
 }
 .liHoverListD:hover{
+    border: 1px dotted;
+    border-color: orange;
     background-color: purple;
 }
 .tdHeightScrollbar{
