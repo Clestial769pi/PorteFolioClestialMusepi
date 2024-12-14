@@ -364,6 +364,7 @@ const motsClasses = {
 "naviguer":"couleur3",
 "problèmes":"couleur3",
 "compréhension":"couleur3",
+"transporter":"couleur3",
 // "organisé":"couleur3",
 "représentation":"couleur3",
 "caractéristiques":"couleur3",
