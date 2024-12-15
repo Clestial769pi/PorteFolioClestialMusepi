@@ -2,6 +2,8 @@
 
 const motsClasses = {
 // A
+"Protons ":"couleur1",
+"conducteurs":"couleur1",
 "borne positive":"couleur1",
 "Ordo":"couleur1",
 "Pôle sud":"couleur1",
@@ -172,6 +174,8 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Neutrons":"couleur2",
+"isolants":"couleur2",
 "borne négative":"couleur2",
 "L'autre":"couleur2",
 "Pôle nord":"couleur2",
@@ -613,6 +617,7 @@ const motsClasses = {
 "Jugement":"couleur3",
 "Tricolores":"couleur3",
 "en parole":"couleur3",
+"Atomes ":"couleur3",
 // D
 "orbitales":"couleur4",
 "contour":"couleur4",
