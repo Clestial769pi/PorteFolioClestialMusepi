@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"borne positive":"couleur1",
 "Ordo":"couleur1",
 "Pôle sud":"couleur1",
 "Conducteur":"couleur1",
@@ -171,6 +172,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"borne négative":"couleur2",
 "L'autre":"couleur2",
 "Pôle nord":"couleur2",
 "Non-conducteur":"couleur2",
@@ -356,6 +358,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"courant électrique":"couleur3",
 "phase":"couleur3",
 "portes logiques":"couleur3",
 "Z":"couleur3",
@@ -611,6 +614,8 @@ const motsClasses = {
 "Tricolores":"couleur3",
 "en parole":"couleur3",
 // D
+"orbitales":"couleur4",
+"contour":"couleur4",
 "le pas-sage":"couleur4",
 "la pierre philosophale":"couleur4",
 "uniforme":"couleur4",
