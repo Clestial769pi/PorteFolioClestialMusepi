@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"ancien":"couleur1",
 "Protons ":"couleur1",
 "conducteurs":"couleur1",
 "borne négative":"couleur1",
