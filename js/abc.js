@@ -4,7 +4,7 @@ const motsClasses = {
 // A
 "Protons ":"couleur1",
 "conducteurs":"couleur1",
-"borne positive":"couleur1",
+"borne négative":"couleur1",
 "Ordo":"couleur1",
 "Pôle sud":"couleur1",
 "Conducteur":"couleur1",
