@@ -176,7 +176,7 @@ const motsClasses = {
 // B
 "Neutrons":"couleur2",
 "isolants":"couleur2",
-"borne négative":"couleur2",
+"borne positive":"couleur2",
 "L'autre":"couleur2",
 "Pôle nord":"couleur2",
 "Non-conducteur":"couleur2",
