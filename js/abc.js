@@ -362,6 +362,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"Interaction":"couleur3",
 "neutre":"couleur3",
 "courant électrique":"couleur3",
 "phase":"couleur3",
@@ -620,6 +621,7 @@ const motsClasses = {
 "en parole":"couleur3",
 "Atomes ":"couleur3",
 // D
+"Répulsion":"couleur4",
 "orbitales":"couleur4",
 "contour":"couleur4",
 "le pas-sage":"couleur4",
