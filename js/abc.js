@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"Allochthones ":"couleur1",
 "ancien":"couleur1",
 "Protons ":"couleur1",
 "conducteurs":"couleur1",
@@ -175,6 +176,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Autochthones":"couleur2",
 "Neutrons":"couleur2",
 "isolants":"couleur2",
 "borne positive":"couleur2",
