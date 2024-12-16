@@ -2,6 +2,7 @@
 
 const motsClasses = {
 // A
+"le pire":"couleur1",
 "Allochthones ":"couleur1",
 "ancien":"couleur1",
 "Protons ":"couleur1",
@@ -176,6 +177,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"meilleur":"couleur2",
 "Autochthones":"couleur2",
 "Neutrons":"couleur2",
 "isolants":"couleur2",
