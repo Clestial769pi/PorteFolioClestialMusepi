@@ -177,6 +177,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"pire":"couleur2",
 "meilleur":"couleur2",
 "Autochthones":"couleur2",
 "Neutrons":"couleur2",
