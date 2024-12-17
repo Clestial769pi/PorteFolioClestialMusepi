@@ -2,6 +2,8 @@
 
 const motsClasses = {
 // A
+"Ouest":"couleur1",
+"ouest":"couleur1",
 "West":"couleur1",
 "Sud":"couleur1",
 "le pire":"couleur1",
