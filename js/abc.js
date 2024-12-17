@@ -2,6 +2,10 @@
 
 const motsClasses = {
 // A
+"Minorité":"couleur1",
+"minorité":"couleur1",
+"Mineur":"couleur1",
+"mineur":"couleur1",
 "Ouest":"couleur1",
 "ouest":"couleur1",
 "West":"couleur1",
@@ -181,6 +185,10 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Majeur":"couleur2",
+"Majorité":"couleur2",
+"majorité":"couleur2",
+"majeur":"couleur2",
 "Est":"couleur2",
 "Nord":"couleur2",
 "Electron":"couleur2",
