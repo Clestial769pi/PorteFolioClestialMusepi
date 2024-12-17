@@ -635,6 +635,10 @@ const motsClasses = {
 "en parole":"couleur3",
 "Atomes ":"couleur3",
 // D
+"extrémité":"couleur4",
+"extrémités":"couleur4",
+"Extrémité":"couleur4",
+"Extrémités":"couleur4",
 "Répulsion":"couleur4",
 "orbitales":"couleur4",
 "contour":"couleur4",
