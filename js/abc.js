@@ -368,6 +368,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"Neutre":"couleur3",
 "Interaction":"couleur3",
 "neutre":"couleur3",
 "courant électrique":"couleur3",
