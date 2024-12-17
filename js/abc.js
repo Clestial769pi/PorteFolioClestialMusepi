@@ -2,6 +2,8 @@
 
 const motsClasses = {
 // A
+"West":"couleur1",
+"Sud":"couleur1",
 "le pire":"couleur1",
 "Allochthones ":"couleur1",
 "ancien":"couleur1",
@@ -177,6 +179,8 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Est":"couleur2",
+"Nord":"couleur2",
 "Electron":"couleur2",
 "Electrons":"couleur2",
 "Électron":"couleur2",
