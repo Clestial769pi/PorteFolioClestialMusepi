@@ -84,6 +84,7 @@ h2:hover{
     padding-left: 4px;
     padding-right: 2px;
     border: 1px dotted purple;
+    font-weight: bold;
 }
 .couleur2 {    
     background-color: red;
@@ -91,6 +92,7 @@ h2:hover{
     padding-left: 4px;
     padding-right: 2px;
     border: 1px dotted purple;
+    font-weight: bold;
 }
 .couleur3 {     
     border: 1px solid orange;
@@ -98,6 +100,7 @@ h2:hover{
     color: white;
     padding-left: 5px;
     padding-right: 2px;
+    font-weight: lighter;
 }
 .couleur4 {     
     border: 1px solid purple;
@@ -105,6 +108,8 @@ h2:hover{
     color: purple;
     padding-left: 5px;
     padding-right: 2px;
+    font-weight: bold;
+    font-style: italic;
 }
 .couleur1:hover,.couleur2:hover,.couleur3:hover,.couleur4:hover{cursor:url(../img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.png),auto;}
 .couleur3:hover{
