@@ -1,4 +1,4 @@
-const motsClasses = {
+const motsClasses2 = {
 "si":"couleur3",
 "locale":"couleur1",
     };
@@ -8,7 +8,7 @@ const motsClasses = {
         let ABC = element.innerHTML;
     
         // <span>
-        for (const [mot, classe] of Object.entries(motsClasses)) {
+        for (const [mot, classe] of Object.entries(motsClasses2)) {
             const regex = new RegExp(`\\b${mot}\\b`, "g");
             ABC = ABC.replace(regex, `<span class="${classe}">${mot}</span>`);
         }
