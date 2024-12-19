@@ -46,6 +46,7 @@ const motsClasses = {
 "rester":"couleur1",
 "christianisme":"couleur1",
 "Début":"couleur1",
+"début":"couleur1",
 "Genèse":"couleur1",
 "Jésus":"couleur1",
 "têtes":"couleur1",
