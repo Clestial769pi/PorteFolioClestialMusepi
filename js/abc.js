@@ -2,6 +2,9 @@
 
 const motsClasses = {
 // A
+"répulsive":"couleur1",
+"Répulsive":"couleur1",
+
 "Mince":"couleur1",
 "mince":"couleur1",
 "Petite":"couleur1",
@@ -192,6 +195,9 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Attractive":"couleur2",
+"attractive":"couleur2",
+"forte":"couleur2",
 "Grosse":"couleur2",
 "grosse":"couleur2",
 "Grande":"couleur2",
