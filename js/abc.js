@@ -1,5 +1,3 @@
-
-
 const motsClasses = {
 // A
 "répulsive":"couleur1",
