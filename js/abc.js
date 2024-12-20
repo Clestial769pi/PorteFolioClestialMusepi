@@ -219,7 +219,7 @@ const motsClasses = {
 "Électrons":"couleur2",
 "électron":"couleur2",
 "électrons":"couleur2",
-"pire":"couleur2",
+// "pire":"couleur2",
 "meilleur":"couleur2",
 "Autochthones":"couleur2",
 "isolants":"couleur2",
