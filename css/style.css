@@ -623,25 +623,25 @@ ul{
 .liHoverListC{
     border-color: purple;
     border: 1px dotted orange;
-    color: purple;
+    color: black;
     background-color: rgba(128, 0, 128, 0.13);
 }
 .liHoverListC2{
     border-color: purple;
     border: 1px dotted orange;
     color: rgb(255, 255, 255);
-    background-color: rgba(128, 0, 128, 0.774);
+    background-color: rgba(128, 0, 128, 0.178);
 }
 .liHoverListC:hover{
     border: 1px dotted;
     border-color: yellow;
     color: black;
-    background-color: rgba(255, 166, 0, 0.466);
+    background-color: rgba(255, 166, 0, 0.171);
 }
 .liHoverListC2:hover{
     border: 1px dotted;
     border-color: yellow;
-    color: white;
+    color: orange;
     background-color: rgba(255, 166, 0, 0.158);
 }
 .liHoverListD{
