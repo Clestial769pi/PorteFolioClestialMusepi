@@ -2,7 +2,10 @@ const motsClasses = {
 // A
 "répulsive":"couleur1",
 "Répulsive":"couleur1",
-
+"Protons":"couleur1",
+"protons":"couleur1",
+"Proton":"couleur1",
+"proton":"couleur1",
 "Mince":"couleur1",
 "mince":"couleur1",
 "Petite":"couleur1",

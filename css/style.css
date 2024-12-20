@@ -629,21 +629,19 @@ ul{
 .liHoverListC2{
     border-color: purple;
     border: 1px dotted orange;
-    color: white;
+    color: rgb(133, 2, 126);
     background-color: rgba(128, 0, 128, 0.178);
-    text-shadow: 1px 1px 5px rgb(255, 0, 221);
 }
 .liHoverListC:hover{
     border: 1px dotted;
     border-color: yellow;
     color: black;
-    text-shadow: 1px 1px 5px rgba(255, 0, 221, 0.281);
     background-color: rgba(255, 166, 0, 0.171);
 }
 .liHoverListC2:hover{
     border: 1px dotted;
     border-color: yellow;
-    color: white;
+    color: rgb(133, 2, 126);
     background-color: rgba(255, 166, 0, 0.158);
 }
 .liHoverListD{
