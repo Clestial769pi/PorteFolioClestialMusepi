@@ -625,7 +625,7 @@ ul{
     border-color: purple;
     border: 1px dotted orange;
     color: rgb(34, 0, 34);
-    background-color: rgba(128, 0, 128, 0.13);
+    background-color: rgb(188, 106, 199);
 }
 .liHoverListC2{
     border-color: purple;
@@ -634,7 +634,7 @@ ul{
     background-color: rgba(0, 0, 0, 0.178);
 }
 .liHoverListC:hover{
-    text-shadow: 1px 1px 1px rgb(255, 0, 191);
+    text-shadow: 1px 1px 1px rgba(255, 0, 191, 0.575);
     border: 1px dotted;
     border-color: yellow;
     color: rgb(255, 255, 255);
