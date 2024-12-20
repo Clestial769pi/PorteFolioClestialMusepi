@@ -629,7 +629,7 @@ ul{
 .liHoverListC2{
     border-color: purple;
     border: 1px dotted orange;
-    color: rgb(255, 255, 255);
+    color: rgb(255, 48, 203);
     background-color: rgba(128, 0, 128, 0.178);
 }
 .liHoverListC:hover{
@@ -652,7 +652,7 @@ ul{
 .liHoverListD:hover{
     border-color: purple;
     background-color: rgba(255, 166, 0, 0.733);
-    color: purple;
+    color: rgb(134, 0, 134);
 }
 .tableConfig1{
     align-content: center;
