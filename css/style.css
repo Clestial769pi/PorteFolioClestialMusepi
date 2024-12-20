@@ -98,6 +98,7 @@ h2:hover{
     border: 1px solid orange;
     background-color: purple;
     color: white;
+    font-style: italic;
     padding-left: 5px;
     padding-right: 2px;
     font-weight: lighter;
@@ -623,26 +624,27 @@ ul{
 .liHoverListC{
     border-color: purple;
     border: 1px dotted orange;
-    color: black;
+    color: rgb(34, 0, 34);
     background-color: rgba(128, 0, 128, 0.13);
 }
 .liHoverListC2{
     border-color: purple;
     border: 1px dotted orange;
-    color: rgb(133, 2, 126);
-    background-color: rgba(128, 0, 128, 0.178);
+    color: white;
+    background-color: rgba(0, 0, 0, 0.178);
 }
 .liHoverListC:hover{
+    text-shadow: 1px 1px 1px rgb(255, 0, 191);
     border: 1px dotted;
     border-color: yellow;
-    color: black;
-    background-color: rgba(255, 166, 0, 0.171);
+    color: rgb(255, 255, 255);
+    background-color: rgba(255, 166, 0, 0.644);
 }
 .liHoverListC2:hover{
     border: 1px dotted;
     border-color: yellow;
-    color: rgb(133, 2, 126);
-    background-color: rgba(255, 166, 0, 0.158);
+    /* color: rgb(255, 0, 242); */
+    background-color: rgba(255, 166, 0, 0.432);
 }
 .liHoverListD{
     background-color: rgba(255, 166, 0, 0.466);

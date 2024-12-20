@@ -407,6 +407,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"la philosophie":"couleur3",
 "Neutrons":"couleur3",
 "Neutron":"couleur3",
 "Neutre":"couleur3",
