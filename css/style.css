@@ -668,16 +668,19 @@ ul{
     align-items: center;
 }
 #tableOpenCommissionCenter{
-    background-color: purple;
-    color:white ;
-    border: 1px dotted white;
-    height: auto;
-    width: auto;
-    font-size: 13px;
-    text-align-last: center;
-    margin: 0;
-    padding: 0;
-    text-align: center;
     align-items: center;
-    width: max-content;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+#tableOpenCommissionTh{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow-x: scroll;
+}
+#tableOpenCommissionTd{
+    background-color: orangered;
+    color: white;
+    border: 1px solid yellow;
 }
