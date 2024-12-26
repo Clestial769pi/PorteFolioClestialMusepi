@@ -198,6 +198,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+
 "XY":"couleur2",
 "Consommateur":"couleur2",
 "Vendre":"couleur2",
@@ -309,6 +310,7 @@ const motsClasses = {
 "Y":"couleur2",
 "les autres":"couleur2",
 "vous":"couleur2", 
+"Vous":"couleur2",
 "il":"couleur2", 
 "elle":"couleur2", 
 "ils":"couleur2", 
