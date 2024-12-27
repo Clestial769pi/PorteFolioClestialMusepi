@@ -6,6 +6,7 @@ const Lien = {
     pageReseaux: '<a href="../html/pageReseaux.html"><li id="lienPageReseauxCouleur">Réseaux</li></a>',
     pageToDoList: '<a href="../html/pageToDoList.html"><li id="lienPageToDoListCouleur">To Do List</li></a>',
     pageCommissionsOuvertes: '<a href="../html/pageCommissionsOuvertes.html"><li id="lienPageCommissionsOuvertes">Commissions Ouvertes !</li></a>',
+    pageSamplesPacks: '<a href="html/pageSamplesPacks.html"><li id="lienPageSamplesPacks">Samples Packs</li></a>',
     paddingDown : '<div id="bottomPadding"></div>',
 }
 const listLiens = 
@@ -18,6 +19,7 @@ const listLiens =
     ${Lien.pageToDoList}
     ${Lien.pageCommissionsOuvertes}
     ${Lien.pageNews}
+    ${Lien.pageSamplesPacks}
     ${Lien.paddingDown}
 </ul> 
 `
