@@ -18,8 +18,8 @@ const listLiens =
     ${Lien.pageMonLore}
     ${Lien.pageToDoList}
     ${Lien.pageCommissionsOuvertes}
-    ${Lien.pageNews}
     ${Lien.pageSamplesPacks}
+    ${Lien.pageNews}
     ${Lien.paddingDown}
 </ul> 
 `
