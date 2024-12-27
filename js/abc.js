@@ -1,5 +1,6 @@
 const motsClasses = {
 // A
+"Unipolaire":"couleur1",
 "XX":"couleur1",
 "Horizontale":"couleur1",
 "répulsive":"couleur1",
@@ -198,7 +199,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
-
+"Multipolaire":"couleur2",
 "XY":"couleur2",
 "Consommateur":"couleur2",
 "Vendre":"couleur2",
