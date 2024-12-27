@@ -145,20 +145,23 @@ ul,li{
     margin: 0;
     padding: 0;
     list-style: none;
+ 
 }
 li{
     padding: 5px;
     font-size: 12px;
     border: 1px dotted orange;
+    border-left: 1px solid orange;
     margin-left: 15px;
     margin-top: 5px;
     /* margin: 5px; */
     text-align: center;
 }
 li:hover{
+    border-left: 1px solid purple;
     background-color: rgba(128, 0, 128, 0.527);
     color: white;
-    border: 1px dotted orange;
+    /* border: 1px dotted orange; */
 }
 #lienPageAcceuilCouleur{
     background-color: blue;
