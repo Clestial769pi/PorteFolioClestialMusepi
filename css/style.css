@@ -212,7 +212,7 @@ li:hover{
     background-color: green;
     color: yellow;
 }
-#lienPageSamplesPacks{
+#lienPageSamplesPacks:hover{
     background-color: purple;
     color: orange;
 }
