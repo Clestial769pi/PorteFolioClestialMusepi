@@ -208,6 +208,14 @@ li:hover{
     background-color: purple;
     color: yellow;
 }
+#lienPageSamplesPacks{
+    background-color: green;
+    color: yellow;
+}
+#lienPageSamplesPacks{
+    background-color: purple;
+    color: orange;
+}
 .boiteDialogueTexte::before{
     content: "Clestial dit :";
     font-size: 16px;
