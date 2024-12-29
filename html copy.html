@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Word Placement</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+        #canvasContainer {
+            position: relative;
+            width: 100%;
+            height: 100vh;
+            background-color: white;
+            overflow: hidden;
+        }
+        canvas {
+            display: block;
+        }
+        #controls {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 10px;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        input[type="text"] {
+            width: 150px;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div id="canvasContainer">
+        <canvas id="mapCanvas"></canvas>
+        <div id="controls">
+            <input type="text" id="wordInput" placeholder="Enter word">
+            <button id="addWord">Add Word</button>
+        </div>
+    </div>
+
+    <script>
+        const canvas = document.getElementById('mapCanvas');
+        const ctx = canvas.getContext('2d');
+        canvas.width = canvas.offsetWidth = window.innerWidth;
+        canvas.height = canvas.offsetHeight = window.innerHeight;
+
+        const words = [];
+        let selectedWord = null;
+
+        function drawCircles() {
+            const centerX = canvas.width / 2;
+            const centerY = canvas.height / 2;
+            const radius = 100;
+
+            ctx.strokeStyle = '#000';
+            ctx.lineWidth = 2;
+
+            // Draw first circle
+            ctx.beginPath();
+            ctx.arc(centerX - 50, centerY, radius, 0, Math.PI * 2);
+            ctx.stroke();
+
+            // Draw second circle
+            ctx.beginPath();
+            ctx.arc(centerX + 50, centerY, radius, 0, Math.PI * 2);
+            ctx.stroke();
+        }
+
+        function drawWords() {
+            words.forEach(word => {
+                ctx.fillStyle = selectedWord === word ? 'red' : '#007bff';
+                ctx.font = '16px Arial';
+                ctx.fillText(word.text, word.x, word.y);
+            });
+        }
+
+        function drawMap() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            drawCircles();
+            drawWords();
+        }
+
+        function getClickedWord(x, y) {
+            return words.find(word => {
+                const textWidth = ctx.measureText(word.text).width;
+                return (
+                    x >= word.x && x <= word.x + textWidth &&
+                    y >= word.y - 16 && y <= word.y
+                );
+            });
+        }
+
+        canvas.addEventListener('mousedown', (event) => {
+            const rect = canvas.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+
+            const clickedWord = getClickedWord(x, y);
+            if (clickedWord) {
+                selectedWord = clickedWord;
+            } else {
+                selectedWord = null;
+            }
+            drawMap();
+        });
+
+        canvas.addEventListener('mousemove', (event) => {
+            if (selectedWord) {
+                const rect = canvas.getBoundingClientRect();
+                const x = event.clientX - rect.left;
+                const y = event.clientY - rect.top;
+
+                selectedWord.x = x;
+                selectedWord.y = y;
+
+                drawMap();
+            }
+        });
+
+        canvas.addEventListener('mouseup', () => {
+            selectedWord = null;
+        });
+
+        canvas.addEventListener('dblclick', (event) => {
+            const rect = canvas.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+
+            const clickedWord = getClickedWord(x, y);
+            if (clickedWord) {
+                words.splice(words.indexOf(clickedWord), 1);
+                drawMap();
+            }
+        });
+
+        document.getElementById('addWord').addEventListener('click', () => {
+            const wordInput = document.getElementById('wordInput');
+            if (wordInput.value.trim() !== '') {
+                words.push({ text: wordInput.value.trim(), x: canvas.width / 2, y: canvas.height / 2 });
+                wordInput.value = '';
+                drawMap();
+            }
+        });
+
+        window.addEventListener('resize', () => {
+            canvas.width = canvas.offsetWidth = window.innerWidth;
+            canvas.height = canvas.offsetHeight = window.innerHeight;
+            drawMap();
+        });
+
+        drawMap();
+    </script>
+</body>
+</html>
