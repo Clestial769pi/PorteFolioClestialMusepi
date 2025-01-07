@@ -201,6 +201,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 // B
+"Horizontal":"couleur2",
 "voisinage":"couleur2",
 "tard":"couleur2",
 "Tard":"couleur2",
