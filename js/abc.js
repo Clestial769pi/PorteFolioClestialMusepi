@@ -311,6 +311,7 @@ const motsClasses = {
 "diable":"couleur2",
 "vendre":"couleur2",
 "proie":"couleur2",
+"Proie":"couleur2",
 "Fort":"couleur2",
 "fort":"couleur2",
 "antidote":"couleur2",
