@@ -1,0 +1,14 @@
+                <!-- <div class="boiteDialogueTexte">
+                    <p>
+                        Bonjour, je vous présente ma Diff-Singer, Clestial Musepi. Elle a été entraînée par Flora-Renji pour l'IA avec ma voix, afin qu'Open UTAU puisse interpréter les prononciations en français ! Elle est normalement fonctionnelle.
+                    </p>
+<ul>
+    <li>
+        Merci beaucoup !
+    </li>
+</ul>
+                    <p>
+                        Si vous savez utiliser OpenUtau, elle est disponible à l'utilisation. OpenUtau est un logiciel qui permet de composer des voix de manière manuelle en plaçant des notes. Il est également possible d'y intégrer nos propres prononciations, Voicebanks (VB) et Diff-Singer. Cela permet de faire parler ou chanter ces voix dans une musique, ainsi que bien d'autres choses.
+                    </p>
+                </div>
+            </div> -->
