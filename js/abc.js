@@ -424,6 +424,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"La graine":"couleur3",
 "Seigneur":"couleur3",
 "seigneur":"couleur3",
 "Prix":"couleur3",
