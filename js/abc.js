@@ -432,6 +432,8 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"objet":"couleur3",
+"Objet":"couleur3",
 "La graine":"couleur3",
 "Seigneur":"couleur3",
 "seigneur":"couleur3",
