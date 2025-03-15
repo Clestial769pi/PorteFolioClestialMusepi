@@ -4,6 +4,7 @@ const motsClasses = {
 "Tôt":"couleur1",
 "Unipolaire":"couleur1",
 "XX":"couleur1",
+"monte":"couleur1",
 // "Horizontale":"couleur1",
 "Allochthones":"couleur1",
 "répulsive":"couleur1",
