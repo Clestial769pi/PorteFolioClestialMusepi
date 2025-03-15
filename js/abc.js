@@ -207,6 +207,8 @@ const motsClasses = {
 "Local":"couleur1",
 "Verticale":"couleur1",
 // B
+"Descendre":"couleur2",
+"descendre":"couleur2",
 "qualité":"couleur2",
 "Horizontal":"couleur2",
 "voisinage":"couleur2",
