@@ -452,6 +452,8 @@ const motsClasses = {
 "Temps":"couleur3",
 "voyage":"couleur3",
 "Voyage":"couleur3",
+"Présent":"couleur3",
+"présent":"couleur3",
 "temps":"couleur3",
 "La graine":"couleur3",
 "Seigneur":"couleur3",
