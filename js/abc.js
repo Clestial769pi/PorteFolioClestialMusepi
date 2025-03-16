@@ -281,6 +281,8 @@ const motsClasses = {
 "verbe":"couleur2",
 "Chaud":"couleur2",
 "Le concret":"couleur2",
+"Concret":"couleur2",
+"concret":"couleur2",
 "Fils":"couleur2",
 "conflictuelle":"couleur2",
 "divisée":"couleur2",
