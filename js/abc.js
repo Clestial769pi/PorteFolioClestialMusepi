@@ -208,6 +208,7 @@ const motsClasses = {
 "endroit":"couleur1",
 "Local":"couleur1",
 "Verticale":"couleur1",
+"ce qui s'est réalisé":"couleur1",
 // B
 "Descendre":"couleur2",
 "descendre":"couleur2",
@@ -283,6 +284,7 @@ const motsClasses = {
 "Le concret":"couleur2",
 "Concret":"couleur2",
 "concret":"couleur2",
+"ce qui va se réaliser":"couleur2",
 "Fils":"couleur2",
 "conflictuelle":"couleur2",
 "divisée":"couleur2",
@@ -436,6 +438,7 @@ const motsClasses = {
 "global":"couleur2",
 "En acte":"couleur2",
 // C
+"ce qui se réalise":"couleur3",
 "objet":"couleur3",
 "Objet":"couleur3",
 "La graine":"couleur3",
