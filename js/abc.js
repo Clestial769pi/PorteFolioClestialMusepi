@@ -80,6 +80,8 @@ const motsClasses = {
 "froid":"couleur1",
 "Froid":"couleur1",
 "L'abstrait":"couleur1",
+"abstrait":"couleur1",
+"Abstrait":"couleur1",
 "fusionnel":"couleur1",
 "multiplié":"couleur1",
 "alchimiste":"couleur1",
