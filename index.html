@@ -7,9 +7,24 @@
 </head>
 <style>
     * {
+        background-color: black;
+        font-family: Georgia;
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+    }
+    a{
+        text-decoration: none;
+        color: yellow;
+    }
+    p,h1,li{
+        color: white;
+        letter-spacing: 1px;
+    }
+    #img-on{
+        text-align: center;
+        margin-bottom: 5em;
+        border-color: white solid 1px;
     }
     #important-section{
         padding: 5em;
@@ -26,6 +41,10 @@
         padding: 5em;
         text-align: justify;
     }
+        #social-links{
+            justify-content: center;
+            list-style: none;
+        }
     #copyright-section{
         padding: 5em;
         text-align: center;
@@ -35,6 +54,9 @@
 <!-- important -->
     <section id="important-section">
         <h1 class="important-title">Message important</h1>
+        <div id="img-on">
+            <img src="/img/on.png" alt="on" width="350px" height="350px">
+        </div>
         <div class="important-text">
             <p>Actuellement, nous sommes en 2025, il est temps de faire un grand ménage !</p>
         </div>
@@ -45,12 +67,12 @@
             <p>Oui ! Un renouveau est sur le point de se réaliser. Il est actuellement en cours de reécriture. Simplifier, une structure plus safe en tant qu'artiste, mon site reste avant tout une alternative de média, portefolio, et qui a pour principe de rassembler tout mes travaux en un. Mon apprentissage dans l'HTML se fait progressivement manuellement. Avec les quelques normes d'organisation un peu plus correctes</p>
         </div>
         <div class="important-text">
-            <p>Je vais mettre seulement l'essentiel</p>
+            <p>Je vais mettre seulement l'essentiel pour le moment :</p>
         </div>
     </section>
     <section id="liens-section">
         <div class="container">
-            <ul class="social-links">
+            <ul id="social-links">
                 <li><a href="https://soundcloud.com/clestialmusepi">Soundcloud</a></li>
                 <li><a href="https://www.instagram.com/clestialmusepi/">Instagram</a></li>
                 <li><a href="https://www.youtube.com/channel/UCS3zhzEueQozI3b5b39iHJA">Youtube</a></li>
