@@ -85,6 +85,7 @@ blockquote:hover{
 table{
     font-family: sans-serif;
     border-collapse: collapse;
+    /* border-collapse: separate; */
     width: auto;
     height: auto;
 }
@@ -107,7 +108,7 @@ th,td{
     word-wrap: break-word;
     /* word-break: auto-phrase; */
     /* width: 100px; */
-    display: contents;
+    /* display: contents; */
 }
 ul{
     padding: 0;
