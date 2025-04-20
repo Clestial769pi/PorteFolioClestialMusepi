@@ -68,6 +68,7 @@ const motsClasses2 = {
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
+    "Simultanément":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
