@@ -112,6 +112,7 @@ const motsClasses2 = {
     "fort":"couleur2",
     "pauvre":"couleur1",
     "riche":"couleur2",
+    "Espace et Temps":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
