@@ -128,8 +128,9 @@ th,td{
 }
 ul{
     padding: 0;
+    margin: 0;
+    padding-left: 20px;
     /* padding-right: 5px; */
-    padding-left: 15px;
     list-style:square;
 }
 li{
