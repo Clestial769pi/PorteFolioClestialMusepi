@@ -266,7 +266,8 @@ a:hover{
 }
 /* font familly */
 .couleur1,.couleur2,.couleur3,.couleur4{
-    font-variant-caps: petite-caps;
+
+    font-weight:lighter ;
 }
 .couleur1 {
     background-color: blue;
