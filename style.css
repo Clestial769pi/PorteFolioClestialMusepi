@@ -170,12 +170,12 @@ a:hover{
     height: 50px;
     width: 50px;
 }
-#tête-café-cover-caticorn-600x600{
-    height: 150px;
-    width: 160px;
-    border: 1px solid black;
+#tête-café-cover-caticorn600x600{
     display: flex;
     justify-self: center;
+    width: 150px;
+    height: 150px;
+    border: 1px solid black;
 }
 #tête-pas-content{
     background-color: red;
