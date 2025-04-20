@@ -264,6 +264,10 @@ a:hover{
     margin: 5px;
     overflow: hidden;    
 }
+/* font familly */
+.couleur1,.couleur2,.couleur3,.couleur4{
+    font-variant-caps: petite-caps;
+}
 .couleur1 {
     background-color: blue;
     color: white; 
