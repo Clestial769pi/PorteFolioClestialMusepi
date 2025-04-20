@@ -3,6 +3,10 @@
 padding-bottom: 50px;
 }
 @media (min-width:0px){
+    *{
+        font-variant-caps: petite-caps;
+        overflow-wrap: anywhere;
+    }
 body{
     background: rgb(46, 0, 48);
     word-wrap: break-word;
