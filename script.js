@@ -32,6 +32,8 @@ const motsClasses2 = {
     "variables":"couleur3",
     "compromis":"couleur3",
     "croisements":"couleur3",
+    "Ordre":"couleur1",
+    "Chaos":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
