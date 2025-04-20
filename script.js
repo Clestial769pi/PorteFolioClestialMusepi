@@ -19,6 +19,8 @@ const motsClasses2 = {
     "Négative":"couleur2",
     "gentil":"couleur1",
     "méchant":"couleur2",
+    "tôt":"couleur1",
+    "tard":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
