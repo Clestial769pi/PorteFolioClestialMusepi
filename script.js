@@ -90,6 +90,7 @@ const motsClasses2 = {
     "Baptême":"couleur1",
     "1re communion":"couleur3",
     "Confirmation":"couleur2",
+    "la culture française":"couleur3",
 
 };
         function appliquerClassesTexte(element) {
