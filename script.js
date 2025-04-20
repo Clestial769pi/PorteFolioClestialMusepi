@@ -52,6 +52,7 @@ const motsClasses2 = {
     "Fin":"couleur2",
     "entrechoquer":"couleur3",
     "corruption":"couleur3",
+    "Terre":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;

@@ -274,7 +274,7 @@ a:hover{
 .couleur4:hover{
     background-color: purple;
     border: 1px dotted orange;
-    color: white;
+    color: orange;
     box-shadow: 0px 2px 3px 0px orange;
 }
 .couleur1:hover,.couleur2:hover{
