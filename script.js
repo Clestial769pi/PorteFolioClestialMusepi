@@ -70,6 +70,9 @@ const motsClasses2 = {
     "Nuance de gris":"couleur3",
     "Simultanément":"couleur3",
     "conception":"couleur3",
+    "l'infiniment petit":"couleur1",
+    "l'infiniment grand":"couleur2",
+
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
