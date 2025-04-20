@@ -107,8 +107,8 @@ const motsClasses2 = {
     "triangles":"couleur3",
     "sommet":"couleur3",
     "étranglement":"couleur3",
-    "noir":"couleur1"
-    "blanc":"couleur2"
+    "noir":"couleur1",
+    "blanc":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
