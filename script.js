@@ -42,6 +42,9 @@ const motsClasses2 = {
     "consonnances":"couleur2",
     "cognitives":"couleur3",
     "Vesica piscis":"couleur3",
+    "Acheter":"couleur1",
+    "Vendre":"couleur2",
+    "système":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
