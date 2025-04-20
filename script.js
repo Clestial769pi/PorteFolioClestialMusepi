@@ -45,6 +45,7 @@ const motsClasses2 = {
     "Acheter":"couleur1",
     "Vendre":"couleur2",
     "système":"couleur3",
+    "Le nombre de la bête":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
