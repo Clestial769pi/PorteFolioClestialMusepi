@@ -24,6 +24,11 @@ const motsClasses2 = {
     "tout":"couleur1",
     "rien":"couleur2",
     "ensembles":"couleur3",
+    "extrême":"couleur4",
+    "extrémités":"couleur4",
+    "centre":"couleur3",
+    "l'un":"couleur1",
+    "l'autre":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
