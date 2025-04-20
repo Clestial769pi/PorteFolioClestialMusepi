@@ -227,7 +227,6 @@ a:hover{
 /* les listes */
 .ul-class-links{    
     display: flex;
-    flex-direction: column;
     overflow: hidden;    
     padding: 0;
 }
