@@ -206,11 +206,11 @@ a:hover{
     display: flex;
     justify-content: center;
 }
-.portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-table-profil-clestial-musepi-artiste{
+.portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-profil-clestial-musepi-artiste{
     justify-items: anchor-center;
 }
 /* cadre blanc */
-.contact-section-table-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation{
+.contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste{
     width: auto;
     height: auto;
     padding: 20px;
