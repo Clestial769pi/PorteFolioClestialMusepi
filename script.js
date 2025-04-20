@@ -17,7 +17,8 @@ const motsClasses2 = {
     "convertir":"couleur3",
     "Positive":"couleur1",
     "Négative":"couleur2",
-
+    "gentil":"couleur1",
+    "méchant":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
