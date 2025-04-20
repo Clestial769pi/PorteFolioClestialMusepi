@@ -57,6 +57,10 @@ const motsClasses2 = {
     "Blanc":"couleur2",
     "Clestial":"couleur1",
     "Musepi":"couleur2",
+    "contresens":"couleur4",
+    "comportements":"couleur3",
+    "contradictoire":"couleur3",
+    "anatomie":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
