@@ -21,6 +21,8 @@ const motsClasses2 = {
     "méchant":"couleur2",
     "tôt":"couleur1",
     "tard":"couleur2",
+    "tout":"couleur1",
+    "rien":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
