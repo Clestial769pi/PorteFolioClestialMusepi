@@ -288,7 +288,7 @@ a:hover{
     padding-top: 0;
     padding-bottom: 0;
 }
-@media (max-width:350px){
+@media (max-width:450px){
     *{
         word-break:normal; 
     }
