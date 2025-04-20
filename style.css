@@ -6,6 +6,8 @@ padding-bottom: 50px;
         body{
             background: rgb(46, 0, 48);
             word-wrap: break-word;
+            margin: 0;
+            padding: 0;
         }
         h1,h2,h3{
             font-family: sans-serif;
@@ -54,7 +56,7 @@ padding-bottom: 50px;
             display: contents;
         }
         blockquote{
-            width: 450px;
+            /* width: 450px; */
             /* overflow-x: scroll; */
             display: flex;
             justify-self: center;
@@ -205,6 +207,7 @@ border: none;
             display: flex;
             flex-direction: column;
             overflow: hidden;    
+            padding: 0;
         }
         .li-class-cadre{
             background-color: rgba(128, 0, 128, 0.466);
