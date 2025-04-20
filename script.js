@@ -61,6 +61,10 @@ const motsClasses2 = {
     "comportements":"couleur3",
     "contradictoire":"couleur3",
     "anatomie":"couleur3",
+    "le bon grain":"couleur1",
+    "et l'ivraie":"couleur2",
+    "Plomb":"couleur1",
+    "Or":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
