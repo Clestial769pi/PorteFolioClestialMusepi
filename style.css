@@ -230,6 +230,7 @@ a:hover{
     text-decoration: none;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-profil-clestial-musepi-artiste{
     justify-items: anchor-center;
