@@ -354,11 +354,15 @@ a:hover{
     .portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1{
         justify-items: left;
     }
+
 }
 
 @media (min-width:450px){
     *{
         word-break: auto-phrase; 
+    }
+    td,th{
+        overflow-wrap: normal;
     }
     th{
         width: 80px;
