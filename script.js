@@ -9,7 +9,7 @@ const motsClasses2 = {
     "Jaune":"couleur4",
     "les côtés":"couleur4",
     "extrêmes":"couleur4",
-    "L'extrême":"couleur4",
+    // "L'extrême":"couleur4",
     "Contradictions":"couleur4",
     "paradoxes":"couleur4",
     "pôles":"couleur3",
@@ -34,6 +34,7 @@ const motsClasses2 = {
     "croisements":"couleur3",
     "Ordre":"couleur1",
     "Chaos":"couleur2",
+    "anatomies":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
