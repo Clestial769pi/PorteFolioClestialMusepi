@@ -110,6 +110,9 @@ th,td{
     /* width: 100px; */
     /* display: contents; */
 }
+.ul-ciblé{
+    border: 1px dotted purple;
+}
 ul{
     padding: 0;
     /* padding-right: 5px; */
