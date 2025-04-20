@@ -103,7 +103,7 @@ padding-bottom: 50px;
         }
         ul{
             padding: 0;
-            padding-right: 5px;
+            /* padding-right: 5px; */
             padding-left: 30px;
             list-style:square;
         }
