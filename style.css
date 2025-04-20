@@ -280,7 +280,10 @@ padding-bottom: 50px;
         }
     }
       
-    @media (min-width:650px){
+    @media (max-width:650px){
+        *{
+            word-break:normal; 
+        }
         .ul-class-links{
             flex-direction:row;
         }
@@ -295,6 +298,16 @@ padding-bottom: 50px;
         #tête-peur{
             height: 100px;
             width: 100px;
+        }
+        #corps-debout{
+            height: 100px;
+            width: 100px;
+        }
+    }
+
+    @media (min-width:650px){
+        *{
+            word-break: auto-phrase; 
         }
         #corps-debout{
             height: 250px;
