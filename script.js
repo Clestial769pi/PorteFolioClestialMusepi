@@ -38,6 +38,10 @@ const motsClasses2 = {
     "binaires":"couleur3",
     "troisième":"couleur3",
     "métaphoriques":"couleur3",
+    "dissonances":"couleur1",
+    "consonnances":"couleur2",
+    "cognitives":"couleur3",
+    "Vesica piscis":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
