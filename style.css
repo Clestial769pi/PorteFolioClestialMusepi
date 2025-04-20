@@ -55,6 +55,13 @@ a:hover{
     width: auto;
     display: contents;
 }
+/* blockquote  */
+.blockquote-bannière{
+    width: 10px;
+    height: max-content;
+    left: 0;
+    position: absolute;
+}
 blockquote{
     /* width: 450px; */
     /* overflow-x: scroll; */
@@ -71,7 +78,6 @@ blockquote{
     word-wrap: break-word;
     word-break: auto-phrase;
 }
-/* blockquote  */
 blockquote:hover{
     transition: 1s;
     color: yellow;
