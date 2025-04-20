@@ -296,16 +296,16 @@ a:hover{
         flex-direction:column;
     }
     #tête-content{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
     #tête-pas-content{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
     #tête-peur{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
     }
     #corps-debout{
         height: 100px;
@@ -323,5 +323,17 @@ a:hover{
     }
     .ul-class-links{
         flex-direction:row;
+    }
+    #tête-content{
+        height: 100px;
+        width: 100px;
+    }
+    #tête-pas-content{
+        height: 100px;
+        width: 100px;
+    }
+    #tête-peur{
+        height: 100px;
+        width: 100px;
     }
 }
