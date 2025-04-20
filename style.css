@@ -4,7 +4,6 @@ padding-bottom: 50px;
 }
 @media (min-width:0px){
     *{
-        font-variant-caps: petite-caps;
         overflow-wrap: anywhere;
     }
 body{
@@ -24,6 +23,7 @@ s{text-decoration-color: red;}
     text-decoration-thickness: from-font;
 }
 p{
+    font-variant-caps: petite-caps;
     text-align: center;
     font-size: 20px;
     font-family: 'system-ui';
@@ -231,11 +231,12 @@ a:hover{
     justify-items: anchor-center;
 }
 .qui-suis-je-section-l-humanité-trinité{
-    font-size: 11px;
+    font-size: 15px;
 }
 
 /* cadre blanc */
 .contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste,.qui-suis-je-section-l-humanité-trinité,.contact-section-table-profil-clestial-musepi-artiste,#section-retour-en-haut{
+    font-variant-caps: petite-caps;
     width: auto;
     height: auto;
     padding: 20px;
@@ -374,6 +375,7 @@ a:hover{
     text-align: center;
     position: fixed;
     justify-self: anchor-center;
+    font-variant-caps: petite-caps;
 }
 
 /* Drapeau de France */
