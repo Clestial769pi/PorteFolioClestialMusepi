@@ -23,6 +23,7 @@ const motsClasses2 = {
     "tard":"couleur2",
     "tout":"couleur1",
     "rien":"couleur2",
+    "ensembles":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
