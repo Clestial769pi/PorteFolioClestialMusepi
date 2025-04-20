@@ -94,6 +94,10 @@ table{
 }
 th{
     text-align: left;
+    flex-direction: row;
+    width: 50px;
+    height: auto;
+    font-size: 12px;
 }
 td{
     text-align: right;
