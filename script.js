@@ -48,8 +48,9 @@ const motsClasses2 = {
     "Le nombre de la bête":"couleur3",
     "Vie":"couleur1",
     "Mort":"couleur2",
-    "Début":"couleur1",
+    // "Début":"couleur1",
     "Fin":"couleur2",
+    "entrechoquer":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
