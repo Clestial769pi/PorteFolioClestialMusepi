@@ -333,7 +333,6 @@ a:hover{
     .ul-class-links{
         flex-direction:column;
         justify-content: space-around; 
-
     }
     #tête-content{
         height: 50px;
@@ -364,6 +363,7 @@ a:hover{
     td,th{
         overflow-wrap: normal;
     }
+
     th{
         width: 80px;
     }
