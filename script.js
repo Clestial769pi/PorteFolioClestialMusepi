@@ -91,7 +91,17 @@ const motsClasses2 = {
     "1re communion":"couleur3",
     "Confirmation":"couleur2",
     "la culture française":"couleur3",
-
+    "passées":"couleur2",
+    "mémoire":"couleur3",
+    "Guerre":"couleur3",
+    "Trois":"couleur3",
+    "l'endroit":"couleur1",
+    "l'envers":"couleur2",
+    "l'interaction":"couleur3",
+    "guerres humaines":"couleur3",
+    "le contraste":"couleur3",
+    "L'entre-deux":"couleur3",
+    "Triforce":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
