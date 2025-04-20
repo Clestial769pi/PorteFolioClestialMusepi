@@ -72,13 +72,31 @@ const motsClasses2 = {
     "conception":"couleur3",
     "l'infiniment petit":"couleur1",
     "l'infiniment grand":"couleur2",
+    "passé":"couleur1",
+    "futur":"couleur2",
+    "le criminel":"couleur3",
+    "mort":"couleur2",
+    "vie":"couleur1",
+    "monde":"couleur3",
+    "Église":"couleur3",
+    "Pi":"couleur3",
+    "transition":"couleur3",
+    "Binarité":"couleur3",
+    "topologie":"couleur3",
+    "Triangle":"couleur3",
+    "polarités":"couleur3",
+    "tricorn":"couleur3",
+    "la trinité":"couleur3",
+    "Baptême":"couleur1",
+    "1re communion":"couleur3",
+    "Confirmation":"couleur2",
 
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
         // Le span
             for (const [mot, classe] of Object.entries(motsClasses2)) {
-                const regex = new RegExp(`\\b${mot}\\b`, "g");
+                const regex = new RegExp(`(?<!\\p{L})${mot}(?!\\p{L})`, "gu");
                 ABC = ABC.replace(regex, `<span class="${classe}">${mot}</span>`);
             }
         
