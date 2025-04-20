@@ -229,6 +229,7 @@ a:hover{
     display: flex;
     overflow: hidden;    
     padding: 0;
+    flex-direction: column;
 }
 .li-class-cadre{
     background-color: rgba(128, 0, 128, 0.466);
