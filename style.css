@@ -293,7 +293,7 @@ a:hover{
         word-break:normal; 
     }
     .ul-class-links{
-        flex-direction:row;
+        flex-direction:column;
     }
     #tête-content{
         height: 100px;
@@ -320,5 +320,8 @@ a:hover{
     #corps-debout{
         height: 250px;
         width: 250px;
+    }
+    .ul-class-links{
+        flex-direction:row;
     }
 }
