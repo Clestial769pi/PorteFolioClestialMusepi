@@ -377,14 +377,14 @@ a:hover{
 .drapeau-de-france{
     /* width: 120px; */
     justify-self: anchor-center;
-    position: absolute;
+    position: fixed;
     top: 0;
     width: auto;
     height: 33px;
     display: flex;
     justify-self: center;
     border: 1px solid black;
-    box-shadow: 1px 1cqmax 5px 2px rgba(0, 0, 0, 0.363);
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.363);
 }
 .couleur-france-bleu{
     background-color: blue;
