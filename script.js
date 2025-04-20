@@ -107,8 +107,6 @@ const motsClasses2 = {
     "triangles":"couleur3",
     "sommet":"couleur3",
     "étranglement":"couleur3",
-    "noir":"couleur1",
-    "blanc":"couleur2",
     "milieu":"couleur3",
     "faible":"couleur1",
     "fort":"couleur2",

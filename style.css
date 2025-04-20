@@ -401,7 +401,7 @@ a:hover{
 /* Drapeau de France */
 
 .drapeau-de-france{
-    /* width: 120px; */
+    width: 99px;
     justify-self: anchor-center;
     position: fixed;
     bottom: 0;
