@@ -198,6 +198,7 @@ border: none;
             /* white-space: nowrap; */
             overflow: hidden;    
             word-break: auto-phrase; 
+            overflow-x: scroll;
         }
 /* les listes */
         .ul-class-links{    
