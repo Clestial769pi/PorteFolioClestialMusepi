@@ -363,7 +363,7 @@ a:hover{
     }
 }
 
-#section-retour-en-haut{
+.section-retour-en-haut{
     position: absolute;
     bottom: 0;
     z-index: +999;
