@@ -111,7 +111,13 @@ th,td{
     /* display: contents; */
 }
 .ul-ciblé{
-    border: 1px dotted purple;
+    border: 1px solid purple;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    color: white;
+    margin-top: 4px;
+    margin-bottom: 4px;
 }
 ul{
     padding: 0;
