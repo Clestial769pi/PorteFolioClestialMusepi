@@ -35,6 +35,7 @@ const motsClasses2 = {
     "Ordre":"couleur1",
     "Chaos":"couleur2",
     "anatomies":"couleur3",
+    "binaires":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
