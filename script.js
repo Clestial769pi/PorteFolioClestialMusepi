@@ -110,6 +110,10 @@ const motsClasses2 = {
     "noir":"couleur1",
     "blanc":"couleur2",
     "milieu":"couleur3",
+    "faible":"couleur1",
+    "fort":"couleur2",
+    "pauvre":"couleur1",
+    "riche":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
