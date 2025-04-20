@@ -54,7 +54,7 @@ padding-bottom: 50px;
             display: contents;
         }
         blockquote{
-            width: 350px;
+            width: 450px;
             /* overflow-x: scroll; */
             display: flex;
             justify-self: center;
