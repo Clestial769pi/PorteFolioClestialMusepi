@@ -292,9 +292,9 @@ a:hover{
     *{
         word-break:normal; 
     }
-    /* .ul-class-links{
+    .ul-class-links{
         flex-direction:column;
-    } */
+    }
     #tête-content{
         height: 50px;
         width: 50px;
@@ -313,7 +313,7 @@ a:hover{
     }
 }
 
-@media (min-width:350px){
+@media (min-width:450px){
     *{
         word-break: auto-phrase; 
     }
