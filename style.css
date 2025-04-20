@@ -83,6 +83,7 @@ blockquote:hover{
     color: yellow;
 }
 table{
+    font-family: sans-serif;
     border-collapse: collapse;
     width: auto;
     height: auto;
