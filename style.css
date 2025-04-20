@@ -11,7 +11,7 @@ body{
 }
 h1,h2,h3{
     font-family: sans-serif;
-    font-size: 45px;
+    font-size: 35px;
     text-align: center;
 }
 s{text-decoration-color: red;}
@@ -209,8 +209,11 @@ a:hover{
 .portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-profil-clestial-musepi-artiste{
     justify-items: anchor-center;
 }
+.qui-suis-je-section-l-humanité-trinité{
+    font-size: 11px;
+}
 /* cadre blanc */
-.contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste{
+.contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste,.qui-suis-je-section-l-humanité-trinité,.contact-section-table-profil-clestial-musepi-artiste{
     width: auto;
     height: auto;
     padding: 20px;
@@ -223,7 +226,7 @@ a:hover{
     /* white-space: nowrap; */
     overflow: hidden;    
     word-break: auto-phrase; 
-    overflow-x: scroll;
+    /* overflow-x: scroll; */
 }
 /* les listes */
 .ul-class-links{    
