@@ -65,6 +65,8 @@ const motsClasses2 = {
     "et l'ivraie":"couleur2",
     "Plomb":"couleur1",
     "Or":"couleur2",
+    "Source":"couleur1",
+    "son contraire":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
