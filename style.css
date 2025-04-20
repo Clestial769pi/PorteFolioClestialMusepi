@@ -378,7 +378,7 @@ a:hover{
     /* width: 120px; */
     justify-self: anchor-center;
     position: fixed;
-    top: 0;
+    bottom: 0;
     width: auto;
     height: 33px;
     display: flex;
