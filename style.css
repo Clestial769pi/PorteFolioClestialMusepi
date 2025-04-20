@@ -56,12 +56,12 @@ a:hover{
     display: contents;
 }
 /* blockquote  */
-.blockquote-bannière{
+/* .blockquote-bannière{
     width: 10px;
     height: max-content;
     left: 0;
     position: absolute;
-}
+} */
 blockquote{
     /* width: 450px; */
     /* overflow-x: scroll; */

@@ -2,9 +2,11 @@ const motsClasses2 = {
     "A":"couleur1",
     "B":"couleur2",
     "C":"couleur3",
+    "D":"couleur4",
     "Bleu":"couleur1",
     "Rouge":"couleur2",
     "Violet":"couleur3",
+    "Jaune":"couleur4",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
