@@ -102,6 +102,9 @@ const motsClasses2 = {
     "le contraste":"couleur3",
     "L'entre-deux":"couleur3",
     "Triforce":"couleur3",
+    "commun":"couleur3",
+    "Volume":"couleur3",
+    "triangles":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
