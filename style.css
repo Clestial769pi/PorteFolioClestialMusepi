@@ -288,7 +288,7 @@ a:hover{
     padding-top: 0;
     padding-bottom: 0;
 }
-@media (max-width:650px){
+@media (max-width:350px){
     *{
         word-break:normal; 
     }
@@ -313,7 +313,7 @@ a:hover{
     }
 }
 
-@media (min-width:650px){
+@media (min-width:350px){
     *{
         word-break: auto-phrase; 
     }
