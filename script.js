@@ -109,6 +109,7 @@ const motsClasses2 = {
     "étranglement":"couleur3",
     "noir":"couleur1",
     "blanc":"couleur2",
+    "milieu":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
