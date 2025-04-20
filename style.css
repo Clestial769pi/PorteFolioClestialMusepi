@@ -371,3 +371,29 @@ a:hover{
     position: fixed;
     justify-self: anchor-center;
 }
+
+/* Drapeau de France */
+
+.drapeau-de-france{
+    /* width: 120px; */
+    position: absolute;
+    top: 0;
+    width: auto;
+    height: 33px;
+    display: flex;
+    justify-self: center;
+    border: 1px solid black;
+    box-shadow: 1px 1px 5px 2px rgba(0, 0, 0, 0.363);
+}
+.couleur-france-bleu{
+    background-color: blue;
+    width: 33px;
+}
+.couleur-france-blanc{
+    background-color: white;
+    width: 33px;
+}
+.couleur-france-rouge{
+    background-color: red;
+    width: 33px;
+}
