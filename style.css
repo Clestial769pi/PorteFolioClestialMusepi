@@ -97,6 +97,7 @@ table{
     height: auto;
 }
 th{
+    vertical-align: top;
     text-align: left;
     flex-direction: row;
     width: 50px;
