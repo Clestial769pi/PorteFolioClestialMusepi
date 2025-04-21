@@ -144,6 +144,7 @@ const motsClasses2 = {
     "Mais":"couleur3",
     "Froid":"couleur1",
     "Chaud":"couleur2",
+    "moitié":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
