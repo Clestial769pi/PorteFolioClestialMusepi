@@ -129,6 +129,10 @@ const motsClasses2 = {
     "gauche":"couleur1",
     "droite":"couleur2",
     "rayon":"couleur3",
+    "180°":"couleur4",
+    "90°":"couleur3",
+    "60°":"couleur2",
+    "30°":"couleur1",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
