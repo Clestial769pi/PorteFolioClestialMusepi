@@ -211,6 +211,8 @@ const motsClasses2 = {
     "pointue":"couleur3",
     "absolue":"couleur3",
     "trident":"couleur3",
+    "hasard":"couleur3",
+    "Ichthus":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
