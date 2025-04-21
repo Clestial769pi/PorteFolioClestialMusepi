@@ -257,6 +257,8 @@ const motsClasses2 = {
     "Le péché":"couleur3",
     "Assis":"couleur3",
     "jardin d'Éden":"couleur3",
+    "En haut":"couleur1",
+    "En bas":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
