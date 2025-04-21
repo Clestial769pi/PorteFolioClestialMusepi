@@ -158,6 +158,11 @@ const motsClasses2 = {
     "Entre-deux":"couleur3",
     "Dieu":"couleur1",
     "Diable":"couleur2",
+    "problématique":"couleur3",
+    "problème":"couleur3",
+    "Liberté":"couleur1",
+    "Fraternité":"couleur2",
+    "Égalité":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
