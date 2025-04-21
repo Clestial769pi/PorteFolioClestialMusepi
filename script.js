@@ -113,6 +113,15 @@ const motsClasses2 = {
     "pauvre":"couleur1",
     "riche":"couleur2",
     "Espace et Temps":"couleur3",
+    "assemblée":"couleur3",
+    "réunion de personnes":"couleur3",
+    "L'église ":"couleur3",
+    "Univers":"couleur3",
+    "Système":"couleur3",
+    "Structure":"couleur3",
+    "Une donnée":"couleur3",
+    "accumulation":"couleur3",
+    "Écosystème":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
