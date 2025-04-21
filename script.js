@@ -122,6 +122,12 @@ const motsClasses2 = {
     "Une donnée":"couleur3",
     "accumulation":"couleur3",
     "Écosystème":"couleur3",
+    "une masse":"couleur3",
+    "énergie":"couleur3",
+    "sélection":"couleur3",
+    "croisement":"couleur3",
+    "gauche":"couleur1",
+    "droite":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
