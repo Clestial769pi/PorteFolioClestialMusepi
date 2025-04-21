@@ -220,6 +220,9 @@ const motsClasses2 = {
     "masse":"couleur3",
     "informations":"couleur3",
     "métaphores":"couleur3",
+    "nombre":"couleur3",
+    "transitions":"couleur3",
+    "Si":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
