@@ -243,6 +243,7 @@ const motsClasses2 = {
     "avant":"couleur1",
     "arrière":"couleur2",
     "Postérieur":"couleur3",
+    "Membres":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
