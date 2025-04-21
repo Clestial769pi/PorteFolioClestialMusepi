@@ -981,7 +981,7 @@
                 </p>
                 <ul>
                     <li>
-                        A = Bleu
+                        A = Bleu (en fonction de sa position initiale de départ)
                         <ul>
                             <li>
                                 A = 1 (source)
@@ -991,6 +991,9 @@
                                 <ul>
                                     <li>
                                         A = C = D
+                                    </li>
+                                    <li>
+                                        Soit A, soit B, soit C, soit D (si singularité ou encadré)
                                     </li>
                                 </ul>
                             </li>
@@ -1003,7 +1006,7 @@
                                 B = 2 (opposé)
                                 <ul>
                                     <li>
-                                        B = peut faire : {A}
+                                        B = peut faire : {A} / A = peut faire : {B}
                                     </li>
                                     <li>
                                         B = Dans le B, il y a du blanc, du violet et du jaune, ça peut potentiellement aller vers C ou D
@@ -1018,7 +1021,7 @@
                         </ul>
                     </li>
                     <li>
-                        C = Violet
+                        C = Violet (l'entre-deux)
                         <ul>
                             <li>
                                 C = 3 (couple)

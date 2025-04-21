@@ -252,6 +252,8 @@ const motsClasses2 = {
     "concrète":"couleur2",
     "centrale":"couleur3",
     "La partie":"couleur3",
+    "source":"couleur1",
+    "éléments":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
