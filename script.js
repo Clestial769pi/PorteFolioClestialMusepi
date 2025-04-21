@@ -246,6 +246,10 @@ const motsClasses2 = {
     "Postérieur":"couleur3",
     "Membres":"couleur3",
     "Épicentre":"couleur3",
+    "abstrait":"couleur1",
+    "abstraite":"couleur1",
+    "concret":"couleur2",
+    "concrète":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
