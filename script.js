@@ -223,6 +223,7 @@ const motsClasses2 = {
     "nombre":"couleur3",
     "transitions":"couleur3",
     "Si":"couleur3",
+    "somme":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
