@@ -259,6 +259,11 @@ const motsClasses2 = {
     "jardin d'Éden":"couleur3",
     "En haut":"couleur1",
     "En bas":"couleur2",
+    "personnes":"couleur3",
+    "entités":"couleur3",
+    "objet":"couleur3",
+    "activité":"couleur3",
+    "objectif":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
