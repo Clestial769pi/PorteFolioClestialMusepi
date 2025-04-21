@@ -128,6 +128,7 @@ const motsClasses2 = {
     "croisement":"couleur3",
     "gauche":"couleur1",
     "droite":"couleur2",
+    "rayon":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
