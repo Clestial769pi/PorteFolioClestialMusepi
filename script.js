@@ -174,6 +174,7 @@ const motsClasses2 = {
     "triangle":"couleur3",
     "moitiés":"couleur3",
     "intersection":"couleur3",
+    "tri":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
