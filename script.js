@@ -216,6 +216,9 @@ const motsClasses2 = {
     "humain":"couleur3",
     "Pouvoir":"couleur3",
     "survie":"couleur3",
+    "groupe":"couleur3",
+    "masse":"couleur3",
+    "informations":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
