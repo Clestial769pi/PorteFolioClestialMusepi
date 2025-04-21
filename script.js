@@ -141,7 +141,9 @@ const motsClasses2 = {
     "Grand":"couleur2",
     "3 angles":"couleur3",
     "complet":"couleur4",
-    "Mais":"couleur3"
+    "Mais":"couleur3",
+    "Froid":"couleur1",
+    "Chaud":"couleur2",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
