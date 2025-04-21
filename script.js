@@ -219,6 +219,7 @@ const motsClasses2 = {
     "groupe":"couleur3",
     "masse":"couleur3",
     "informations":"couleur3",
+    "métaphores":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
