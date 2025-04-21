@@ -175,6 +175,7 @@ const motsClasses2 = {
     "moitiés":"couleur3",
     "intersection":"couleur3",
     "tri":"couleur3",
+    "Tri":"couleur3",
     "angle":"couleur3",
     "côté":"couleur4",
     "pointe":"couleur3",
