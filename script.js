@@ -215,6 +215,7 @@ const motsClasses2 = {
     "Ichthus":"couleur3",
     "humain":"couleur3",
     "Pouvoir":"couleur3",
+    "pouvoir":"couleur3",
     "survie":"couleur3",
     "groupe":"couleur3",
     "masse":"couleur3",
