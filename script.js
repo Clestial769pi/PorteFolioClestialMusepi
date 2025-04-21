@@ -168,6 +168,12 @@ const motsClasses2 = {
     "Axe":"couleur3",
     "Rayons":"couleur3",
     "possibilités":"couleur3",
+    "L'endroit":"couleur1",
+    "L'envers":"couleur2",
+    "l'entre-deux":"couleur3",
+    "triangle":"couleur3",
+    "moitiés":"couleur3",
+    "intersection":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
