@@ -201,6 +201,8 @@ const motsClasses2 = {
     "le blanc":"couleur2",
     "Bas":"couleur1",
     "Haut":"couleur2",
+    "Lumière":"couleur2",
+    "Ombre":"couleur1",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
