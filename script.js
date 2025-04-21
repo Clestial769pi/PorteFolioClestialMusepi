@@ -163,6 +163,11 @@ const motsClasses2 = {
     "Liberté":"couleur1",
     "Fraternité":"couleur2",
     "Égalité":"couleur3",
+    "horizontal":"couleur1",
+    "vertical":"couleur2",
+    "Axe":"couleur3",
+    "Rayons":"couleur3",
+    "possibilités":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
