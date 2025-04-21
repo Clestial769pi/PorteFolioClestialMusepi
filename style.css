@@ -18,7 +18,7 @@ padding-bottom: 50px;
         font-size: 20px;
         font-family: 'system-ui';
     }
-/* structures */
+/* structure */
 body{
     background: rgb(46, 0, 48);
     word-wrap: break-word;
@@ -61,6 +61,7 @@ a:hover{
     width: auto;
     display: contents;
 }
+
 /* blockquote  */
 /* .blockquote-bannière{
     width: 10px;
@@ -160,11 +161,28 @@ ul>.nav-links-li{list-style: none;}
     display: flex;
     color: black;
 }
-a:hover{
+/* boutons */
+/* a:hover{
     background-color: purple;
     transition: 0.1s;
     color: white;
+} */
+.btn-blue:hover{
+    background-color: blue;
+    color: white;
+    /* border: 1px solid rgba(0, 0, 255, 0.288); */
 }
+.btn-purple:hover{
+    background-color: purple;
+    color: orange
+    /* border: 1px solid rgba(128, 0, 128, 0.329); */
+}
+.btn-red:hover{
+    background-color: red;
+    color: white;
+    /* border: 1px solid rgba(255, 0, 0, 0.301) */
+}
+
 .caticorn-personnage-fictif-tête{
     display:flow-root;
     height:100px; 
