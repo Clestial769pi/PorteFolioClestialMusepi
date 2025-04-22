@@ -114,7 +114,7 @@ const motsClasses2 = {
     "riche":"couleur2",
     "Espace et Temps":"couleur3",
     "assemblée":"couleur3",
-    "réunion de personnes":"couleur3",
+    "réunion":"couleur3",
     "L'église ":"couleur3",
     "Univers":"couleur3",
     "Système":"couleur3",
