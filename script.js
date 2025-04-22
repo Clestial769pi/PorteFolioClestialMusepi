@@ -129,18 +129,18 @@ const motsClasses2 = {
     "gauche":"couleur1",
     "droite":"couleur2",
     "rayon":"couleur3",
-    "360°":"couleur4",
+    // "360°":"couleur4",
     "180°":"couleur3",
     "90°":"couleur3",
-    "60°":"couleur2",
-    "30°":"couleur1",
+    // "60°":"couleur2",
+    "30°":"couleur3",
     "Faible":"couleur1",
     "Fort":"couleur2",
     "Moins":"couleur1",
     "Plus":"couleur2",
     "Petit":"couleur1",
     "Grand":"couleur2",
-    "3":"couleur3",
+    // "3":"couleur3",
     "complet":"couleur4",
     "Mais":"couleur3",
     "Froid":"couleur1",
@@ -268,7 +268,8 @@ const motsClasses2 = {
     "coordonner":"couleur3",
     "le bord":"couleur4",
     "entre-deux":"couleur3",
-    "des deux cercles":"couleur3"
+    "des deux cercles":"couleur3",
+    "360°":"couleur4",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
