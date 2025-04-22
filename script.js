@@ -266,6 +266,7 @@ const motsClasses2 = {
     "activité":"couleur3",
     "objectif":"couleur3",
     "coordonner":"couleur3",
+    "le bord":"couleur4",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
