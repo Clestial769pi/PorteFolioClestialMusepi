@@ -268,6 +268,7 @@ const motsClasses2 = {
     "coordonner":"couleur3",
     "le bord":"couleur4",
     "entre-deux":"couleur3",
+    "des deux cercles":"couleur3"
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
