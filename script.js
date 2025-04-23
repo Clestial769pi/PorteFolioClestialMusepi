@@ -67,6 +67,7 @@ const motsClasses2 = {
     "Or":"couleur2",
     "Cieux":"couleur3",
     "Espace":"couleur3",
+    "institution":"couleur3",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
