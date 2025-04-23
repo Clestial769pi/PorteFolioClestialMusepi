@@ -69,6 +69,7 @@ const motsClasses2 = {
     "cieux":"couleur3",
     "cornes":"couleur3",
     "pointes":"couleur3",
+    "double tranchant":"couleur3",
     "émetteur":"couleur1",
     "récepteur":"couleur2",
     "institution":"couleur3",
