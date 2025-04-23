@@ -289,6 +289,7 @@ const motsClasses2 = {
     "Troie":"couleur3",
     "Muses":"couleur3",
     "trois":"couleur3",
+    "les individus":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
