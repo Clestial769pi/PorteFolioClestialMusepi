@@ -70,6 +70,8 @@ const motsClasses2 = {
     "récepteur":"couleur2",
     "institution":"couleur3",
     "échelle":"couleur3",
+    "Vecteur":"couleur2",
+    "Tenseur":"couleur1",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
