@@ -1,4 +1,15 @@
 /* padding en fin de page */
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+ 
+}
+::-webkit-scrollbar-track{
+    background-color: purple;
+
+}
 .padding-bottom{
 padding-bottom: 50px;
 }
