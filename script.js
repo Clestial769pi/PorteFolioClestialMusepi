@@ -73,6 +73,8 @@ const motsClasses2 = {
     "Vecteur":"couleur2",
     "Tenseur":"couleur1",
     "Matrice":"couleur3",
+    "paradis":"couleur1",
+    "enfer":"couleur2",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
