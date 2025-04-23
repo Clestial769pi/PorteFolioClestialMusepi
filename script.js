@@ -67,6 +67,8 @@ const motsClasses2 = {
     "Or":"couleur2",
     "Cieux":"couleur3",
     "cieux":"couleur3",
+    "cornes":"couleur3",
+    "pointes":"couleur3",
     "émetteur":"couleur1",
     "récepteur":"couleur2",
     "institution":"couleur3",
