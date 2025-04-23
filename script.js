@@ -270,6 +270,7 @@ const motsClasses2 = {
     "entre-deux":"couleur3",
     "des deux cercles":"couleur3",
     "360°":"couleur4",
+    "L'entre 2":"couleur3",
 };
         function appliquerClassesTexte(element) {
             let ABC = element.innerHTML;
