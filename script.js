@@ -72,6 +72,7 @@ const motsClasses2 = {
     "échelle":"couleur3",
     "Vecteur":"couleur2",
     "Tenseur":"couleur1",
+    "Matrice":"couleur3",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
