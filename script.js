@@ -173,6 +173,8 @@ const motsClasses2 = {
     "L'envers":"couleur2",
     // "l'entre-deux":"couleur3",
     "triangle":"couleur3",
+    "l'adversité":"couleur2",
+    "opposés":"couleur2",
     "moitiés":"couleur3",
     "intersection":"couleur3",
     "tri":"couleur3",
