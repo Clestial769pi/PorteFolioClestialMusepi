@@ -75,6 +75,7 @@ const motsClasses2 = {
     "Matrice":"couleur3",
     "paradis":"couleur1",
     "enfer":"couleur2",
+    "ailleurs":"couleur3",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
