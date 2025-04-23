@@ -360,6 +360,7 @@ ul>.nav-links-li{list-style: none;}
     padding-right: 5px;
     padding-top: 0;
     padding-bottom: 0;
+    border-radius: 5px;
 }
 @media (max-width:450px){
     *{
