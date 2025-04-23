@@ -65,6 +65,7 @@ const motsClasses2 = {
     "et l'ivraie":"couleur2",
     "Plomb":"couleur1",
     "Or":"couleur2",
+    "Cieux":"couleur3",
     "Source":"couleur1",
     "son contraire":"couleur2",
     "Nuance de gris":"couleur3",
