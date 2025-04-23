@@ -2,12 +2,12 @@
 .padding-bottom{
 padding-bottom: 50px;
 }
-a:hover{
-    color:purple;
-}
 @media (min-width:0px){
     *{
         overflow-wrap: anywhere;
+    }
+    a:hover{
+        color:purple;
     }
 /* Les textes */
     h1,h2,h3{
