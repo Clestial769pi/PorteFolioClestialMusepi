@@ -133,7 +133,7 @@ const motsClasses2 = {
     "fort":"couleur2",
     "pauvre":"couleur1",
     "riche":"couleur2",
-    "Espace et Temps":"couleur3",
+    "Espace":"couleur3",
     "assemblée":"couleur3",
     "réunion":"couleur3",
     "L'église ":"couleur3",
