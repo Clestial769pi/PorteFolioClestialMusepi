@@ -2,7 +2,9 @@
 .padding-bottom{
 padding-bottom: 50px;
 }
-
+a:hover{
+    color:purple;
+}
 @media (min-width:0px){
     *{
         overflow-wrap: anywhere;
@@ -39,9 +41,6 @@ a{
     font-weight: bold;
     text-decoration: none;
     font-size: 15px;
-}
-a:hover{
-    color:purple;
 }
 .blockquote-h3-lien-wikipédia{
     color: rgb(255, 166, 0);
