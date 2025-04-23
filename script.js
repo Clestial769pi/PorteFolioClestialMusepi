@@ -87,7 +87,7 @@ const motsClasses2 = {
     "information":"couleur3",
     "universel":"couleur3",
     "dimensionnel":"couleur3",
-    "fictif":"couleur3",
+    // "fictif":"couleur3",
     "Lieu":"couleur3",
     "plateforme":"couleur3",
     "Source":"couleur1",
