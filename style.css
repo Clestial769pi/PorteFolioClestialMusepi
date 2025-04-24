@@ -29,9 +29,6 @@ padding-bottom: 50px;
         height: 350px;
         /* width: auto; */
     }
-    .td-table-overflow-y{
-        overflow-y: scroll;
-    }
 /* Les textes */
     h1,h2,h3{
         font-family: sans-serif;
