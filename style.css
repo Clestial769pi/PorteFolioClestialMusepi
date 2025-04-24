@@ -225,10 +225,16 @@ ul>.nav-links-li{list-style: none;}
     display: flex;
 }
 #tête-content{
-    background-color: blue;
+    /* background-color: blue; */
     border: 1px solid blue;
     height: 50px;
     width: 50px;
+}
+#tête-content:hover{
+    background-color: blue;
+    border: 1px solid blue;
+    /* height: 50px;
+    width: 50px; */
 }
 #tête-café-cover-caticorn600x600{
     display: flex;
@@ -238,16 +244,24 @@ ul>.nav-links-li{list-style: none;}
     border: 1px solid black;
 }
 #tête-pas-content{
-    background-color: red;
+    /* background-color: red; */
     border: 1px solid red;
     height: 50px;
     width: 50px;
 }
+#tête-pas-content:hover{
+    background-color: red;
+    border: 1px solid red;
+}
 #tête-peur{
-    background-color: purple;
+    /* background-color: purple; */
     border: 1px solid purple;
     height: 50px;
     width: 50px;
+}
+#tête-peur:hover{
+    background-color: purple;
+    border: 1px solid purple;
 }
 #corps-debout{
     border: none;
