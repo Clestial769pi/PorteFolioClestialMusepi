@@ -173,6 +173,7 @@ const motsClasses2 = {
     "Descartes":"couleur3",
     "simulation":"couleur3",
     // "3":"couleur3",
+    "mondes":"couleur3",
     "Infiniment petit":"couleur1",
     "infiniment petit":"couleur1",
     "infiniment grand":"couleur2",
