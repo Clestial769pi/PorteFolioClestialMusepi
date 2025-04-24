@@ -170,6 +170,8 @@ const motsClasses2 = {
     "Infiniment petit":"couleur1",
     "infiniment petit":"couleur1",
     "infiniment grand":"couleur2",
+    "Passé":"couleur1",
+    "Futur":"couleur2",
     "complet":"couleur4",
     "Mais":"couleur3",
     "Froid":"couleur1",
