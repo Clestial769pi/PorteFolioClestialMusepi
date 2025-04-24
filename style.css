@@ -26,6 +26,7 @@ padding-bottom: 50px;
         border: 1px solid orange;
         background-color: rgb(253, 216, 247);
         height: 350px;
+        overflow-x: hidden;
     }
 /* Les textes */
     h1,h2,h3{
