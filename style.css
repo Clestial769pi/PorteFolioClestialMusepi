@@ -21,11 +21,16 @@ padding-bottom: 50px;
         color:purple;
     }
     .cadre-news{
-        overflow-y: scroll;
-        padding: 5px;
+        /* overflow-y: scroll; */
+        overflow-x: scroll;
+        /* padding: 5px; */
         border: 1px solid orange;
         background-color: rgb(253, 216, 247);
         height: 350px;
+        /* width: auto; */
+    }
+    .td-table-overflow-y{
+        overflow-y: scroll;
     }
 /* Les textes */
     h1,h2,h3{
