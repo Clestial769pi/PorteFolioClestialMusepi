@@ -397,6 +397,7 @@ ul>.nav-links-li{list-style: none;}
     *{
         word-break:normal; 
     }
+    td{width: 20px;}
     audio{
         width: 150px;
     }
