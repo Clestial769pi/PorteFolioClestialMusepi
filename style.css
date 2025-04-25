@@ -40,6 +40,9 @@ padding-bottom: 50px;
         font-family: 'system-ui';
     }
 /* structure */
+audio{
+    width: 350px;
+}
 body{
     background: rgb(46, 0, 48);
     word-wrap: break-word;
@@ -392,6 +395,9 @@ ul>.nav-links-li{list-style: none;}
     *{
         word-break:normal; 
     }
+    audio{
+        width: 150px;
+    }
     .ul-class-links{
         flex-direction:column;
         justify-content: space-around; 
@@ -425,7 +431,6 @@ ul>.nav-links-li{list-style: none;}
     td,th{
         overflow-wrap: normal;
     }
-
     th{
         width: 80px;
     }
