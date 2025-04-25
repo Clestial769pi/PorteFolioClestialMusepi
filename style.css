@@ -227,6 +227,7 @@ ul>.nav-links-li{list-style: none;}
     justify-content: space-around;
     display: flex;
 }
+
 #tête-content{
     /* background-color: blue; */
     border: 1px solid blue;
@@ -391,6 +392,7 @@ ul>.nav-links-li{list-style: none;}
     padding-bottom: 0;
     border-radius: 5px;
 }
+
 @media (max-width:450px){
     *{
         word-break:normal; 
@@ -421,7 +423,6 @@ ul>.nav-links-li{list-style: none;}
     .portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1{
         justify-items: left;
     }
-
 }
 
 @media (min-width:450px){
