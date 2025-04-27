@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <!-- <script defer src="script.js"></script> -->
     <link rel="icon" type="image/png" href="img/icone-site.png">
     <title>OCF Original Caracthere Fiction</title>
 </head>
@@ -698,24 +697,36 @@
 </section>
 <script>
     const motsClasses2 = {
-        "A":"couleur1",
-        "B":"couleur2",
-        "C":"couleur3",
-        "D":"couleur4",
-        "=":"couleur3",
-
+        "A": "couleur1",
+        "B": "couleur2",
+        "C": "couleur3",
+        "D": "couleur4",
+        "=": "couleur3",
     };
-    function appliquerClassesTexte(element) {
-        let ABC = element.innerHTML;
-    // Le span
-        for (const [mot, classe] of Object.entries(motsClasses2)) {
-            const regex = new RegExp(`(?<!\\p{L})${mot}(?!\\p{L})`, "gu");
-            ABC = ABC.replace(regex, `<span class="${classe}">${mot}</span>`);
-        }
     
-        element.innerHTML = ABC;
+    function appliquerClassesTexte(node) {
+        // Si c'est un texte
+        if (node.nodeType === Node.TEXT_NODE) {
+            let texte = node.nodeValue;
+            for (const [mot, classe] of Object.entries(motsClasses2)) {
+                const regex = new RegExp(`(?<!\\p{L})${mot}(?!\\p{L})`, "gu");
+                texte = texte.replace(regex, `<span class="${classe}">${mot}</span>`);
+            }
+            // Remplacer par un fragment HTML
+            if (texte !== node.nodeValue) {
+                const span = document.createElement("span");
+                span.innerHTML = texte;
+                node.replaceWith(...span.childNodes);
+            }
+        }
+        // Sinon, si c'est un élément, parcourir ses enfants
+        else if (node.nodeType === Node.ELEMENT_NODE) {
+            for (const child of Array.from(node.childNodes)) {
+                appliquerClassesTexte(child);
+            }
+        }
     }
-    // Le id ABC dans body
+    
     const elementABC = document.getElementById("ABC");
     appliquerClassesTexte(elementABC);
     </script>
