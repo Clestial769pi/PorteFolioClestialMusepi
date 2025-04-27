@@ -293,10 +293,9 @@ ul>.nav-links-li{list-style: none;}
     color: yellow;
     background-color: black;
 }
-.nav-links-li>a:hover{
+/* .nav-links-li>a:hover{
     color: yellow;
-    /* background-color: black; */
-}
+} */
 .section-div-Links{
     flex-direction: column;
     text-decoration: none;
