@@ -333,16 +333,29 @@ const motsClasses2 = {
     "trois":"couleur3",
     "les individus":"couleur3",
 };
-        function appliquerClassesTexte(element) {
-            let ABC = element.innerHTML;
-        // Le span
-            for (const [mot, classe] of Object.entries(motsClasses2)) {
-                const regex = new RegExp(`(?<!\\p{L})${mot}(?!\\p{L})`, "gu");
-                ABC = ABC.replace(regex, `<span class="${classe}">${mot}</span>`);
-            }
-        
-            element.innerHTML = ABC;
+
+function appliquerClassesTexte(node) {
+    // Si c'est un texte
+    if (node.nodeType === Node.TEXT_NODE) {
+        let texte = node.nodeValue;
+        for (const [mot, classe] of Object.entries(motsClasses2)) {
+            const regex = new RegExp(`(?<!\\p{L})${mot}(?!\\p{L})`, "gu");
+            texte = texte.replace(regex, `<span class="${classe}">${mot}</span>`);
         }
-        // Le id ABC dans body
-        const elementABC = document.getElementById("ABC");
-        appliquerClassesTexte(elementABC);
+        // Remplacer par un fragment HTML
+        if (texte !== node.nodeValue) {
+            const span = document.createElement("span");
+            span.innerHTML = texte;
+            node.replaceWith(...span.childNodes);
+        }
+    }
+    // Sinon, si c'est un élément, parcourir ses enfants
+    else if (node.nodeType === Node.ELEMENT_NODE) {
+        for (const child of Array.from(node.childNodes)) {
+            appliquerClassesTexte(child);
+        }
+    }
+}
+
+const elementABC = document.getElementById("ABC");
+appliquerClassesTexte(elementABC);
