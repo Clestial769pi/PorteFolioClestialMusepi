@@ -332,6 +332,8 @@ const motsClasses2 = {
     "Muses":"couleur3",
     "trois":"couleur3",
     "les individus":"couleur3",
+    "satanisme":"couleur2",
+    "alchimiste":"couleur1",
 };
 
 function appliquerClassesTexte(node) {
