@@ -190,7 +190,7 @@ ul>.nav-links-li{list-style: none;}
     transition: 0.1s;
     color: white;
 } */
-.btn-blue:hover,.btn-purple:hover,.btn-red:hover{
+.btn-blue:hover,.btn-purple:hover,.btn-red:hover,.btn-yellow:hover{
     border-radius: 5px;
 }
 .btn-blue:hover{
