@@ -20,7 +20,7 @@ padding-bottom: 50px;
         cursor: url('img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.cur'), auto;
     }
     a:hover{
-        color:purple;
+        color:rgb(238, 0, 238);
     }
     .cadre-news{
         overflow-y: scroll;
@@ -234,7 +234,7 @@ ul>.nav-links-li{list-style: none;}
     display: flex;
 }
 td:hover{
-    background-color: purple;
+    background-color: rgba(128, 0, 128, 0.404);
     color: white;
 }
 #tête-content{
