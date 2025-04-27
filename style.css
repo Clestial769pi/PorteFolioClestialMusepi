@@ -233,8 +233,8 @@ ul>.nav-links-li{list-style: none;}
     justify-content: space-around;
     display: flex;
 }
-td:hover{
-    background-color: rgba(128, 0, 128, 0.404);
+table>tr>td:hover{    
+    background-color: rgba(255, 0, 0, 0.404);
     color: white;
 }
 #tête-content{
