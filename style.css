@@ -208,6 +208,11 @@ ul>.nav-links-li{list-style: none;}
     color: white;
     /* border: 1px solid rgba(255, 0, 0, 0.301) */
 }
+.btn-yellow:hover{
+    background-color: yellow;
+    color: purple;
+    /* border: 1px solid rgba(255, 0, 0, 0.301) */
+}
 
 .caticorn-personnage-fictif-tête{
     display:flow-root;
