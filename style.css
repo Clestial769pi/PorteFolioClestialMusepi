@@ -16,7 +16,7 @@ padding-bottom: 50px;
 
 @media (min-width:0px){
     *{
-        overflow-wrap: anywhere;
+        /* overflow-wrap: anywhere; */
         cursor: url('img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.cur'), auto;
     }
     a:hover{
