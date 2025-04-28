@@ -428,6 +428,13 @@ ul>.nav-links-li{list-style: none;}
     .portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1{
         justify-items: left;
     }
+    .table-todo-list{
+        width:-webkit-fill-available;
+        overflow-x: scroll;
+        display: inline-flex;
+        flex-direction: column;
+        width: auto;
+    }
 }
 
 @media (min-width:450px){
