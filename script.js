@@ -337,6 +337,7 @@ const motsClasses2 = {
     "vivant":"couleur1",
     "Les vagues":"couleur3",
     "côte à côte":"couleur4",
+    "géométriques":"couleur3",
 };
 
 function appliquerClassesTexte(node) {
