@@ -111,6 +111,9 @@ blockquote:hover{
     transition: 1s;
     color: yellow;
 }
+#cantact-table-class{
+    overflow-wrap: anywhere;
+}
 table{
     font-family: sans-serif;
     border-collapse: collapse;
