@@ -336,6 +336,7 @@ const motsClasses2 = {
     "alchimiste":"couleur1",
     "vivant":"couleur1",
     "Les vagues":"couleur3",
+    "côte à côte":"couleur4",
 };
 
 function appliquerClassesTexte(node) {
