@@ -26,7 +26,8 @@ padding-bottom: 50px;
         overflow-y: scroll;
         border: 1px solid orange;
         background-color: rgb(253, 216, 247);
-        /* height: 350px; */
+        height: 350px;
+
         /* overflow-x: hidden; */
     }
 
@@ -118,6 +119,7 @@ blockquote:hover{
 }
 #cantact-table-class{
     overflow-wrap: anywhere;
+    width: max-content;
 }
 table{
     font-family: sans-serif;
