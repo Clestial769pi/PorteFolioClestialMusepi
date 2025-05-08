@@ -117,9 +117,10 @@ blockquote:hover{
     transition: 1s;
     color: yellow;
 }
-#cantact-table-class{
+#contact-table-class{
     overflow-wrap: anywhere;
     width: max-content;
+    justify-self: center;
 }
 table{
     font-family: sans-serif;
