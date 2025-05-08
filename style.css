@@ -29,6 +29,11 @@ padding-bottom: 50px;
         /* height: 350px; */
         /* overflow-x: hidden; */
     }
+
+    .iframeVideo{
+        width: min-content;
+        justify-self: anchor-center;
+    }
 /* Les textes */
     h1,h2,h3{
         font-family: sans-serif;
