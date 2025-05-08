@@ -31,7 +31,7 @@ padding-bottom: 50px;
         /* overflow-x: hidden; */
     }
 
-    .iframeVideo{
+    .iframe-video{
         width: min-content;
         justify-self: anchor-center;
     }
