@@ -409,6 +409,9 @@ ul>.nav-links-li{list-style: none;}
 }
 
 @media (max-width:450px){
+    .table-class{
+        width: max-content;
+    }
     *{
         word-break:normal; 
     }
