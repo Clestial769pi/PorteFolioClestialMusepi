@@ -24,6 +24,7 @@ padding-bottom: 50px;
         color:rgb(238, 0, 238);
     }
     .cadre-news{
+        display: flex;
         overflow-y: scroll;
         border: 1px solid orange;
         background-color: rgb(253, 216, 247);
