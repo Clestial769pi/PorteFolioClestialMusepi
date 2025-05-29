@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" type="image/png" href="img/icone-site.png">
+    <title>OCF Original Caracthere Fiction</title>
+</head>
+<header>
+    <section class="header-section-les-liens" id="section-retour-en-haut">
+        <div class="section-div-Links">
+            <ul class="ul-class-links">
+                <li class="nav-links-li"><a href="qui-suis-je.html" class="btn-blue">A = Qui suis-je ?</a></li>
+                <li class="nav-links-li"><a href="contact.html" class="btn-purple">C = Contact</li></a>
+                <li class="nav-links-li"><a href="portefolio.html" class="btn-red">B = Portefolio</a></li>
+                <li class="nav-links-li"><a href="todo-list.html" class="btn-yellow">D = Todo-list</a></li>
+            </ul>
+        </div>
+    </section>
+</header>
+<body id="ABC">
+<section class="contact-section-table-profil-clestial-musepi-artiste">
+    <h1>Documentation</h1>
+    <p style="justify-self: center;">Voici ici un texte permettant d'expliquer des petits trucs comme ça rapidement.</p>
+    <p>
+        Soundcloud n'a pas la même limitation que YouTube ? YouTube, à partir d'un certain seuil, finit par compresser, normaliser ou rabaisser mon signal, en fonction de ce qu'il détecte. 
+    </p>
+    <ul>
+        <li>
+            Encodage initial : conversion en AAC/Opus ?
+        </li>
+        <li>
+            Analyse de loudness (volume perçu) = LUFS ?
+        </li>
+        <li>
+            [Normalisation du volume] <br>
+            ├── Si trop fort : YouTube ABAISSE le volume <br>
+            └── Si trop faible : YouTube ne fait RIEN (pas de rehaussement)
+        </li>
+        <li>
+            Compression possible lors de ré-encodage (légère)
+        </li>
+        <li>
+            Lecture avec gain appliqué (gain négatif si trop fort), si l'audio est plus fort que -14 LUFS, YouTube décide de baisser le niveau de volume à l'écoute. <br>
+            ├── Tu uploades une vidéo avec un mix à -10 LUFS (donc 4 dB trop fort). <br>
+            └── Lors de la lecture, YouTube applique -4 dB de gain, pour atteindre -14 LUFS perçu. <br> (Résultat : ton mix est entendu moins fort que ce que tu as envoyé, à cause de ce gain négatif automatique)
+            
+        </li>
+        <li>
+            Ce que ça implique : <br>
+            ├── Si tu fais un mix très compressé et fort (par exemple -8 LUFS), tu seras sévèrement rabaissé. <br>
+            ├── Si tu mixes à -14 LUFS, YouTube ne touche rien = ton son sort exactement comme prévu. <br>
+            └── Si tu mixes à -18 LUFS, YouTube ne le remontera pas = ton son paraîtra trop faible à côté des autres.
+        </li>
+    </ul>
+    <p>
+        Le fichier peut avoir des fréquences de 20 Hz à 20 KHz, voire au delà, si le fichier est en .WAV sous 48 KHz ou 96 KHz.
+    </p>
+<div class="padding-bottom"></div>
+</section>
+<section id="section-retour-en-haut" class="section-retour-en-haut">
+    Cliquez <a href="#section-retour-en-haut" class="btn-purple">ici</a> pour revenir en haut
+</section>
+<section class="drapeau-de-france">
+    <div class="couleur-france-bleu"></div>
+    <div class="couleur-france-blanc"></div>
+    <div class="couleur-france-rouge"></div>
+</section>
+</body>
+</html>
