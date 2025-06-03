@@ -340,6 +340,8 @@ const motsClasses2 = {
     "géométriques":"couleur3",
     "l'arithmétique":"couleur4",
     "Vivant":"couleur1",
+    "bon":"couleur1",
+    "mauvais":"couleur2",
 };
 
 function appliquerClassesTexte(node) {
