@@ -54,7 +54,110 @@
             ├── Si tu mixes à -14 LUFS, YouTube ne touche rien = ton son sort exactement comme prévu. <br>
             └── Si tu mixes à -18 LUFS, YouTube ne le remontera pas = ton son paraîtra trop faible à côté des autres.
         </li>
+        <li>
+            Output format : MP3 (LAME Encoder)
+        </li>
+        <li>
+            Bitrate mode : Constant bitrate (CBR)
+        </li>
+        <li>
+            Bitrate : 96 kbps ou même 80 kbps
+        </li>
+        <li>
+            Sample rate : gardé à 44 100 Hz
+        </li>
+        <li>
+            Output : WAV → MP3 96kbps → Réimporte → Réexporte encore en MP3 96kbps
+            <ul>
+                <li>
+                    Bit depth : 16-bit
+                </li>
+                <li>
+                    Coche Dither
+                </li>
+                <li>
+                    Sample rate : baisse à 32kHz ou 22kHz
+                </li>
+                <li>
+                    Resample mode : Fast (linear) ou Medium (sinc 64pt)
+                </li>
+            </ul>
+        </li>
+        <li>
+            Point Sampling (aussi appelé "Nearest Neighbor")
+            <ul>
+                <li>
+                    Qualité : très basse.
+                </li>
+                <li>
+                    Effet : son cranté, aliasing très prononcé.
+                </li>
+                <li>
+                    Usage typique : rétro, effets lo-fi, sound design volontairement dégradé.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Linear Interpolation / Linear + IIR
+            <ul>
+                <li>
+                    Qualité : basse à moyenne.
+                </li>
+                <li>
+                    Effet : meilleur que le point sampling, mais toujours des artefacts, surtout dans les aigus.
+                </li>
+                <li>
+                    IIR : filtre passe-bas pour lisser un peu le rendu.
+                </li>
+                <li>
+                    Usage : aperçu rapide, traitements temps réel peu coûteux.
+                </li>
+            </ul>
+        </li>
+        <li>
+            Sinc Interpolation (16pt → 768pt)
+            <ul>
+                <li>
+                    Qualité : moyenne à très haute, selon le nombre de points.
+                </li>
+                <li>
+                    Principe : utilise une approximation du filtre parfait (idéalement une sinc infinie).
+                </li>
+                <li>
+                    Effet : plus il y a de points, plus la courbe est lissée et fidèle.
+                </li>
+                <li>
+                    16pt → 64pt : qualité correcte pour du temps réel ou des traitements rapides.
+                </li>
+                <li>
+                    192pt → 512pt : haute qualité.
+                </li>
+                <li>
+                    768pt : qualité quasi-transparente, mais très coûteuse en CPU.
+                </li>
+            </ul>
+        </li>
+        <li>
+            R8brain free
+            <ul>
+                <li>
+                    Qualité : très haute / audiophile.
+                </li>
+                <li>
+                    Type : resampler dédié, offline (non temps réel), avec un filtre très bien conçu.
+                </li>
+                <li>
+                    Effet : pas d'aliasing audible, phase linéaire, très bon rendu sur tout le spectre.
+                </li>
+                <li>
+                    Usage : mastering, export final.
+                </li>
+            </ul>
+        </li>
     </ul>
+    <p>
+        le meilleur compromis qualité/performance en temps réel, le Sinc Interpolation 192pt ou 384pt est souvent un bon choix.
+    </p>
     <p>
         Le fichier peut avoir des fréquences de 20 Hz à 20 KHz, voire au delà, si le fichier est en .WAV sous 48 KHz ou 96 KHz.
     </p>
