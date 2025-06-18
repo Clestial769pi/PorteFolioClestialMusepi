@@ -52,6 +52,7 @@ const motsClasses2 = {
     "Fin":"couleur2",
     "Yin":"couleur1",
     "Yang":"couleur2",
+    "Atome":"couleur3",
     "entrechoquer":"couleur3",
     "corruption":"couleur3",
     "Terre":"couleur3",
