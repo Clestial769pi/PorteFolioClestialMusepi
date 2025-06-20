@@ -48,6 +48,7 @@ const motsClasses2 = {
     "Le nombre de la bête":"couleur3",
     "Vie":"couleur1",
     "Mort":"couleur2",
+    "paradoxe":"couleur4",
     // "Début":"couleur1",
     "Fin":"couleur2",
     "Yin":"couleur1",
