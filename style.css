@@ -11,6 +11,10 @@
     background-color: purple;
 
 }
+ ::selection {
+      background-color: yellow;
+      color: purple;
+    }
 .padding-bottom{
 padding-bottom: 100px;
 }
