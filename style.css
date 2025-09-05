@@ -366,6 +366,7 @@ ul>.nav-links-li{list-style: none;}
     border: 1px dotted yellow;
     width: auto;
     padding: 5px;
+    padding-left: 20px;
     margin: 5px;
     border-left: 5px solid orange;
     border-radius: 5px; 
