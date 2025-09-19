@@ -374,7 +374,7 @@ ul>.nav-links-li{list-style: none;}
     overflow: hidden;   
     margin-bottom: 15px;
 }
-/* .li-class-cadreA{
+.li-class-cadreA{
     background-color: rgba(255, 233, 190, 0.466);
     border: 1px dotted purple;
     width: auto;
@@ -382,7 +382,7 @@ ul>.nav-links-li{list-style: none;}
     padding-left: 20px;
     margin: 5px;
     border-left: 5px solid blue;
-    /* border-radius: 5px;  */
+    border-radius: 5px; 
     overflow: hidden;   
     margin-bottom: 15px;
 }
@@ -394,7 +394,7 @@ ul>.nav-links-li{list-style: none;}
     padding-left: 20px;
     margin: 5px;
     border-left: 5px solid red;
-    /* border-radius: 5px;  */
+    border-radius: 5px; 
     overflow: hidden;   
     margin-bottom: 15px;
 }.li-class-cadreC{
