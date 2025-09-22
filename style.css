@@ -390,6 +390,7 @@ ul>.nav-links-li{list-style: none;}
 .li-class-cadreA:hover{
     background-color: rgba(0, 0, 255, 0.76);
     color: white;
+    border-right: 5px solid orange;
 }
 .li-class-cadreB{
     background-color: rgba(255, 233, 190, 0.466);
@@ -407,6 +408,7 @@ ul>.nav-links-li{list-style: none;}
 .li-class-cadreB:hover{
     background-color: rgba(255, 0, 0, 0.699);
     color: white;
+    border-right: 5px solid orange;
 }
 .li-class-cadreC{
     background-color: rgba(255, 233, 190, 0.466);
@@ -424,6 +426,7 @@ ul>.nav-links-li{list-style: none;}
 .li-class-cadreC:hover{
     background-color: rgba(128, 0, 128, 0.705);
     color: white;
+    border-right: 5px solid purple;
 }
 .li-class-cadreD{
     background-color: rgba(255, 233, 190, 0.466);
@@ -441,6 +444,7 @@ ul>.nav-links-li{list-style: none;}
 .li-class-cadreD:hover{
     background-color: rgba(255, 166, 0, 0.726);
     color: white;
+    border-right: 5px solid purple;
 }
 .couleur1,.couleur2,.couleur3,.couleur4{
 
