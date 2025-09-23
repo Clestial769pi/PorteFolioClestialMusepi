@@ -501,7 +501,6 @@ ul>.nav-links-li{list-style: none;}
     padding-bottom: 0;
     border-radius: 5px;
 }
-
 @media (max-width:450px){
     .table-class{
         width: auto;
