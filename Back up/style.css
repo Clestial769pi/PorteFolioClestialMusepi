@@ -14,11 +14,11 @@
 .padding-bottom{
 padding-bottom: 100px;
 }
-
 @media (min-width:0px){
     *{
         /* overflow-wrap: anywhere; */
         cursor: url('img/Curseur\ caticorn\ clestial\ curseur\ principal\ figé.cur'), auto;
+        font-family: 'Times New Roman', Times, serif;
     }
     a:hover{
         color:rgb(238, 0, 238);
