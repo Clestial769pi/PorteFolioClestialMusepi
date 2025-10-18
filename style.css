@@ -374,8 +374,8 @@ ul>.nav-links-li{list-style: none;}
     border: 1px dotted purple;
     width: auto;
     padding: 5px;
-    padding-left: 20px;
-    margin: 5px;
+    padding-left: 18px;
+    /* margin: 5px; */
     border-left: 5px solid orange;
     border-radius: 5px; 
     overflow: hidden;   
@@ -384,7 +384,7 @@ ul>.nav-links-li{list-style: none;}
 .li-class-cadreVide{
     width: auto;
     padding: 5px;
-    padding-left: 20px;
+    /* padding-left: 18px; */
     margin: 5px;
     overflow: hidden;   
     margin-bottom: 15px;
