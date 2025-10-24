@@ -331,7 +331,7 @@ ul>.nav-links-li{list-style: none;}
     justify-content: center;
     align-items: center;
 }
-.portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-profil-clestial-musepi-artiste,.attention-section,.portefolio-section-pour-la-france{
+.portefolio-section-sample-pack,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.contact-section-profil-clestial-musepi-artiste,.attention-section{
     justify-items: anchor-center;
 }
 .qui-suis-je-section-l-humanité-trinité{
@@ -339,7 +339,7 @@ ul>.nav-links-li{list-style: none;}
 }
 
 /* cadre blanc */
-.header-section-les-liens,.contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste,.qui-suis-je-section-profil,.qui-suis-je-section-l-humanité-trinité,.contact-section-table-profil-clestial-musepi-artiste,#section-retour-en-haut,.portefolio-section-langue-des-oiseaux,.attention-section,.qui-suis-je-section-vesica,.porte-folio-section-soundcloud-channels,.porte-folio-section-news,.todolist-section-table,.qui-suis-je-section-Avertissement,.qui-suis-je-section-onde-cosmique{
+.header-section-les-liens,.contact-section-profil-clestial-musepi-artiste,.qui-suis-je-section-pourquoi-clestial,.qui-suis-je-section-pourquoi-muse,.qui-suis-je-section-header_qui-suis-je-section,.qui-suis-je-section-pourquoi-pi,.qui-suis-je-section-pourquoi-trinité,.portefolio-section-table-playlist-saison-2,.portefolio-section-table-playlist-saison-1,.qui-suis-je-section-table-personnage-fictif,.portefolio-section-sample-pack,.qui-suis-je-section-conditions-portes-logiques-par-striangulation,.porte-folio-section-collaboration,.porte-folio-section,.qui-suis-je-section-profil-clestial-musepi-artiste,.qui-suis-je-section-profil,.qui-suis-je-section-l-humanité-trinité,.contact-section-table-profil-clestial-musepi-artiste,#section-retour-en-haut,.portefolio-section-langue-des-oiseaux,.attention-section,.qui-suis-je-section-vesica,.porte-folio-section-soundcloud-channels,.porte-folio-section-news,.todolist-section-table,.qui-suis-je-section-Avertissement,.qui-suis-je-section-onde-cosmique,.portefolio-section-pour-la-france{
     width: auto;
     height: auto;
     padding: 20px;
