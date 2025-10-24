@@ -63,6 +63,10 @@ padding-bottom: 100px;
         color: black;
         text-shadow: 1px 1px 10px white;
     }
+    b:hover{
+        color:orange;
+        text-shadow: 1px 1px 5px purple;
+    }
 /* structure */
 audio{
     width: 350px;
