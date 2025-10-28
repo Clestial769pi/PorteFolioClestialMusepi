@@ -449,7 +449,7 @@ ul>.nav-links-li{list-style: none;}
 }
 .li-class-cadreC:hover{
     background-color: rgba(128, 0, 128, 0.705);
-    color: white;
+    color: yellow;
     border-right: 5px solid purple;
 }
 .li-class-cadreD{
