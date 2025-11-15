@@ -167,7 +167,7 @@ td{
 th,td{
     border: 1px solid purple;
     text-align: center;
-    padding: 5px;
+    /* padding: 5px; */
 }
 .table-class{
     display: flex;
