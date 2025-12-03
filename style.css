@@ -398,6 +398,10 @@ ul>.nav-links-li{list-style: none;}
     overflow: hidden;   
     margin-bottom: 15px;
 }
+.li-class-cadreA,.li-class-cadreB,.li-class-cadreC,.li-class-cadreD{
+    overflow-wrap:anywhere;
+    overflow-wrap: normal;
+}
 .li-class-cadreA{
     background-color: rgba(255, 233, 190, 0.466);
     border: 1px dotted purple;
