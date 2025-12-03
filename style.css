@@ -399,7 +399,7 @@ ul>.nav-links-li{list-style: none;}
     margin-bottom: 15px;
 }
 .li-class-cadreA,.li-class-cadreB,.li-class-cadreC,.li-class-cadreD{
-    overflow-wrap:anywhere;
+    overflow-wrap:anywhere;    width: -webkit-fill-available;
     /* overflow-wrap: normal; */
 }
 .li-class-cadreA{
