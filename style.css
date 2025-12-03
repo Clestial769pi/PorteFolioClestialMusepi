@@ -400,7 +400,7 @@ ul>.nav-links-li{list-style: none;}
 }
 .li-class-cadreA,.li-class-cadreB,.li-class-cadreC,.li-class-cadreD{
     overflow-wrap:anywhere;
-    overflow-wrap: normal;
+    /* overflow-wrap: normal; */
 }
 .li-class-cadreA{
     background-color: rgba(255, 233, 190, 0.466);
