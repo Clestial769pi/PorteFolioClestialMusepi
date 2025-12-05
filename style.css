@@ -400,10 +400,11 @@ ul>.nav-links-li{list-style: none;}
     margin-bottom: 15px;
 }
 .li-class-cadreA,.li-class-cadreB,.li-class-cadreC,.li-class-cadreD{
-    /* overflow-wrap:anywhere;     */
+    overflow-wrap:anywhere;    
     width: -webkit-fill-available;
     text-wrap: auto;
-    width: max-content;
+    /* width: max-content; */
+    /* min-width: max-content; */
     
 }
 .li-class-cadreA{
