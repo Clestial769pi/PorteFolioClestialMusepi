@@ -141,8 +141,9 @@ blockquote:hover{
     color: yellow;
 }
 #contact-table-class{
-    overflow-wrap: anywhere;
+    overflow-wrap:anywhere;
     width: max-content;
+    width:auto;
     justify-self: center;
 }
 table{
