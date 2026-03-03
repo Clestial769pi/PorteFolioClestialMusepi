@@ -141,10 +141,10 @@ blockquote:hover{
     color: yellow;
 }
 #contact-table-class{
-    overflow-wrap:anywhere;
-    width: max-content;
+    /* overflow-wrap:anywhere; */
+    /* width: max-content; */
     width:auto;
-    justify-self: center;
+    /* justify-self: center; */
 }
 table{
     font-family: sans-serif;
@@ -175,6 +175,7 @@ th,td{
     justify-content: center;
     word-break: break-all;
     word-wrap: break-word;
+    overflow-wrap: anywhere;
     /* word-break: auto-phrase; */
     /* width: 100px; */
     /* display: contents; */
