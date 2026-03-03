@@ -175,7 +175,7 @@ th,td{
     justify-content: center;
     word-break: break-all;
     word-wrap: break-word;
-    overflow-wrap: anywhere;
+    /* overflow-wrap: anywhere; */
     /* word-break: auto-phrase; */
     /* width: 100px; */
     /* display: contents; */
