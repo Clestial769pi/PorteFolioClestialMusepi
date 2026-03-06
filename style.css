@@ -317,7 +317,7 @@ ul>.nav-links-li{list-style: none;}
 }
 
 }
-tbody{
+.tbody-avatar{
     overflow-wrap: anywhere;
 }
 .table-td-class-caticorn-corps{
@@ -585,6 +585,7 @@ tbody{
         display: inline-flex;
         flex-direction: column;
         width: auto;
+        overflow-wrap:normal ;
     }
 }
 
